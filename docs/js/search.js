@@ -1,9 +1,11 @@
 /* global fetch */
 (function () {
   const $ = (sel) => document.querySelector(sel);
+  const saved = localStorage.getItem("wec_lang");
+  const browserZh = (navigator.language || "").toLowerCase().startsWith("zh");
   const state = {
     items: [],
-    lang: localStorage.getItem("wec_lang") || (navigator.language || "").startsWith("zh") ? "zh" : "en",
+    lang: saved || (browserZh ? "zh" : "en"),
   };
 
   const i18n = {
@@ -122,10 +124,10 @@
 
   function escapeHtml(s) {
     return s
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+      .replace(/&/g, "&")
+      .replace(/</g, "<")
+      .replace(/>/g, ">")
+      .replace(/"/g, """);
   }
 
   function render() {
