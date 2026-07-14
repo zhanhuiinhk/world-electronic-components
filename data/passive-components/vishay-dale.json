@@ -1,0 +1,82 @@
+[
+  {
+    "part_number": "CRCW06030000Z0EA",
+    "manufacturer": "Vishay Dale",
+    "manufacturer_id": "vishay-dale",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "description": "RES SMD 0 OHM JUMPER 1/10W 0603",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0,
+      "tolerance_percent": "Jumper",
+      "power_w": "0.1W, 1/10W",
+      "composition": "Thick Film",
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "CRCW060310K0FKEA",
+    "manufacturer": "Vishay Dale",
+    "manufacturer_id": "vishay-dale",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "description": "RES SMD 10K OHM 1% 1/10W 0603",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 1,
+      "power_w": "0.1W, 1/10W",
+      "composition": "Thick Film",
+      "temperature_coefficient_ppm": 100,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "CRCW06031K00FKEA",
+    "manufacturer": "Vishay Dale",
+    "manufacturer_id": "vishay-dale",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "description": "RES SMD 1K OHM 1% 1/10W 0603",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 1000.0,
+      "tolerance_percent": 1,
+      "power_w": "0.1W, 1/10W",
+      "composition": "Thick Film",
+      "temperature_coefficient_ppm": 100,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

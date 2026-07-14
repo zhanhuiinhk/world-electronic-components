@@ -1,0 +1,28 @@
+[
+  {
+    "part_number": "TCK-047",
+    "manufacturer": "Traco Power",
+    "manufacturer_id": "traco-power",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/traco-power/TCK-047/9382110",
+    "description": "FIXED IND 10UH 1.44A 100 MOHM",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "10 µH",
+      "tolerance_percent": 20,
+      "current_a": 1.44,
+      "dcr_ohm": 100000000.0,
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

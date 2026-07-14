@@ -19,7 +19,36 @@
       "dielectric": "X7R",
       "tolerance_percent": 10
     },
-    "tags": ["mlcc", "tdk"],
+    "tags": [
+      "mlcc",
+      "tdk"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "C1608X7R2A103M080AA",
+    "manufacturer": "TDK",
+    "manufacturer_id": "tdk",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf",
+    "description": "CAP CER 10000PF 100V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.01,
+      "tolerance_percent": 20,
+      "voltage_v": 100,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-14"
   },
   {
@@ -42,7 +71,10 @@
       "tolerance_percent": 20,
       "shielded": false
     },
-    "tags": ["inductor", "smd"],
+    "tags": [
+      "inductor",
+      "smd"
+    ],
     "updated_at": "2026-07-14"
   }
 ]
