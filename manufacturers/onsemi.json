@@ -1,8 +1,12 @@
 {
   "id": "onsemi",
   "name": "onsemi",
-  "name_zh": "安森美",
   "website": "https://www.onsemi.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "安森美",
   "country": "USA",
-  "aliases": ["ON Semiconductor", "ON Semi"]
+  "aliases": [
+    "ON Semiconductor",
+    "ON Semi"
+  ]
 }

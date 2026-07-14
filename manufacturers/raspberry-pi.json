@@ -1,8 +1,12 @@
 {
   "id": "raspberry-pi",
-  "name": "Raspberry Pi Ltd",
-  "name_zh": "树莓派",
+  "name": "Raspberry Pi",
   "website": "https://www.raspberrypi.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "树莓派",
   "country": "United Kingdom",
-  "aliases": ["Raspberry Pi", "RPi"]
+  "aliases": [
+    "Raspberry Pi",
+    "RPi"
+  ]
 }
