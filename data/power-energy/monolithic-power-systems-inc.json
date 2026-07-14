@@ -1,0 +1,56 @@
+[
+  {
+    "part_number": "MPM3805GQB-33-Z",
+    "manufacturer": "Monolithic Power Systems Inc.",
+    "manufacturer_id": "monolithic-power-systems-inc",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3805GQB/document_id/2084",
+    "description": "DC DC CONVERTER 3.3V",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Non-Isolated PoL Module",
+      "vin_min_v": 2.5,
+      "vin_max_v": 6,
+      "vout_v": 3.3,
+      "iout_a": 600,
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "MPM3805GQB-Z",
+    "manufacturer": "Monolithic Power Systems Inc.",
+    "manufacturer_id": "monolithic-power-systems-inc",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3805GQB/document_id/2084",
+    "description": "DC DC CONVERTER 0.6-6V",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Non-Isolated PoL Module",
+      "vin_min_v": 2.5,
+      "vin_max_v": 6,
+      "vout_v": "0.6 ~ 6V",
+      "iout_a": 600,
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "part_number": "TEA 1-0505E",
+    "manufacturer": "Traco Power",
+    "manufacturer_id": "traco-power",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://www.tracopower.com/sites/default/files/products/datasheets/tea1e_datasheet.pdf",
+    "description": "DC DC CONVERTER 5V 1W",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Isolated Module",
+      "vin_min_v": 4.5,
+      "vin_max_v": 5.5,
+      "vout_v": 5,
+      "iout_a": 200,
+      "power_w": 1,
+      "temperature_range_c": "-40°C ~ 95°C (With Derating)"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TEA 1-0505HI",
+    "manufacturer": "Traco Power",
+    "manufacturer_id": "traco-power",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://www.tracopower.com/sites/default/files/products/datasheets/tea1hi_datasheet.pdf",
+    "description": "DC DC CONVERTER 5V 1W",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Isolated Module",
+      "vin_min_v": 4.5,
+      "vin_max_v": 5.5,
+      "vout_v": 5,
+      "iout_a": 200,
+      "power_w": 1,
+      "temperature_range_c": "-40°C ~ 95°C (With Derating)"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

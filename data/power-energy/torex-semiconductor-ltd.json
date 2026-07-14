@@ -1,0 +1,29 @@
+[
+  {
+    "part_number": "XCL209F083DR",
+    "manufacturer": "Torex Semiconductor Ltd",
+    "manufacturer_id": "torex-semiconductor-ltd",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://product.torexsemi.com/system/files/series/xcl208.pdf",
+    "description": "DC DC CONVERTER 0.9-6V",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Non-Isolated PoL Module",
+      "vin_min_v": 1.8,
+      "vin_max_v": 6,
+      "vout_v": "0.9 ~ 6V",
+      "iout_a": 400,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
