@@ -1,0 +1,26 @@
+[
+  {
+    "part_number": "SC1169",
+    "manufacturer": "Raspberry Pi",
+    "manufacturer_id": "raspberry-pi",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "—",
+    "datasheet_url": "https://datasheets.raspberrypi.com/rm2/rm2-datasheet.pdf",
+    "description": "RM2 RPI RADIO MODULE 2 RMC20452T",
+    "status": "active",
+    "attributes": {
+      "protocols": "802.11b/g/n, Bluetooth v5.2",
+      "frequency_hz": 2.4,
+      "temperature_range_c": "-30°C ~ 70°C"
+    },
+    "tags": [
+      "wireless-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

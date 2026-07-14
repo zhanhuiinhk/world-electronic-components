@@ -1,0 +1,29 @@
+[
+  {
+    "part_number": "MIC33153YHJ-TR",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_id": "microchip-technology",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC33153-4MHz-Internal-Inductor-PWM-Buck-Regulator-with-HyperLight-Load-20006223A.pdf",
+    "description": "IC REG BUCK ADJ 1.2A 14MLF",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Non-Isolated PoL Module",
+      "vin_min_v": 2.7,
+      "vin_max_v": 5.5,
+      "vout_v": "0.62V ~ 3.6V",
+      "iout_a": 1.2,
+      "temperature_range_c": "-40°C ~ 125°C (TJ)"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

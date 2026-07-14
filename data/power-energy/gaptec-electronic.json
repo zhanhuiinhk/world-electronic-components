@@ -1,0 +1,30 @@
+[
+  {
+    "part_number": "1S4E_0505S1.5U",
+    "manufacturer": "GAPTEC Electronic",
+    "manufacturer_id": "gaptec-electronic",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://gaptec-electronic.com/datenblaetter/1S4E_1.5U.pdf",
+    "description": "ISOLATED MODULE DC DC CONVERTERS",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Isolated Module",
+      "vin_min_v": 4.5,
+      "vin_max_v": 5.5,
+      "vout_v": 5,
+      "iout_a": 200,
+      "power_w": 1,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
