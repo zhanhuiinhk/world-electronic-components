@@ -1,0 +1,132 @@
+[
+  {
+    "part_number": "C0603C103K5RACTU",
+    "manufacturer": "KEMET",
+    "manufacturer_id": "kemet",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD",
+    "description": "CAP CER 10000PF 50V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.01,
+      "tolerance_percent": 10,
+      "voltage_v": 50,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "C0603C104K3RACTU",
+    "manufacturer": "KEMET",
+    "manufacturer_id": "kemet",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD",
+    "description": "CAP CER 0.1UF 25V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "tolerance_percent": 10,
+      "voltage_v": 25,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "C0603C104K4RACTU",
+    "manufacturer": "KEMET",
+    "manufacturer_id": "kemet",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD",
+    "description": "CAP CER 0.1UF 16V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "C0603C104K5RACTU",
+    "manufacturer": "KEMET",
+    "manufacturer_id": "kemet",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD",
+    "description": "CAP CER 0.1UF 50V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "tolerance_percent": 10,
+      "voltage_v": 50,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "C0603C105K4RACTU",
+    "manufacturer": "KEMET",
+    "manufacturer_id": "kemet",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD",
+    "description": "CAP CER 1UF 16V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 1.0,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "part_number": "GCM188R71E224KA55D",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_id": "murata-electronics",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71E224KA55-01.pdf",
+    "description": "CAP CER 0.22UF 25V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.22,
+      "tolerance_percent": 10,
+      "voltage_v": 25,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

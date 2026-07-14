@@ -1,0 +1,28 @@
+[
+  {
+    "part_number": "KGM15BR71H104KT",
+    "manufacturer": "KYOCERA AVX",
+    "manufacturer_id": "kyocera-avx",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://datasheets.kyocera-avx.com/KGM_X7R.pdf",
+    "description": "CAP CER 0.1UF 50V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "tolerance_percent": 10,
+      "voltage_v": 50,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
