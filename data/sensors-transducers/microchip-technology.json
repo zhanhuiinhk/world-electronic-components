@@ -1,0 +1,74 @@
+[
+  {
+    "part_number": "MCP9801T-M/MS",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_id": "microchip-technology",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/50001894.pdf",
+    "description": "SENSOR DIGITAL -55C-125C 8MSOP",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TCN75AVOA713",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_id": "microchip-technology",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/50001894.pdf",
+    "description": "SENSOR DIGITAL -40C-125C 8SOIC",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C",
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TCN75AVUA713",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_id": "microchip-technology",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/50001894.pdf",
+    "description": "SENSOR DIGITAL -40C-125C 8MSOP",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C",
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

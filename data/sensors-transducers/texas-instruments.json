@@ -20,7 +20,34 @@
       "accuracy_c": 0.5,
       "interface": "analog"
     },
-    "tags": ["temperature", "analog"],
+    "tags": [
+      "temperature",
+      "analog"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TMP1075DGKR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tmp1075.pdf",
+    "description": "SENSOR TEMPERATURE",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "-55°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-14"
   }
 ]

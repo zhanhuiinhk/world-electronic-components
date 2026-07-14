@@ -1,0 +1,26 @@
+[
+  {
+    "part_number": "NCT75MNR2G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pdf/datasheet/nct75-d.pdf",
+    "description": "SENSOR DIGITAL -55C-125C 8DFN",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

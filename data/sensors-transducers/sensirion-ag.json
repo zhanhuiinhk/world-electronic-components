@@ -1,0 +1,50 @@
+[
+  {
+    "part_number": "STS40-AD1B-R3",
+    "manufacturer": "Sensirion AG",
+    "manufacturer_id": "sensirion-ag",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://sensirion.com/media/documents/D2D0B4A9/667AC1F4/HT_DS_Datasheet_STS4x.pdf",
+    "description": "DIGITAL TEMPERATURE SENSOR",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C",
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "STS40-CD1B-R3",
+    "manufacturer": "Sensirion AG",
+    "manufacturer_id": "sensirion-ag",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://sensirion.com/media/documents/D2D0B4A9/667AC1F4/HT_DS_Datasheet_STS4x.pdf",
+    "description": "DIGITAL TEMPERATURE SENSOR",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C",
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
