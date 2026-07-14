@@ -84,7 +84,7 @@
   }
 
   function haystack(item) {
-    const parts = [
+    return [
       item.part_number,
       item.manufacturer,
       item.category,
@@ -95,8 +95,9 @@
       item.product_class,
       ...(item.tags || []),
       JSON.stringify(item.attributes || {}),
-    ];
-    return parts.join(" ").toLowerCase();
+    ]
+      .join(" ")
+      .toLowerCase();
   }
 
   function filterItems() {
@@ -107,29 +108,29 @@
     return state.items.filter((it) => {
       if (cat && it.category_slug !== cat) return false;
       if (cls && it.product_class !== cls) return false;
-      if (mfr && (it.manufacturer_id || it.manufacturer) !== mfr) return false;
+      if (mfr && it.manufacturer !== mfr) return false;
       if (!q) return true;
       return haystack(it).includes(q);
     });
   }
 
-  /** 参数键名友好显示（对外不展示原始内部路径） */
   function attrLabel(key) {
+    const zh = state.lang === "zh";
     const map = {
-      resistance_ohm: state.lang === "zh" ? "阻值(Ω)" : "Resistance (Ω)",
-      tolerance_percent: state.lang === "zh" ? "精度(%)" : "Tolerance (%)",
-      power_w: state.lang === "zh" ? "功率(W)" : "Power (W)",
-      composition: state.lang === "zh" ? "材质" : "Composition",
-      capacitance_uf: state.lang === "zh" ? "容量(µF)" : "Capacitance (µF)",
-      voltage_v: state.lang === "zh" ? "耐压(V)" : "Voltage (V)",
-      core: state.lang === "zh" ? "内核" : "Core",
-      flash_kb: state.lang === "zh" ? "Flash(KB)" : "Flash (KB)",
-      ram_kb: state.lang === "zh" ? "RAM(KB)" : "RAM (KB)",
-      clock_mhz: state.lang === "zh" ? "主频(MHz)" : "Clock (MHz)",
+      resistance_ohm: zh ? "阻值(Ω)" : "Resistance (Ω)",
+      tolerance_percent: zh ? "精度(%)" : "Tolerance (%)",
+      power_w: zh ? "功率(W)" : "Power (W)",
+      composition: zh ? "材质" : "Composition",
+      capacitance_uf: zh ? "容量(µF)" : "Capacitance (µF)",
+      voltage_v: zh ? "耐压(V)" : "Voltage (V)",
+      core: zh ? "内核" : "Core",
+      flash_kb: zh ? "Flash(KB)" : "Flash (KB)",
+      ram_kb: zh ? "RAM(KB)" : "RAM (KB)",
+      clock_mhz: zh ? "主频(MHz)" : "Clock (MHz)",
       gpio_count: "GPIO",
-      function: state.lang === "zh" ? "功能" : "Function",
-      supply_voltage_min_v: state.lang === "zh" ? "供电下限(V)" : "Vmin (V)",
-      supply_voltage_max_v: state.lang === "zh" ? "供电上限(V)" : "Vmax (V)",
+      function: zh ? "功能" : "Function",
+      supply_voltage_min_v: zh ? "供电下限(V)" : "Vmin (V)",
+      supply_voltage_max_v: zh ? "供电上限(V)" : "Vmax (V)",
     };
     return map[key] || key.replace(/_/g, " ");
   }
@@ -197,10 +198,8 @@
     state.items.forEach((i) => {
       if (i.category_slug) catLabels[i.category_slug] = i.category || i.category_slug;
     });
-    const mfrs = unique(state.items.map((i) => i.manufacturer)).sort();
-    const catSel = $("#f-cat");
-    const mfrSel = $("#f-mfr");
-    catSel.innerHTML =
+    const mfrs = unique(state.items.map((i) => i.manufacturer));
+    $("#f-cat").innerHTML =
       `<option value="">${t("allCats")}</option>` +
       cats
         .map(
@@ -208,7 +207,7 @@
             `<option value="${escapeHtml(c)}">${escapeHtml(catLabels[c] || c)}</option>`
         )
         .join("");
-    mfrSel.innerHTML =
+    $("#f-mfr").innerHTML =
       `<option value="">${t("allMfr")}</option>` +
       mfrs
         .map((m) => `<option value="${escapeHtml(m)}">${escapeHtml(m)}</option>`)
@@ -219,69 +218,6 @@
       <option value="part">${t("part")}</option>
       <option value="module">${t("module")}</option>`;
   }
-
-  function filterByManufacturerName(mfrName) {
-    return state.items.filter((it) => {
-      const cat = $("#f-cat").value;
-      const cls = $("#f-class").value;
-      const q = ($("#q").value || "").trim().toLowerCase();
-      if (cat && it.category_slug !== cat) return false;
-      if (cls && it.product_class !== cls) return false;
-      if (mfrName && it.manufacturer !== mfrName) return false;
-      if (!q) return true;
-      return haystack(it).includes(q);
-    });
-  }
-
-  // override filter to use manufacturer display name in select
-  function filterItemsFixed() {
-    const q = ($("#q").value || "").trim().toLowerCase();
-    const cat = $("#f-cat").value;
-    const cls = $("#f-class").value;
-    const mfr = $("#f-mfr").value;
-    return state.items.filter((it) => {
-      if (cat && it.category_slug !== cat) return false;
-      if (cls && it.product_class !== cls) return false;
-      if (mfr && it.manufacturer !== mfr) return false;
-      if (!q) return true;
-      return haystack(it).includes(q);
-    });
-  }
-
-  const _render = render;
-  render = function () {
-    const list = filterItemsFixed();
-    $("#meta").textContent = t("loaded")(state.items.length, list.length);
-    const root = $("#results");
-    if (!list.length) {
-      root.innerHTML = `<div class="empty">${t("empty")}</div>`;
-      return;
-    }
-    root.innerHTML = list
-      .slice(0, 200)
-      .map((it) => {
-        const ds = it.datasheet_url
-          ? `<a href="${escapeHtml(it.datasheet_url)}" target="_blank" rel="noopener noreferrer">${t("datasheet")}</a>`
-          : "—";
-        return `<article class="card">
-          <h3>${escapeHtml(it.part_number || "")}</h3>
-          <div class="badges">
-            <span class="badge green">${escapeHtml(classLabel(it.product_class))}</span>
-            <span class="badge">${escapeHtml(it.category || "")}</span>
-            <span class="badge purple">${escapeHtml(it.sub_category || "")}</span>
-          </div>
-          <div class="grid2">
-            <div><strong>${escapeHtml(it.manufacturer || "")}</strong></div>
-            <div>${t("package")}: <strong>${escapeHtml(it.package || "—")}</strong></div>
-            <div>${t("origin")}: <strong>${escapeHtml(it.origin || "—")}</strong></div>
-            <div>${ds}</div>
-          </div>
-          ${it.description ? `<p class="desc">${escapeHtml(it.description)}</p>` : ""}
-          ${renderAttrs(it.attributes)}
-        </article>`;
-      })
-      .join("");
-  };
 
   async function load() {
     $("#meta").textContent = t("loading");
