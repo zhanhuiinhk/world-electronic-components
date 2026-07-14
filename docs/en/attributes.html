@@ -3,41 +3,42 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Attribute profiles · Docs</title>
+  <title>Specifications</title>
   <link rel="stylesheet" href="../css/site.css" />
 </head>
 <body>
   <div class="wrap">
     <header class="appbar">
-      <div class="brand"><div class="logo">Attr</div><div><h1>Attribute profiles</h1><p>Per sub-category</p></div></div>
-      <nav class="links"><a href="./">Docs home</a><a href="../zh/attributes.html">中文</a></nav>
+      <div class="brand"><div class="logo">Spec</div><div><h1>Specifications</h1><p>Fields commonly shown per category</p></div></div>
+      <nav class="links"><a href="../">Search</a><a href="./">About</a><a href="../zh/attributes.html">中文</a></nav>
     </header>
     <article class="doc">
-      <h1>Category-specific attributes</h1>
-      <p>Defined in <code>schema/attribute-profiles.json</code>.</p>
-      <ul>
-        <li><code>required</code> — enforced by validate.py (e.g. resistors need <code>resistance_ohm</code>)</li>
-        <li><code>recommended</code> — suggested fields</li>
-        <li><code>fields</code> — type, unit, descriptions</li>
-      </ul>
+      <h1>Category specs</h1>
+      <p>Resistors emphasize resistance, tolerance and power; capacitors emphasize capacitance and voltage; MCUs emphasize core, memory and clock, and so on.</p>
+      <p>Search results show key specs; always confirm with the official datasheet.</p>
       <div id="profiles">Loading…</div>
     </article>
   </div>
   <script>
     async function loadP() {
-      const urls = ["../assets/attribute-profiles.json", "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/schema/attribute-profiles.json"];
+      const urls = [
+        "../assets/attribute-profiles.json",
+        "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/schema/attribute-profiles.json"
+      ];
       for (const u of urls) {
-        try { const r = await fetch(u); if (r.ok) return await r.json(); } catch(e) {}
+        try { const r = await fetch(u); if (r.ok) return await r.json(); } catch (e) {}
       }
       return null;
     }
     loadP().then(p => {
-      if (!p) { document.getElementById("profiles").textContent = "Failed to load"; return; }
+      if (!p) { document.getElementById("profiles").textContent = "Unavailable"; return; }
       const keys = Object.keys(p).filter(k => !k.startsWith("$") && k !== "version" && k !== "_default");
-      document.getElementById("profiles").innerHTML = "<h2>Configured profiles</h2><table><tr><th>slug</th><th>required</th><th>recommended</th></tr>" +
+      document.getElementById("profiles").innerHTML =
+        "<h2>Supported templates (summary)</h2><table><tr><th>Category</th><th>Key fields</th></tr>" +
         keys.map(k => {
           const pr = p[k];
-          return `<tr><td><code>${k}</code></td><td>${(pr.required||[]).join(", ")||"—"}</td><td>${(pr.recommended||[]).join(", ")||"—"}</td></tr>`;
+          const req = (pr.required || []).concat(pr.recommended || []).slice(0, 6).join(", ");
+          return `<tr><td>${pr.name_en || pr.name_zh || k}</td><td>${req || "—"}</td></tr>`;
         }).join("") + "</table>";
     });
   </script>

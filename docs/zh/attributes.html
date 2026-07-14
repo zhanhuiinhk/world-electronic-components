@@ -3,54 +3,44 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Attributes 字段表 · 文档</title>
+  <title>技术参数说明</title>
   <link rel="stylesheet" href="../css/site.css" />
 </head>
 <body>
   <div class="wrap">
     <header class="appbar">
-      <div class="brand"><div class="logo">参</div><div><h1>品类专用参数表</h1><p>attribute-profiles</p></div></div>
-      <nav class="links">
-        <a href="./">文档首页</a>
-        <a href="../en/attributes.html">EN</a>
-      </nav>
+      <div class="brand"><div class="logo">参</div><div><h1>技术参数说明</h1><p>不同品类关注的规格字段</p></div></div>
+      <nav class="links"><a href="../">检索</a><a href="./">说明首页</a><a href="../en/attributes.html">EN</a></nav>
     </header>
     <article class="doc">
-      <h1>按品类约束 attributes</h1>
-      <p>定义文件：<code>schema/attribute-profiles.json</code>。键为 <code>sub_category_slug</code>。</p>
-      <ul>
-        <li><code>required</code>：校验必填（如电阻必须有 <code>resistance_ohm</code>）</li>
-        <li><code>recommended</code>：推荐字段</li>
-        <li><code>fields</code>：类型、单位、中英文说明</li>
-      </ul>
-      <h2>电阻示例</h2>
-      <pre>{
-  "sub_category_slug": "resistors",
-  "attributes": {
-    "resistance_ohm": 10000,
-    "tolerance_percent": 1,
-    "power_w": 0.063
-  }
-}</pre>
-      <p><code>python scripts/validate.py</code> 会对已配置品类检查必填 attributes。</p>
+      <h1>品类参数</h1>
+      <p>例如电阻通常关注<strong>阻值、精度、功率</strong>；电容关注<strong>容量、耐压、介质</strong>；MCU 关注<strong>内核、存储、主频</strong>等。</p>
+      <p>检索结果中会展示各型号的主要技术参数；详细电气特性请以厂家数据手册为准。</p>
       <div id="profiles">加载中…</div>
     </article>
   </div>
   <script>
     async function loadP() {
-      const urls = ["../assets/attribute-profiles.json", "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/schema/attribute-profiles.json"];
+      const urls = [
+        "../assets/attribute-profiles.json",
+        "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/schema/attribute-profiles.json"
+      ];
       for (const u of urls) {
-        try { const r = await fetch(u); if (r.ok) return await r.json(); } catch(e) {}
+        try { const r = await fetch(u); if (r.ok) return await r.json(); } catch (e) {}
       }
       return null;
     }
+    const nameMap = { resistors: "电阻", capacitors: "电容", microcontrollers: "微控制器",
+      "analog-ics": "模拟 IC", "wireless-modules": "无线模组", "rf-amplifiers": "射频放大器" };
     loadP().then(p => {
-      if (!p) { document.getElementById("profiles").textContent = "无法加载"; return; }
+      if (!p) { document.getElementById("profiles").textContent = "暂时无法加载"; return; }
       const keys = Object.keys(p).filter(k => !k.startsWith("$") && k !== "version" && k !== "_default");
-      document.getElementById("profiles").innerHTML = "<h2>已配置品类</h2><table><tr><th>slug</th><th>必填</th><th>推荐</th></tr>" +
+      document.getElementById("profiles").innerHTML =
+        "<h2>已支持的参数模板（摘要）</h2><table><tr><th>品类</th><th>关键参数</th></tr>" +
         keys.map(k => {
           const pr = p[k];
-          return `<tr><td><code>${k}</code></td><td>${(pr.required||[]).join(", ")||"—"}</td><td>${(pr.recommended||[]).join(", ")||"—"}</td></tr>`;
+          const req = (pr.required || []).concat(pr.recommended || []).slice(0, 6).join(", ");
+          return `<tr><td>${nameMap[k] || (pr.name_zh || k)}</td><td>${req || "—"}</td></tr>`;
         }).join("") + "</table>";
     });
   </script>

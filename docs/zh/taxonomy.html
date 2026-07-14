@@ -3,51 +3,40 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>分类体系 · 文档</title>
+  <title>产品分类 · 说明</title>
   <link rel="stylesheet" href="../css/site.css" />
 </head>
 <body>
   <div class="wrap">
     <header class="appbar">
-      <div class="brand"><div class="logo">类</div><div><h1>分类体系</h1><p>Taxonomy v2</p></div></div>
-      <nav class="links">
-        <a href="./">文档首页</a>
-        <a href="../">检索</a>
-        <a href="../en/taxonomy.html">EN</a>
-      </nav>
+      <div class="brand"><div class="logo">类</div><div><h1>产品分类</h1><p>参考主流分销类目整理</p></div></div>
+      <nav class="links"><a href="../">检索</a><a href="./">说明首页</a><a href="../en/taxonomy.html">EN</a></nav>
     </header>
     <article class="doc">
-      <h1>分类体系</h1>
-      <p>权威文件：仓库内 <code>taxonomy/categories.json</code>。合并 DigiKey / Mouser / Arrow 同类顶级类目。</p>
-      <h2>扩项规则</h2>
-      <ul>
-        <li><strong>二级分类</strong>：PR 修改 <code>categories.json</code> 的 <code>children</code>。</li>
-        <li><strong>一级分类</strong>：先开 Issue（Category extension）。</li>
-        <li><strong>暂无类</strong>：使用 <code>other/uncategorized</code>。</li>
-      </ul>
-      <pre>data/{category_slug}/{manufacturer_id}.json</pre>
-      <p id="live">正在加载分类树…</p>
+      <h1>分类概览</h1>
+      <p>分类对齐 DigiKey、Mouser、Arrow 等常见产品树，便于工程师按习惯浏览。</p>
+      <p id="live">正在加载…</p>
       <div id="tree"></div>
     </article>
   </div>
   <script>
     async function loadTax() {
-      const urls = ["../assets/taxonomy.json", "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/taxonomy/categories.json"];
+      const urls = [
+        "../assets/taxonomy.json",
+        "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/taxonomy/categories.json"
+      ];
       for (const u of urls) {
-        try {
-          const r = await fetch(u);
-          if (!r.ok) continue;
-          return await r.json();
-        } catch (e) {}
+        try { const r = await fetch(u); if (r.ok) return await r.json(); } catch (e) {}
       }
       return null;
     }
     loadTax().then(tax => {
-      if (!tax) { document.getElementById("live").textContent = "无法加载分类树"; return; }
-      document.getElementById("live").textContent = "version " + (tax.version || "") + " · " + (tax.categories||[]).length + " 个一级分类";
-      document.getElementById("tree").innerHTML = (tax.categories||[]).map(c =>
-        `<h3>${c.slug} — ${c.name_zh || c.name_en}</h3><ul>` +
-        (c.children||[]).map(ch => `<li><code>${ch.slug}</code> ${ch.name_zh || ch.name_en}</li>`).join("") +
+      if (!tax) { document.getElementById("live").textContent = "分类信息暂时不可用"; return; }
+      document.getElementById("live").textContent =
+        "共 " + (tax.categories || []).length + " 个一级分类";
+      document.getElementById("tree").innerHTML = (tax.categories || []).map(c =>
+        `<h2>${c.name_zh || c.name_en}</h2><ul>` +
+        (c.children || []).map(ch => `<li>${ch.name_zh || ch.name_en}</li>`).join("") +
         `</ul>`
       ).join("");
     });

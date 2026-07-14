@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Docs · World Electronic Components</title>
+  <title>About · World Electronic Components</title>
   <link rel="stylesheet" href="../css/site.css" />
 </head>
 <body>
@@ -12,42 +12,37 @@
       <div class="brand">
         <div class="logo">EN</div>
         <div>
-          <h1>Documentation</h1>
-          <p>World Electronic Components Database</p>
+          <h1>About</h1>
+          <p>Public component information for engineers</p>
         </div>
       </div>
       <nav class="links">
         <a href="../">Search</a>
-        <a class="active" href="./">English docs</a>
+        <a class="active" href="./">About</a>
         <a href="../zh/">中文</a>
-        <a href="https://github.com/zhanhuiinhk/world-electronic-components">GitHub</a>
       </nav>
     </header>
     <article class="doc">
-      <h1>Welcome</h1>
-      <p>An open database of electronic <strong>components / parts / modules</strong> from manufacturers worldwide — searchable, manufacturer-friendly, and taxonomy-extensible.</p>
+      <h1>What this site offers</h1>
+      <p>A community database of electronic <strong>components, parts, and modules</strong> — part numbers, packages, origins, and datasheets.</p>
       <ul>
-        <li><a href="../">🔍 Online search (GitHub Pages)</a></li>
-        <li><a href="./taxonomy.html">Taxonomy (DigiKey / Mouser / Arrow aligned)</a></li>
-        <li><a href="./attributes.html">Category-specific attribute profiles</a></li>
-        <li><a href="./import-csv.html">CSV → JSON batch import</a></li>
-        <li><a href="./manufacturer.html">Manufacturer onboarding</a></li>
-        <li><a href="./contributing.html">Contributing overview</a></li>
+        <li><a href="../">Online search</a></li>
+        <li><a href="./taxonomy.html">Category overview</a></li>
+        <li><a href="./attributes.html">Specification fields</a></li>
       </ul>
       <h2>Product classes</h2>
       <table>
-        <tr><th>product_class</th><th>Meaning</th><th>Examples</th></tr>
-        <tr><td><code>component</code></td><td>Discrete component</td><td>Resistor, MCU, diode</td></tr>
-        <tr><td><code>part</code></td><td>Structured part</td><td>Cable assembly, heatsink</td></tr>
-        <tr><td><code>module</code></td><td>Module / board</td><td>Power module, Wi-Fi module, SBC</td></tr>
+        <tr><th>Class</th><th>Meaning</th><th>Examples</th></tr>
+        <tr><td>Component</td><td>Basic purchasable device</td><td>Resistor, MCU, diode</td></tr>
+        <tr><td>Part</td><td>Structured part / assembly piece</td><td>Cable assembly, heatsink</td></tr>
+        <tr><td>Module</td><td>Functional module or board</td><td>Power module, wireless module</td></tr>
       </table>
-      <h2>Local commands</h2>
-      <pre>python scripts/validate.py
-python scripts/search.py STM32
-python scripts/csv_to_json.py examples/import-resistors-sample.csv -o data/passive-components/yageo.json
-python scripts/build_catalog.py</pre>
+      <h2>Manufacturers</h2>
+      <p>Brands may contribute public product data via the GitHub repository (official datasheet links required).</p>
+      <h2>Disclaimer</h2>
+      <p>Always verify critical parameters against the manufacturer’s official datasheet. This site does not replace commercial distribution systems.</p>
     </article>
-    <footer>English docs · <a href="../zh/">切换到中文</a></footer>
+    <footer>Public pages only · Contributor docs live in the GitHub repository</footer>
   </div>
 </body>
 </html>
