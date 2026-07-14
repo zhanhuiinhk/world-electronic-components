@@ -1,89 +1,75 @@
 # World Electronic Components Database
 
-全球开源电子元器件数据库：按种类分类收录各厂家器件的型号、封装、产地、手册与技术参数，支持社区检索、厂家入驻与按规则扩展分类。
+全球开源电子元器件 / 部件 / 组件数据库。  
+分类参考并合并 [DigiKey](https://www.digikey.com/)、[Mouser](https://www.mouser.com/)、[Arrow](https://www.arrow.com/) 同类项，并保留社区**扩项**与**新厂家入驻**通道。
 
-A global, open-source repository for electronic components — specifications, packages, origins, and datasheets — built for collaborative expansion by engineers and manufacturers.
+## 三大能力
 
-## 目标能力
+| # | 能力 | 怎么做 |
+|---|------|--------|
+| 1 | **搜索查询** | `python scripts/search.py <关键词>` |
+| 2 | **新厂家加入产品** | 见 [厂家入驻](docs/MANUFACTURER_ONBOARDING.md) — 无需白名单，Fork + PR |
+| 3 | **扩展分类** | 见 [分类体系](docs/TAXONOMY.md) — 二级可 PR；一级走 Issue |
 
-1. **搜索与查询**：本地脚本按型号 / 厂家 / 分类 / 封装检索。
-2. **厂家入驻**：登记品牌后，按分类提交 JSON 产品数据。
-3. **扩展种类**：通过 `taxonomy/categories.json` 按规则新增二级（或经讨论后的一级）分类。
+## 元器件 · 部件 · 组件
+
+| product_class | 中文 | 例子 |
+|---------------|------|------|
+| `component` | 元器件 | 电阻、MCU、二极管 |
+| `part` | 部件 | 线束、散热器、机箱 |
+| `module` | 组件/模组 | 电源模块、无线模组、开发板 |
+
+## 一级分类（taxonomy v2）
+
+| slug | 中文 |
+|------|------|
+| `semiconductors` | 半导体 |
+| `passive-components` | 无源器件 |
+| `circuit-protection` | 电路保护 |
+| `connectors-interconnects` | 连接器与互连 |
+| `electromechanical` | 机电元件 |
+| `sensors-transducers` | 传感器与换能器 |
+| `rf-wireless` | 射频 / 微波 / 无线 |
+| `optoelectronics-displays` | 光电与显示 |
+| `power-energy` | 电源与能源 |
+| `thermal-management` | 热管理 |
+| `wire-cable` | 线材 / 电缆 / 线束 |
+| `enclosures-mechanical` | 机箱 / 结构件 |
+| `embedded-modules-boards` | 嵌入式模组与开发板 |
+| `industrial-automation` | 工业自动化 |
+| `audio` | 音频 |
+| `test-measurement-tools` | 测试测量与工具 |
+| `materials-prototyping` | 材料与打样 |
+| `other` | 其他 / 待归类 |
+
+完整二级分类与分销商映射：[`taxonomy/categories.json`](taxonomy/categories.json) · [说明文档](docs/TAXONOMY.md)
 
 ## 仓库结构
 
 ```text
-world-electronic-components/
-├── taxonomy/categories.json      # 官方分类树（八大类 + 二级）
-├── schema/                       # JSON Schema
-│   ├── component.schema.json
-│   ├── manufacturer.schema.json
-│   └── category.schema.json
-├── manufacturers/                # 厂家登记
-├── data/                         # 产品数据 data/{category}/{manufacturer}.json
-│   └── semiconductors/
-├── examples/                     # 示例记录
-├── scripts/
-│   ├── search.py                 # 搜索
-│   └── validate.py               # 校验
-├── CONTRIBUTING.md               # 贡献与入驻规则
-└── .github/workflows/validate.yml
+taxonomy/categories.json     # 官方分类树（可扩项）
+schema/                      # JSON Schema
+manufacturers/               # 厂家登记（新厂加入入口）
+data/{category}/{mfr}.json   # 产品数据
+docs/                        # 入驻与分类说明
+scripts/search.py | validate.py
+.github/ISSUE_TEMPLATE/      # 扩项 / 入驻 Issue 模板
 ```
-
-## 分类架构（摘要）
-
-参考主流分销商划分，当前八大一级分类：
-
-| # | slug | 中文 |
-|---|------|------|
-| 1 | `semiconductors` | 半导体 |
-| 2 | `passive-components` | 无源器件 |
-| 3 | `connectors-switches` | 连接与机电 |
-| 4 | `sensors` | 传感器 |
-| 5 | `rf-wireless` | 射频与无线 |
-| 6 | `optoelectronics-displays` | 光电与显示 |
-| 7 | `power-thermal` | 电源与散热 |
-| 8 | `dev-boards-tools` | 开发工具 |
-
-完整二级分类见 [`taxonomy/categories.json`](taxonomy/categories.json)。
 
 ## 快速开始
 
 ```bash
 git clone https://github.com/zhanhuiinhk/world-electronic-components.git
 cd world-electronic-components
-
-# 搜索
-python scripts/search.py STM32
-python scripts/search.py NE555
-
-# 校验全部数据
 python scripts/validate.py
+python scripts/search.py STM32
 ```
 
-## 单条数据长什么样
+## 新厂家 / 新分类
 
-```json
-{
-  "part_number": "STM32F103C8T6",
-  "manufacturer": "STMicroelectronics",
-  "manufacturer_id": "stmicroelectronics",
-  "category": "Semiconductors",
-  "category_slug": "semiconductors",
-  "sub_category": "Microcontrollers",
-  "sub_category_slug": "microcontrollers",
-  "package": "LQFP-48",
-  "origin": "France",
-  "datasheet_url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
-  "attributes": { "core": "ARM Cortex-M3", "flash": "64KB" }
-}
-```
-
-## 如何贡献
-
-- **厂商入驻 / 提交产品 / 新建分类**：请读 [CONTRIBUTING.md](CONTRIBUTING.md)。
-- **技术规范**：`schema/` 下 JSON Schema。
-- **Pull Request** 会自动跑格式校验。
+- **厂家入驻** → [docs/MANUFACTURER_ONBOARDING.md](docs/MANUFACTURER_ONBOARDING.md)  
+- **分类扩项** → [docs/TAXONOMY.md](docs/TAXONOMY.md)  
+- **贡献总则** → [CONTRIBUTING.md](CONTRIBUTING.md)  
 
 ## 许可证
 

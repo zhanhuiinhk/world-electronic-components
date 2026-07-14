@@ -2,6 +2,7 @@
   "part_number": "EXAMPLE-123",
   "manufacturer": "Example Corp",
   "manufacturer_id": "example-corp",
+  "product_class": "component",
   "category": "Passive Components",
   "category_slug": "passive-components",
   "sub_category": "Resistors",

@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/zhanhuiinhk/world-electronic-components/schema/component.schema.json",
   "title": "ElectronicComponent",
-  "description": "单个元器件记录的数据格式规范",
+  "description": "单个元器件/部件/组件记录的数据格式规范",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -19,16 +19,21 @@
     "manufacturer_id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-      "description": "对应 manufacturers/ 下文件的 id（slug），如 stmicroelectronics"
+      "description": "对应 manufacturers/ 下文件的 id（slug）"
+    },
+    "product_class": {
+      "type": "string",
+      "enum": ["component", "part", "module"],
+      "description": "粒度：component=元器件, part=部件, module=组件/模组"
     },
     "category": {
       "type": "string",
-      "description": "一级分类英文名，必须与 taxonomy/categories.json 中顶层 name_en 一致"
+      "description": "一级分类英文名，与 taxonomy 中 name_en 一致"
     },
     "category_slug": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-      "description": "一级分类 slug，如 semiconductors"
+      "description": "一级分类 slug"
     },
     "sub_category": {
       "type": "string",
@@ -37,7 +42,7 @@
     "sub_category_slug": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-      "description": "二级分类 slug，如 microcontrollers"
+      "description": "二级分类 slug"
     },
     "package": {
       "type": "string",
@@ -45,7 +50,7 @@
     },
     "origin": {
       "type": "string",
-      "description": "产地/原产国或地区，如 China、France、USA"
+      "description": "产地/原产国或地区"
     },
     "datasheet_url": {
       "type": "string",
@@ -64,7 +69,7 @@
     },
     "attributes": {
       "type": "object",
-      "description": "弹性技术参数区（不同品类字段不同）",
+      "description": "弹性技术参数区",
       "additionalProperties": true
     },
     "tags": {
