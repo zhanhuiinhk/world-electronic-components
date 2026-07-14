@@ -1,8 +1,12 @@
 {
   "id": "stmicroelectronics",
   "name": "STMicroelectronics",
-  "name_zh": "意法半导体",
   "website": "https://www.st.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "意法半导体",
   "country": "Switzerland",
-  "aliases": ["ST", "STM"]
+  "aliases": [
+    "ST",
+    "STM"
+  ]
 }

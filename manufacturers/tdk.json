@@ -1,8 +1,11 @@
 {
   "id": "tdk",
-  "name": "TDK Corporation",
-  "name_zh": "TDK",
+  "name": "TDK",
   "website": "https://www.tdk.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "TDK",
   "country": "Japan",
-  "aliases": ["TDK"]
+  "aliases": [
+    "TDK"
+  ]
 }

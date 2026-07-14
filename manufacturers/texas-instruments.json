@@ -1,8 +1,11 @@
 {
   "id": "texas-instruments",
   "name": "Texas Instruments",
-  "name_zh": "德州仪器",
   "website": "https://www.ti.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "德州仪器",
   "country": "USA",
-  "aliases": ["TI"]
+  "aliases": [
+    "TI"
+  ]
 }
