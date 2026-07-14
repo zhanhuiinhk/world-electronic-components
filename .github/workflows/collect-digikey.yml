@@ -1,4 +1,4 @@
-name: Collect DigiKey (manual)
+name: Collect DigiKey (manual single category)
 
 on:
   workflow_dispatch:
@@ -14,7 +14,15 @@ on:
       dry_run:
         description: "Use fixture only (true/false)"
         required: true
+        default: "false"
+      open_pr:
+        description: "Open PR with results (true/false)"
+        required: true
         default: "true"
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   collect:
@@ -26,38 +34,55 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run collector
+      - name: Run single-category collector
         env:
           DIGIKEY_CLIENT_ID: ${{ secrets.DIGIKEY_CLIENT_ID }}
           DIGIKEY_CLIENT_SECRET: ${{ secrets.DIGIKEY_CLIENT_SECRET }}
           DIGIKEY_ENV: ${{ secrets.DIGIKEY_ENV }}
         run: |
-          set -e
-          OUT=_collect_out
-          mkdir -p "$OUT"
-          EXTRA=""
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            EXTRA="--dry-run"
-            echo "Running dry-run (no DigiKey API call)"
-          else
-            if [ -z "$DIGIKEY_CLIENT_ID" ] || [ -z "$DIGIKEY_CLIENT_SECRET" ]; then
-              echo "Secrets DIGIKEY_CLIENT_ID / DIGIKEY_CLIENT_SECRET not set."
-              echo "Add them under Settings → Secrets, or run with dry_run=true."
-              exit 0
-            fi
-            export DIGIKEY_ENV="${DIGIKEY_ENV:-sandbox}"
+          set -euo pipefail
+          DRY="${{ github.event.inputs.dry_run }}"
+          if [ "$DRY" = "true" ]; then
+            python scripts/collectors/run_collect.py \
+              --sub "${{ github.event.inputs.sub }}" \
+              --limit "${{ github.event.inputs.limit }}" \
+              --dry-run --out-dir _collect_out
+            echo "skip_pr=true" >> "$GITHUB_ENV"
+            exit 0
           fi
+          if [ -z "${DIGIKEY_CLIENT_ID:-}" ] || [ -z "${DIGIKEY_CLIENT_SECRET:-}" ]; then
+            echo "::error::Missing DIGIKEY_CLIENT_ID / DIGIKEY_CLIENT_SECRET secrets"
+            exit 1
+          fi
+          export DIGIKEY_ENV="${DIGIKEY_ENV:-production}"
           python scripts/collectors/run_collect.py \
+            --env "$DIGIKEY_ENV" \
             --sub "${{ github.event.inputs.sub }}" \
             --limit "${{ github.event.inputs.limit }}" \
-            --out-dir "$OUT" \
-            $EXTRA
-          echo "Output tree:"
-          find "$OUT" -type f | head -100
+            --validate
+          python scripts/build_catalog.py
+          echo "skip_pr=false" >> "$GITHUB_ENV"
 
-      - name: Upload artifact
+      - name: Upload dry-run artifact
+        if: env.skip_pr == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: digikey-collect-${{ github.event.inputs.sub }}
           path: _collect_out
           if-no-files-found: warn
+
+      - name: Create Pull Request
+        if: env.skip_pr != 'true' && github.event.inputs.open_pr == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "DigiKey collect ${{ github.event.inputs.sub }}"
+          branch: chore/digikey-${{ github.event.inputs.sub }}
+          delete-branch: true
+          title: "chore: DigiKey collect (${{ github.event.inputs.sub }})"
+          body: |
+            Manual DigiKey collect for `${{ github.event.inputs.sub }}` (limit ${{ github.event.inputs.limit }}).
+            Review files then merge. See `docs/WEEKLY_OPS.md`.
+          labels: |
+            digikey
+            automated

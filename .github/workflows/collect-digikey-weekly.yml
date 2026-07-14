@@ -1,0 +1,132 @@
+name: Weekly DigiKey collect + PR
+
+# Every Monday 02:00 UTC ≈ 周一 10:00 中国时间（CST）
+on:
+  schedule:
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Per-category product limit"
+        required: true
+        default: "10"
+      dry_run:
+        description: "Fixture only, no DigiKey API (true/false)"
+        required: true
+        default: "false"
+      subs:
+        description: "Optional comma-separated subs (empty = all query_map)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: digikey-weekly-collect
+  cancel-in-progress: false
+
+jobs:
+  collect-and-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check DigiKey secrets
+        id: secrets
+        env:
+          DIGIKEY_CLIENT_ID: ${{ secrets.DIGIKEY_CLIENT_ID }}
+          DIGIKEY_CLIENT_SECRET: ${{ secrets.DIGIKEY_CLIENT_SECRET }}
+        run: |
+          DRY="${{ github.event.inputs.dry_run || 'false' }}"
+          if [ "$DRY" = "true" ]; then
+            echo "mode=dry" >> "$GITHUB_OUTPUT"
+            echo "Dry-run mode: secrets not required"
+            exit 0
+          fi
+          if [ -z "$DIGIKEY_CLIENT_ID" ] || [ -z "$DIGIKEY_CLIENT_SECRET" ]; then
+            echo "::warning::DIGIKEY_CLIENT_ID / DIGIKEY_CLIENT_SECRET not configured. Skipping live collect."
+            echo "mode=skip" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "mode=live" >> "$GITHUB_OUTPUT"
+
+      - name: Weekly collect
+        if: steps.secrets.outputs.mode != 'skip'
+        env:
+          DIGIKEY_CLIENT_ID: ${{ secrets.DIGIKEY_CLIENT_ID }}
+          DIGIKEY_CLIENT_SECRET: ${{ secrets.DIGIKEY_CLIENT_SECRET }}
+          DIGIKEY_ENV: ${{ secrets.DIGIKEY_ENV }}
+        run: |
+          set -euo pipefail
+          export DIGIKEY_ENV="${DIGIKEY_ENV:-production}"
+          LIMIT="${{ github.event.inputs.limit || '10' }}"
+          DRY="${{ github.event.inputs.dry_run || 'false' }}"
+          SUBS="${{ github.event.inputs.subs || '' }}"
+
+          EXTRA=(--limit "$LIMIT" --continue-on-error --sleep 1.5)
+          if [ "$DRY" = "true" ]; then
+            EXTRA+=(--dry-run)
+            # dry-run defaults to _collect_out; force repo root for PR visibility only if wanted
+            # Keep dry-run out of main tree: use temp and still create empty PR skip
+            echo "Running dry-run weekly job into _collect_out"
+            python scripts/collectors/run_weekly.py "${EXTRA[@]}" --out-dir _collect_out ${SUBS:+--subs "$SUBS"}
+            echo "Dry-run finished; no PR from fixture-only output by default"
+            echo "skip_pr=true" >> "$GITHUB_ENV"
+          else
+            python scripts/collectors/run_weekly.py "${EXTRA[@]}" ${SUBS:+--subs "$SUBS"}
+            echo "skip_pr=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Show git status
+        if: steps.secrets.outputs.mode == 'live' && env.skip_pr != 'true'
+        run: |
+          git status --short || true
+          git diff --stat || true
+
+      - name: Create Pull Request
+        if: steps.secrets.outputs.mode == 'live' && env.skip_pr != 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: |
+            Weekly DigiKey collect
+
+            Automated multi-category import via scripts/collectors/run_weekly.py.
+            Please review before merging.
+          branch: chore/digikey-weekly-collect
+          delete-branch: true
+          title: "chore: weekly DigiKey component collect"
+          body: |
+            ## Weekly DigiKey collect
+
+            This PR was opened by GitHub Actions (`collect-digikey-weekly.yml`).
+
+            ### What to do
+            1. Check **Files changed** (data/ + manufacturers/)
+            2. Confirm CI **Validate** passes
+            3. Spot-check a few datasheet links
+            4. **Merge** if OK, or request changes
+
+            ### Notes
+            - Source: DigiKey Product Information API (keyword search by taxonomy)
+            - Does **not** auto-merge to `main`
+            - Ops checklist: `docs/WEEKLY_OPS.md`
+
+            /cc @${{ github.repository_owner }}
+          labels: |
+            digikey
+            automated
+
+      - name: Skip notice
+        if: steps.secrets.outputs.mode == 'skip'
+        run: |
+          echo "Skipped: configure repository secrets DIGIKEY_CLIENT_ID and DIGIKEY_CLIENT_SECRET."
+          echo "See docs/DIGIKEY_SETUP.md and docs/WEEKLY_OPS.md"
