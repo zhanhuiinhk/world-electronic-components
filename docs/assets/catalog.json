@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-07-14T08:25:14Z",
+  "count": 4,
+  "items": [
+    {
+      "part_number": "RC0402FR-0710KL",
+      "manufacturer": "Yageo",
+      "manufacturer_id": "yageo",
+      "product_class": "component",
+      "category": "Passive Components",
+      "category_slug": "passive-components",
+      "sub_category": "Resistors",
+      "sub_category_slug": "resistors",
+      "package": "0402",
+      "origin": "China",
+      "datasheet_url": "https://www.yageo.com/en/ProductSearch/DownloadSpec?docId=5022",
+      "description": "10 kΩ ±1% 1/16W thick film chip resistor",
+      "status": "active",
+      "attributes": {
+        "resistance_ohm": 10000,
+        "tolerance_percent": 1,
+        "power_w": 0.063,
+        "composition": "thick film"
+      },
+      "tags": ["resistor", "0402", "smd"],
+      "updated_at": "2026-07-14",
+      "_source": "data/passive-components/yageo.json"
+    },
+    {
+      "part_number": "RC0603FR-07100KL",
+      "manufacturer": "Yageo",
+      "manufacturer_id": "yageo",
+      "product_class": "component",
+      "category": "Passive Components",
+      "category_slug": "passive-components",
+      "sub_category": "Resistors",
+      "sub_category_slug": "resistors",
+      "package": "0603",
+      "origin": "China",
+      "datasheet_url": "https://www.yageo.com/en/ProductSearch/DownloadSpec?docId=5022",
+      "description": "100 kΩ ±1% thick film chip resistor",
+      "status": "active",
+      "attributes": {
+        "resistance_ohm": 100000,
+        "tolerance_percent": 1,
+        "power_w": 0.1,
+        "composition": "thick film"
+      },
+      "tags": ["resistor", "0603", "smd"],
+      "updated_at": "2026-07-14",
+      "_source": "data/passive-components/yageo.json"
+    },
+    {
+      "part_number": "STM32F103C8T6",
+      "manufacturer": "STMicroelectronics",
+      "manufacturer_id": "stmicroelectronics",
+      "product_class": "component",
+      "category": "Semiconductors",
+      "category_slug": "semiconductors",
+      "sub_category": "Microcontrollers (MCU)",
+      "sub_category_slug": "microcontrollers",
+      "package": "LQFP-48",
+      "origin": "France",
+      "datasheet_url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+      "description": "ARM Cortex-M3 MCU, 64KB Flash, 72MHz",
+      "status": "active",
+      "attributes": {
+        "core": "ARM Cortex-M3",
+        "flash_kb": 64,
+        "ram_kb": 20,
+        "clock_mhz": 72,
+        "gpio_count": 37
+      },
+      "tags": ["mcu", "arm", "stm32"],
+      "updated_at": "2026-07-14",
+      "_source": "data/semiconductors/stmicroelectronics.json"
+    },
+    {
+      "part_number": "NE555DR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_id": "texas-instruments",
+      "product_class": "component",
+      "category": "Semiconductors",
+      "category_slug": "semiconductors",
+      "sub_category": "Analog ICs",
+      "sub_category_slug": "analog-ics",
+      "package": "SOIC-8",
+      "origin": "USA",
+      "datasheet_url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
+      "description": "Precision timer IC",
+      "status": "active",
+      "attributes": {
+        "function": "timer",
+        "supply_voltage_min_v": 4.5,
+        "supply_voltage_max_v": 16
+      },
+      "tags": ["timer", "555"],
+      "updated_at": "2026-07-14",
+      "_source": "data/semiconductors/texas-instruments.json"
+    }
+  ]
+}

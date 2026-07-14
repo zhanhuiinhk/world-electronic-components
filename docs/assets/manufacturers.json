@@ -1,0 +1,35 @@
+[
+  {
+    "id": "example-corp",
+    "name": "Example Corp",
+    "name_zh": "示例公司",
+    "website": "https://example.com",
+    "country": "N/A",
+    "aliases": [],
+    "notes": "仅用于 CSV 模板与文档示例，可删除。"
+  },
+  {
+    "id": "stmicroelectronics",
+    "name": "STMicroelectronics",
+    "name_zh": "意法半导体",
+    "website": "https://www.st.com",
+    "country": "Switzerland",
+    "aliases": ["ST", "STM"]
+  },
+  {
+    "id": "texas-instruments",
+    "name": "Texas Instruments",
+    "name_zh": "德州仪器",
+    "website": "https://www.ti.com",
+    "country": "USA",
+    "aliases": ["TI"]
+  },
+  {
+    "id": "yageo",
+    "name": "Yageo",
+    "name_zh": "国巨",
+    "website": "https://www.yageo.com",
+    "country": "Taiwan",
+    "aliases": ["Yageo Corporation"]
+  }
+]

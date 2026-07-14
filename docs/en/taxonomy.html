@@ -14,12 +14,12 @@
     </header>
     <article class="doc">
       <h1>Category taxonomy</h1>
-      <p>Source of truth: <code>taxonomy/categories.json</code>. Merged from DigiKey / Mouser / Arrow style top-level trees.</p>
+      <p>Source of truth: <code>taxonomy/categories.json</code>.</p>
       <h2>Extension policy</h2>
       <ul>
         <li><strong>Level-2</strong>: PR into <code>children</code>.</li>
         <li><strong>Level-1</strong>: open a Category extension Issue first.</li>
-        <li><strong>Unknown</strong>: use <code>other/uncategorized</code> temporarily.</li>
+        <li><strong>Unknown</strong>: use <code>other/uncategorized</code>.</li>
       </ul>
       <pre>data/{category_slug}/{manufacturer_id}.json</pre>
       <p id="live">Loading…</p>
@@ -27,14 +27,22 @@
     </article>
   </div>
   <script>
-    fetch("../assets/taxonomy.json").then(r => r.json()).then(tax => {
+    async function loadTax() {
+      const urls = ["../assets/taxonomy.json", "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/taxonomy/categories.json"];
+      for (const u of urls) {
+        try { const r = await fetch(u); if (r.ok) return await r.json(); } catch(e) {}
+      }
+      return null;
+    }
+    loadTax().then(tax => {
+      if (!tax) { document.getElementById("live").textContent = "Failed to load"; return; }
       document.getElementById("live").textContent = "version " + (tax.version || "") + " · " + (tax.categories||[]).length + " top-level categories";
       document.getElementById("tree").innerHTML = (tax.categories||[]).map(c =>
         `<h3>${c.slug} — ${c.name_en}</h3><ul>` +
         (c.children||[]).map(ch => `<li><code>${ch.slug}</code> ${ch.name_en}</li>`).join("") +
         `</ul>`
       ).join("");
-    }).catch(() => { document.getElementById("live").textContent = "Run build_catalog.py first"; });
+    });
   </script>
 </body>
 </html>

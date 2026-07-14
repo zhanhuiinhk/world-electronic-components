@@ -18,30 +18,38 @@
     </header>
     <article class="doc">
       <h1>分类体系</h1>
-      <p>权威文件：仓库内 <code>taxonomy/categories.json</code>。合并 DigiKey / Mouser / Arrow 同类顶级类目，并补齐电路保护、线缆、工业自动化等。</p>
+      <p>权威文件：仓库内 <code>taxonomy/categories.json</code>。合并 DigiKey / Mouser / Arrow 同类顶级类目。</p>
       <h2>扩项规则</h2>
       <ul>
         <li><strong>二级分类</strong>：PR 修改 <code>categories.json</code> 的 <code>children</code>。</li>
-        <li><strong>一级分类</strong>：先开 Issue（Category extension），讨论后再改文件并创建 <code>data/{slug}/</code>。</li>
+        <li><strong>一级分类</strong>：先开 Issue（Category extension）。</li>
         <li><strong>暂无类</strong>：使用 <code>other/uncategorized</code>。</li>
       </ul>
-      <h2>数据路径</h2>
       <pre>data/{category_slug}/{manufacturer_id}.json</pre>
-      <p>完整说明见仓库 <code>docs/TAXONOMY.md</code>。</p>
       <p id="live">正在加载分类树…</p>
       <div id="tree"></div>
     </article>
   </div>
   <script>
-    fetch("../assets/taxonomy.json").then(r => r.json()).then(tax => {
+    async function loadTax() {
+      const urls = ["../assets/taxonomy.json", "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/taxonomy/categories.json"];
+      for (const u of urls) {
+        try {
+          const r = await fetch(u);
+          if (!r.ok) continue;
+          return await r.json();
+        } catch (e) {}
+      }
+      return null;
+    }
+    loadTax().then(tax => {
+      if (!tax) { document.getElementById("live").textContent = "无法加载分类树"; return; }
       document.getElementById("live").textContent = "version " + (tax.version || "") + " · " + (tax.categories||[]).length + " 个一级分类";
       document.getElementById("tree").innerHTML = (tax.categories||[]).map(c =>
         `<h3>${c.slug} — ${c.name_zh || c.name_en}</h3><ul>` +
         (c.children||[]).map(ch => `<li><code>${ch.slug}</code> ${ch.name_zh || ch.name_en}</li>`).join("") +
         `</ul>`
       ).join("");
-    }).catch(() => {
-      document.getElementById("live").textContent = "未找到 taxonomy.json，请运行 build_catalog.py";
     });
   </script>
 </body>
