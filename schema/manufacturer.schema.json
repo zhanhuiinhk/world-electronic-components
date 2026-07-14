@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zhanhuiinhk/world-electronic-components/schema/manufacturer.schema.json",
+  "title": "Manufacturer",
+  "description": "厂家/品牌登记信息",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "全局唯一 slug，文件名须为 {id}.json"
+    },
+    "name": {
+      "type": "string",
+      "description": "官方英文名"
+    },
+    "name_zh": {
+      "type": "string",
+      "description": "中文名（可选）"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "官网"
+    },
+    "country": {
+      "type": "string",
+      "description": "总部所在国家/地区"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "别名、曾用名"
+    },
+    "contact": {
+      "type": "string",
+      "description": "公开联系邮箱或页面（可选）"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": ["id", "name", "website"]
+}

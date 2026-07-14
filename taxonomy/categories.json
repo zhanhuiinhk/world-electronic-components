@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "description": "官方分类树。新增二级分类请 PR 修改本文件；新增一级分类需在 Issue 讨论后合并。",
+  "categories": [
+    {
+      "slug": "semiconductors",
+      "name_en": "Semiconductors",
+      "name_zh": "半导体",
+      "description": "集成电路、分立器件、存储器、MCU 等",
+      "children": [
+        { "slug": "microcontrollers", "name_en": "Microcontrollers", "name_zh": "微控制器" },
+        { "slug": "integrated-circuits", "name_en": "Integrated Circuits", "name_zh": "集成电路" },
+        { "slug": "discrete-semiconductors", "name_en": "Discrete Semiconductors", "name_zh": "分立半导体" },
+        { "slug": "memory", "name_en": "Memory", "name_zh": "存储器" },
+        { "slug": "processors", "name_en": "Processors", "name_zh": "处理器" }
+      ]
+    },
+    {
+      "slug": "passive-components",
+      "name_en": "Passive Components",
+      "name_zh": "无源器件",
+      "children": [
+        { "slug": "resistors", "name_en": "Resistors", "name_zh": "电阻" },
+        { "slug": "capacitors", "name_en": "Capacitors", "name_zh": "电容" },
+        { "slug": "inductors", "name_en": "Inductors", "name_zh": "电感" },
+        { "slug": "crystals-oscillators", "name_en": "Crystals & Oscillators", "name_zh": "晶振与振荡器" }
+      ]
+    },
+    {
+      "slug": "connectors-switches",
+      "name_en": "Connectors & Switches",
+      "name_zh": "连接与机电",
+      "children": [
+        { "slug": "connectors", "name_en": "Connectors", "name_zh": "连接器" },
+        { "slug": "switches", "name_en": "Switches", "name_zh": "开关" },
+        { "slug": "relays", "name_en": "Relays", "name_zh": "继电器" }
+      ]
+    },
+    {
+      "slug": "sensors",
+      "name_en": "Sensors",
+      "name_zh": "传感器",
+      "children": [
+        { "slug": "temperature-sensors", "name_en": "Temperature Sensors", "name_zh": "温度传感器" },
+        { "slug": "motion-sensors", "name_en": "Motion Sensors", "name_zh": "运动传感器" },
+        { "slug": "environmental-sensors", "name_en": "Environmental Sensors", "name_zh": "环境传感器" }
+      ]
+    },
+    {
+      "slug": "rf-wireless",
+      "name_en": "RF & Wireless",
+      "name_zh": "射频与无线",
+      "children": [
+        { "slug": "rf-amplifiers", "name_en": "RF Amplifiers", "name_zh": "射频放大器" },
+        { "slug": "rf-switches", "name_en": "RF Switches", "name_zh": "射频开关" },
+        { "slug": "wireless-modules", "name_en": "Wireless Modules", "name_zh": "无线模组" }
+      ]
+    },
+    {
+      "slug": "optoelectronics-displays",
+      "name_en": "Optoelectronics & Displays",
+      "name_zh": "光电与显示",
+      "children": [
+        { "slug": "leds", "name_en": "LEDs", "name_zh": "LED" },
+        { "slug": "displays", "name_en": "Displays", "name_zh": "显示屏" },
+        { "slug": "optoisolators", "name_en": "Optoisolators", "name_zh": "光耦" }
+      ]
+    },
+    {
+      "slug": "power-thermal",
+      "name_en": "Power & Thermal",
+      "name_zh": "电源与散热",
+      "children": [
+        { "slug": "power-modules", "name_en": "Power Modules", "name_zh": "电源模块" },
+        { "slug": "voltage-regulators", "name_en": "Voltage Regulators", "name_zh": "稳压器" },
+        { "slug": "thermal-management", "name_en": "Thermal Management", "name_zh": "热管理" }
+      ]
+    },
+    {
+      "slug": "dev-boards-tools",
+      "name_en": "Dev Boards & Tools",
+      "name_zh": "开发工具",
+      "children": [
+        { "slug": "development-boards", "name_en": "Development Boards", "name_zh": "开发板" },
+        { "slug": "programmers-debuggers", "name_en": "Programmers & Debuggers", "name_zh": "烧录与调试" },
+        { "slug": "test-equipment", "name_en": "Test Equipment", "name_zh": "测试设备相关" }
+      ]
+    }
+  ]
+}

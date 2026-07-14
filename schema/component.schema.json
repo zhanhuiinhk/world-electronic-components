@@ -1,20 +1,90 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zhanhuiinhk/world-electronic-components/schema/component.schema.json",
   "title": "ElectronicComponent",
-  "description": "元器件数据格式规范",
+  "description": "单个元器件记录的数据格式规范",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
-    "part_number": { "type": "string", "description": "核心型号" },
-    "category": { "type": "string", "description": "一级分类" },
-    "sub_category": { "type": "string", "description": "二级分类" },
-    "manufacturer": { "type": "string", "description": "制造厂商" },
-    "origin": { "type": "string", "description": "产地" },
-    "datasheet_url": { "type": "string", "format": "uri", "description": "技术文档下载链接" },
+    "part_number": {
+      "type": "string",
+      "minLength": 1,
+      "description": "厂家官方型号（建议大写，不含多余空格）"
+    },
+    "manufacturer": {
+      "type": "string",
+      "minLength": 1,
+      "description": "制造厂商官方名称"
+    },
+    "manufacturer_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "对应 manufacturers/ 下文件的 id（slug），如 stmicroelectronics"
+    },
+    "category": {
+      "type": "string",
+      "description": "一级分类英文名，必须与 taxonomy/categories.json 中顶层 name_en 一致"
+    },
+    "category_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "一级分类 slug，如 semiconductors"
+    },
+    "sub_category": {
+      "type": "string",
+      "description": "二级分类英文名"
+    },
+    "sub_category_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "二级分类 slug，如 microcontrollers"
+    },
+    "package": {
+      "type": "string",
+      "description": "封装形式，如 SOIC-8、QFN-48、0402"
+    },
+    "origin": {
+      "type": "string",
+      "description": "产地/原产国或地区，如 China、France、USA"
+    },
+    "datasheet_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "官方 datasheet 链接"
+    },
+    "description": {
+      "type": "string",
+      "description": "简短产品描述"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "nrnd", "obsolete", "preview"],
+      "default": "active",
+      "description": "生命周期状态"
+    },
     "attributes": {
       "type": "object",
-      "description": "弹性属性区",
+      "description": "弹性技术参数区（不同品类字段不同）",
       "additionalProperties": true
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "检索标签"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date",
+      "description": "本条记录最后更新日期 YYYY-MM-DD"
     }
   },
-  "required": ["part_number", "category", "sub_category", "manufacturer", "datasheet_url"]
+  "required": [
+    "part_number",
+    "manufacturer",
+    "category",
+    "category_slug",
+    "sub_category",
+    "sub_category_slug",
+    "datasheet_url"
+  ]
 }

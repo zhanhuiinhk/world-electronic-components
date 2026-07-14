@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zhanhuiinhk/world-electronic-components/schema/category.schema.json",
+  "title": "CategoryTaxonomy",
+  "description": "分类树 taxonomy/categories.json 的结构",
+  "type": "object",
+  "required": ["version", "categories"],
+  "properties": {
+    "version": { "type": "string" },
+    "categories": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/category" }
+    }
+  },
+  "definitions": {
+    "category": {
+      "type": "object",
+      "required": ["slug", "name_en", "name_zh"],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name_en": { "type": "string" },
+        "name_zh": { "type": "string" },
+        "description": { "type": "string" },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/category" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

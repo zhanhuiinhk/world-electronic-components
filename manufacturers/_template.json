@@ -1,0 +1,10 @@
+{
+  "id": "your-brand-slug",
+  "name": "Official English Name",
+  "name_zh": "中文名（可选）",
+  "website": "https://example.com",
+  "country": "Country",
+  "aliases": [],
+  "contact": "",
+  "notes": "复制本文件为 {id}.json 后填写真实信息，不要提交本模板文件的修改。"
+}

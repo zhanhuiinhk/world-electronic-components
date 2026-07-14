@@ -1,0 +1,21 @@
+{
+  "part_number": "EXAMPLE-123",
+  "manufacturer": "Example Corp",
+  "manufacturer_id": "example-corp",
+  "category": "Passive Components",
+  "category_slug": "passive-components",
+  "sub_category": "Resistors",
+  "sub_category_slug": "resistors",
+  "package": "0402",
+  "origin": "China",
+  "datasheet_url": "https://example.com/datasheet/example-123.pdf",
+  "description": "示例电阻，仅供格式参考",
+  "status": "active",
+  "attributes": {
+    "resistance_ohm": 10000,
+    "tolerance_percent": 1,
+    "power_w": 0.063
+  },
+  "tags": ["resistor", "smd"],
+  "updated_at": "2026-07-14"
+}

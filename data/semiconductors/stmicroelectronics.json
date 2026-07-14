@@ -1,0 +1,25 @@
+[
+  {
+    "part_number": "STM32F103C8T6",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Microcontrollers",
+    "sub_category_slug": "microcontrollers",
+    "package": "LQFP-48",
+    "origin": "France",
+    "datasheet_url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+    "description": "ARM Cortex-M3 MCU, 64KB Flash, 72MHz",
+    "status": "active",
+    "attributes": {
+      "core": "ARM Cortex-M3",
+      "flash": "64KB",
+      "ram": "20KB",
+      "clock": "72MHz",
+      "gpio": 37
+    },
+    "tags": ["mcu", "arm", "stm32"],
+    "updated_at": "2026-07-14"
+  }
+]
