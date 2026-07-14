@@ -18,7 +18,195 @@
       "form_factor": "Nucleo-64",
       "interfaces": "Arduino Uno headers, ST-LINK, USB"
     },
-    "tags": ["nucleo", "stm32", "devboard"],
+    "tags": [
+      "nucleo",
+      "stm32",
+      "devboard"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-F303K8",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/content/ccc/resource/technical/document/data_brief/b1/d8/13/d4/b0/b7/4b/6e/DM00214578.pdf/files/DM00214578.pdf/jcr:content/translations/en.DM00214578.pdf",
+    "description": "NUCLEO-32 STM32F303K8 EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M4"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-F303RE",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/content/ccc/resource/technical/document/data_brief/c8/3c/30/f7/d6/08/4a/26/DM00105918.pdf/files/DM00105918.pdf/jcr:content/translations/en.DM00105918.pdf",
+    "description": "NUCLEO-64 STM32F303RE EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M4"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-F401RE",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/content/ccc/resource/technical/document/data_brief/c8/3c/30/f7/d6/08/4a/26/DM00105918.pdf/files/DM00105918.pdf/jcr:content/translations/en.DM00105918.pdf",
+    "description": "NUCLEO-64 STM32F401RE EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M4"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-F411RE",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/content/ccc/resource/technical/document/data_brief/c8/3c/30/f7/d6/08/4a/26/DM00105918.pdf/files/DM00105918.pdf/jcr:content/translations/en.DM00105918.pdf",
+    "description": "NUCLEO-64 STM32F411RE EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M4"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-F446RE",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/content/ccc/resource/technical/document/data_brief/c8/3c/30/f7/d6/08/4a/26/DM00105918.pdf/files/DM00105918.pdf/jcr:content/translations/en.DM00105918.pdf",
+    "description": "NUCLEO-64 STM32F446RE EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M4"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-G474RE",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/resource/en/user_manual/dm00556337-stm32g4-nucleo-64-boards-mb1367-stmicroelectronics.pdf",
+    "description": "NUCLEO-64 STM32G474RE EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M4"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-L432KC",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/content/ccc/resource/technical/document/data_brief/b1/d8/13/d4/b0/b7/4b/6e/DM00214578.pdf/files/DM00214578.pdf/jcr:content/translations/en.DM00214578.pdf",
+    "description": "NUCLEO-32 STM32L432KC EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M4"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NUCLEO-U083RC",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.st.com/resource/en/data_brief/nucleo-c031c6.pdf",
+    "description": "NUCLEO-64 STM32U083RC EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "MCU 32-Bit",
+      "core": "ARM® Cortex®-M0+"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-14"
   }
 ]
