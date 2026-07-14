@@ -1,50 +1,5 @@
 [
   {
-    "part_number": "NE555DR",
-    "manufacturer": "Texas Instruments",
-    "manufacturer_id": "texas-instruments",
-    "product_class": "component",
-    "category": "Semiconductors",
-    "category_slug": "semiconductors",
-    "sub_category": "Analog ICs",
-    "sub_category_slug": "analog-ics",
-    "package": "SOIC-8",
-    "origin": "USA",
-    "datasheet_url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
-    "description": "Precision timer IC",
-    "status": "active",
-    "attributes": {
-      "function": "timer",
-      "supply_voltage_min_v": 4.5,
-      "supply_voltage_max_v": 16
-    },
-    "tags": ["timer", "555"],
-    "updated_at": "2026-07-14"
-  },
-  {
-    "part_number": "LM358DR",
-    "manufacturer": "Texas Instruments",
-    "manufacturer_id": "texas-instruments",
-    "product_class": "component",
-    "category": "Semiconductors",
-    "category_slug": "semiconductors",
-    "sub_category": "Analog ICs",
-    "sub_category_slug": "analog-ics",
-    "package": "SOIC-8",
-    "origin": "USA",
-    "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm358.pdf",
-    "description": "Dual operational amplifier",
-    "status": "active",
-    "attributes": {
-      "function": "op-amp",
-      "supply_voltage_min_v": 3,
-      "supply_voltage_max_v": 32,
-      "channels": 2
-    },
-    "tags": ["opamp", "analog"],
-    "updated_at": "2026-07-14"
-  },
-  {
     "part_number": "LM2596S-5.0",
     "manufacturer": "Texas Instruments",
     "manufacturer_id": "texas-instruments",
@@ -65,7 +20,185 @@
       "vout_v": 5.0,
       "iout_a": 3
     },
-    "tags": ["buck", "regulator", "pmic"],
+    "tags": [
+      "buck",
+      "regulator",
+      "pmic"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LM2904DR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2904v",
+    "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
+    "status": "active",
+    "attributes": {
+      "iout_a": 40,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LM358ADR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358",
+    "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
+    "status": "active",
+    "attributes": {
+      "iout_a": 40,
+      "temperature_range_c": "0°C ~ 70°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LM358DR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358",
+    "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
+    "status": "active",
+    "attributes": {
+      "iout_a": 40,
+      "temperature_range_c": "0°C ~ 70°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LMV358AIDR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/lmv358a.pdf",
+    "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
+    "status": "active",
+    "attributes": {
+      "interface": "Rail-to-Rail",
+      "iout_a": 40,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "NE555DR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "SOIC-8",
+    "origin": "USA",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
+    "description": "Precision timer IC",
+    "status": "active",
+    "attributes": {
+      "function": "timer",
+      "supply_voltage_min_v": 4.5,
+      "supply_voltage_max_v": 16
+    },
+    "tags": [
+      "timer",
+      "555"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TLV62568PDDCR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv62568",
+    "description": "IC REG BUCK ADJ 1A SOT23",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 2.5,
+      "vin_max_v": 5.5,
+      "iout_a": 1,
+      "frequency_hz": 1.5,
+      "temperature_range_c": "-40°C ~ 125°C (TJ)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TLV62569DBVR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv62569",
+    "description": "IC REG BUCK ADJ 2A SOT23-5",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 2.5,
+      "vin_max_v": 5.5,
+      "iout_a": 2,
+      "frequency_hz": 1.5,
+      "temperature_range_c": "-40°C ~ 125°C (TJ)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-14"
   },
   {
@@ -87,7 +220,67 @@
       "supply_voltage_min_v": 1.8,
       "supply_voltage_max_v": 5.5
     },
-    "tags": ["temperature", "i2c", "sensor-ic"],
+    "tags": [
+      "temperature",
+      "i2c",
+      "sensor-ic"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TPS562201DDCR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps562201",
+    "description": "IC REG BUCK ADJ 2A SOT23",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 4.5,
+      "vin_max_v": 17,
+      "iout_a": 2,
+      "frequency_hz": 580,
+      "temperature_range_c": "-40°C ~ 125°C (TJ)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TPS62A01DRLR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tps62a01.pdf?ts=1651767199227&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DTPS62A01DRLR%2526nr%253D7",
+    "description": "IC REG BUCK ADJ 1A SOT563",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 2.5,
+      "vin_max_v": 5.5,
+      "iout_a": 1,
+      "frequency_hz": 2.4,
+      "temperature_range_c": "-40°C ~ 125°C (TJ)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-14"
   }
 ]
