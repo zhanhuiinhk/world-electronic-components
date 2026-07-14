@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>World Electronic Components — Search</title>
+  <meta name="description" content="Open-source global electronic components database search" />
+  <link rel="stylesheet" href="./css/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand">
+        <div class="logo">W</div>
+        <div>
+          <h1 id="brand-title">World Electronic Components</h1>
+          <p id="brand-sub">Open component search</p>
+        </div>
+      </div>
+      <nav class="links">
+        <a id="nav-search" class="active" href="./">Search</a>
+        <a id="nav-docs" href="./zh/">Docs</a>
+        <a id="nav-repo" href="https://github.com/zhanhuiinhk/world-electronic-components" target="_blank" rel="noopener">GitHub</a>
+        <div class="lang-toggle" aria-label="Language">
+          <button type="button" data-lang-btn="zh">中文</button>
+          <button type="button" data-lang-btn="en">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2 id="hero-title">Search</h2>
+      <div class="search-box">
+        <input id="q" type="search" autocomplete="off" placeholder="Search…" />
+        <button class="btn primary" id="btn-search" type="button">Search</button>
+      </div>
+      <div class="filters">
+        <select id="f-cat"></select>
+        <select id="f-class"></select>
+        <select id="f-mfr"></select>
+      </div>
+      <div class="meta" id="meta">…</div>
+    </section>
+
+    <section class="results" id="results"></section>
+
+    <footer>
+      Data from this repository · MIT License ·
+      <a href="https://github.com/zhanhuiinhk/world-electronic-components">zhanhuiinhk/world-electronic-components</a>
+    </footer>
+  </div>
+  <script src="./js/search.js"></script>
+</body>
+</html>

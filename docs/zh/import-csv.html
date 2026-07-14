@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSV 导入 · 文档</title>
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand"><div class="logo">CSV</div><div><h1>批量导入</h1><p>CSV → JSON</p></div></div>
+      <nav class="links"><a href="./">文档首页</a><a href="../en/import-csv.html">EN</a></nav>
+    </header>
+    <article class="doc">
+      <h1>CSV → JSON 批量导入</h1>
+      <p>工具：<code>scripts/csv_to_json.py</code></p>
+      <h2>用法</h2>
+      <pre>python scripts/csv_to_json.py examples/import-resistors-sample.csv \
+  -o data/passive-components/yageo.json
+python scripts/validate.py</pre>
+      <h2>列约定</h2>
+      <ul>
+        <li>顶层字段：<code>part_number</code>, <code>manufacturer</code>, <code>manufacturer_id</code>, <code>category_slug</code>, <code>sub_category_slug</code>, <code>package</code>, <code>datasheet_url</code> …</li>
+        <li>参数字段：<code>attr.resistance_ohm</code> 或 <code>attributes.resistance_ohm</code> → 写入 <code>attributes</code></li>
+        <li>标签：<code>tags</code> 用 <code>|</code> 分隔，如 <code>resistor|smd</code></li>
+      </ul>
+      <h2>模板</h2>
+      <ul>
+        <li><code>examples/import-template.csv</code></li>
+        <li><code>examples/import-resistors-sample.csv</code></li>
+      </ul>
+      <p>导入前请先在 <code>manufacturers/</code> 登记厂家，并保证分类 slug 存在于 taxonomy。</p>
+    </article>
+  </div>
+</body>
+</html>

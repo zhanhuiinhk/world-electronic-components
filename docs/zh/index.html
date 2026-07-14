@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>文档 · 全球电子元器件开源库</title>
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand">
+        <div class="logo">文</div>
+        <div>
+          <h1>文档中心（中文）</h1>
+          <p>World Electronic Components Database</p>
+        </div>
+      </div>
+      <nav class="links">
+        <a href="../">在线检索</a>
+        <a class="active" href="./">中文文档</a>
+        <a href="../en/">English</a>
+        <a href="https://github.com/zhanhuiinhk/world-electronic-components">GitHub</a>
+      </nav>
+    </header>
+
+    <article class="doc">
+      <h1>欢迎</h1>
+      <p>本库收集全球厂家的<strong>元器件 / 部件 / 组件</strong>公开规格，支持社区检索、厂家入驻与分类扩项。</p>
+      <ul>
+        <li><a href="../">🔍 在线检索（GitHub Pages）</a></li>
+        <li><a href="./taxonomy.html">分类体系（对齐 DigiKey / Mouser / Arrow）</a></li>
+        <li><a href="./attributes.html">品类专用 attributes 字段表</a></li>
+        <li><a href="./import-csv.html">CSV → JSON 批量导入</a></li>
+        <li><a href="./manufacturer.html">新厂家入驻通道</a></li>
+        <li><a href="./contributing.html">贡献指南摘要</a></li>
+      </ul>
+
+      <h2>三层粒度</h2>
+      <table>
+        <tr><th>product_class</th><th>含义</th><th>例子</th></tr>
+        <tr><td><code>component</code></td><td>元器件</td><td>电阻、MCU、二极管</td></tr>
+        <tr><td><code>part</code></td><td>部件</td><td>线束、散热器、机箱</td></tr>
+        <tr><td><code>module</code></td><td>组件/模组</td><td>电源模块、无线模组、开发板</td></tr>
+      </table>
+
+      <h2>本地命令</h2>
+      <pre>python scripts/validate.py
+python scripts/search.py STM32
+python scripts/csv_to_json.py examples/import-resistors-sample.csv -o data/passive-components/yageo.json
+python scripts/build_catalog.py</pre>
+
+      <h2>仓库结构</h2>
+      <pre>taxonomy/   官方分类树
+schema/     JSON Schema + attribute-profiles
+manufacturers/  厂家登记
+data/       产品 JSON
+scripts/    校验 / 搜索 / CSV导入 / 构建目录
+docs/       本站（Pages）</pre>
+    </article>
+    <footer>中文文档 · <a href="../en/">Switch to English</a></footer>
+  </div>
+</body>
+</html>

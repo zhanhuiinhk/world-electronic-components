@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attributes 字段表 · 文档</title>
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand"><div class="logo">参</div><div><h1>品类专用参数表</h1><p>attribute-profiles</p></div></div>
+      <nav class="links">
+        <a href="./">文档首页</a>
+        <a href="../en/attributes.html">EN</a>
+      </nav>
+    </header>
+    <article class="doc">
+      <h1>按品类约束 attributes</h1>
+      <p>定义文件：<code>schema/attribute-profiles.json</code>。键为 <code>sub_category_slug</code>。</p>
+      <ul>
+        <li><code>required</code>：校验必填（如电阻必须有 <code>resistance_ohm</code>）</li>
+        <li><code>recommended</code>：推荐字段</li>
+        <li><code>fields</code>：类型、单位、中英文说明</li>
+      </ul>
+      <h2>电阻示例</h2>
+      <pre>{
+  "sub_category_slug": "resistors",
+  "attributes": {
+    "resistance_ohm": 10000,
+    "tolerance_percent": 1,
+    "power_w": 0.063
+  }
+}</pre>
+      <p><code>python scripts/validate.py</code> 会对已配置品类检查必填 attributes。</p>
+      <div id="profiles">加载中…</div>
+    </article>
+  </div>
+  <script>
+    fetch("../assets/attribute-profiles.json").then(r => r.json()).then(p => {
+      const keys = Object.keys(p).filter(k => !k.startsWith("$") && k !== "version" && k !== "_default");
+      document.getElementById("profiles").innerHTML = "<h2>已配置品类</h2><table><tr><th>slug</th><th>必填</th><th>推荐</th></tr>" +
+        keys.map(k => {
+          const pr = p[k];
+          return `<tr><td><code>${k}</code></td><td>${(pr.required||[]).join(", ")||"—"}</td><td>${(pr.recommended||[]).join(", ")||"—"}</td></tr>`;
+        }).join("") + "</table>";
+    }).catch(() => {
+      document.getElementById("profiles").textContent = "请先运行 python scripts/build_catalog.py";
+    });
+  </script>
+</body>
+</html>
