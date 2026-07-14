@@ -12,10 +12,33 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT_DIR = ROOT / "docs" / "assets"
 
+PUBLIC_FIELDS = {
+    "part_number",
+    "manufacturer",
+    "manufacturer_id",
+    "product_class",
+    "category",
+    "category_slug",
+    "sub_category",
+    "sub_category_slug",
+    "package",
+    "origin",
+    "datasheet_url",
+    "description",
+    "status",
+    "attributes",
+    "tags",
+    "updated_at",
+}
+
 
 def load_json(path: Path):
     with path.open(encoding="utf-8") as f:
         return json.load(f)
+
+
+def public_item(obj: dict) -> dict:
+    return {k: obj[k] for k in PUBLIC_FIELDS if k in obj}
 
 
 def main():
@@ -29,12 +52,9 @@ def main():
                 continue
             if not isinstance(data, list):
                 continue
-            rel = str(path.relative_to(ROOT)).replace("\\", "/")
             for obj in data:
                 if isinstance(obj, dict):
-                    row = dict(obj)
-                    row["_source"] = rel
-                    items.append(row)
+                    items.append(public_item(obj))
 
     catalog = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
