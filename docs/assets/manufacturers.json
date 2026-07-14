@@ -1,5 +1,50 @@
 [
   {
+    "id": "analog-devices",
+    "name": "Analog Devices",
+    "name_zh": "亚德诺",
+    "website": "https://www.analog.com",
+    "country": "USA",
+    "aliases": [
+      "ADI",
+      "Analog Devices Inc."
+    ]
+  },
+  {
+    "id": "bosch-sensortec",
+    "name": "Bosch Sensortec",
+    "name_zh": "博世传感器",
+    "website": "https://www.bosch-sensortec.com",
+    "country": "Germany",
+    "aliases": [
+      "Bosch Sensortec",
+      "BST"
+    ]
+  },
+  {
+    "id": "diodes-incorporated",
+    "name": "Diodes Incorporated",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "espressif-systems",
+    "name": "Espressif Systems",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "espressif",
+    "name": "Espressif Systems",
+    "name_zh": "乐鑫科技",
+    "website": "https://www.espressif.com",
+    "country": "China",
+    "aliases": [
+      "Espressif",
+      "ESP"
+    ]
+  },
+  {
     "id": "example-corp",
     "name": "Example Corp",
     "name_zh": "示例公司",
@@ -9,27 +54,334 @@
     "notes": "仅用于 CSV 模板与文档示例，可删除。"
   },
   {
+    "id": "gaptec-electronic",
+    "name": "GAPTEC Electronic",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "harwin-inc",
+    "name": "Harwin Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "hirose-electric-co-ltd",
+    "name": "Hirose Electric Co Ltd",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "infineon",
+    "name": "Infineon Technologies",
+    "name_zh": "英飞凌",
+    "website": "https://www.infineon.com",
+    "country": "Germany",
+    "aliases": [
+      "Infineon",
+      "IR"
+    ]
+  },
+  {
+    "id": "kemet",
+    "name": "KEMET",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "kingbright",
+    "name": "Kingbright",
+    "name_zh": "今台电子",
+    "website": "https://www.kingbright.com",
+    "country": "Taiwan",
+    "aliases": [
+      "Kingbright"
+    ]
+  },
+  {
+    "id": "kyocera-avx",
+    "name": "KYOCERA AVX",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "lite-on-inc",
+    "name": "Lite-On Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "littelfuse",
+    "name": "Littelfuse",
+    "name_zh": "力特",
+    "website": "https://www.littelfuse.com",
+    "country": "USA",
+    "aliases": [
+      "Littelfuse"
+    ]
+  },
+  {
+    "id": "mean-well",
+    "name": "MEAN WELL",
+    "name_zh": "明纬",
+    "website": "https://www.meanwell.com",
+    "country": "Taiwan",
+    "aliases": [
+      "Mean Well",
+      "MW"
+    ]
+  },
+  {
+    "id": "microchip-technology",
+    "name": "Microchip Technology",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "microchip",
+    "name": "Microchip Technology",
+    "name_zh": "微芯科技",
+    "website": "https://www.microchip.com",
+    "country": "USA",
+    "aliases": [
+      "Microchip",
+      "Atmel"
+    ]
+  },
+  {
+    "id": "molex",
+    "name": "Molex",
+    "website": "https://www.molex.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "莫仕",
+    "country": "USA",
+    "aliases": [
+      "Molex"
+    ]
+  },
+  {
+    "id": "monolithic-power-systems-inc",
+    "name": "Monolithic Power Systems Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "murata-electronics",
+    "name": "Murata Electronics",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "murata-power-solutions-inc",
+    "name": "Murata Power Solutions Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "murata",
+    "name": "Murata Manufacturing",
+    "name_zh": "村田制作所",
+    "website": "https://www.murata.com",
+    "country": "Japan",
+    "aliases": [
+      "Murata"
+    ]
+  },
+  {
+    "id": "nexperia",
+    "name": "Nexperia",
+    "name_zh": "安世半导体",
+    "website": "https://www.nexperia.com",
+    "country": "Netherlands",
+    "aliases": [
+      "Nexperia"
+    ]
+  },
+  {
+    "id": "nxp-usa-inc",
+    "name": "NXP USA Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "nxp",
+    "name": "NXP Semiconductors",
+    "name_zh": "恩智浦",
+    "website": "https://www.nxp.com",
+    "country": "Netherlands",
+    "aliases": [
+      "NXP",
+      "Freescale"
+    ]
+  },
+  {
+    "id": "omron",
+    "name": "Omron",
+    "name_zh": "欧姆龙",
+    "website": "https://www.omron.com",
+    "country": "Japan",
+    "aliases": [
+      "Omron"
+    ]
+  },
+  {
+    "id": "onsemi",
+    "name": "onsemi",
+    "website": "https://www.onsemi.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "安森美",
+    "country": "USA",
+    "aliases": [
+      "ON Semiconductor",
+      "ON Semi"
+    ]
+  },
+  {
+    "id": "panasonic-industry",
+    "name": "Panasonic Industry",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "raspberry-pi",
+    "name": "Raspberry Pi",
+    "website": "https://www.raspberrypi.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "树莓派",
+    "country": "United Kingdom",
+    "aliases": [
+      "Raspberry Pi",
+      "RPi"
+    ]
+  },
+  {
+    "id": "recom-power",
+    "name": "Recom Power",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "rohm-semiconductor",
+    "name": "Rohm Semiconductor",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "samsung-electro-mechanics",
+    "name": "Samsung Electro-Mechanics",
+    "name_zh": "三星电机",
+    "website": "https://www.samsungsem.com",
+    "country": "South Korea",
+    "aliases": [
+      "SEMCO",
+      "Samsung SEM"
+    ]
+  },
+  {
+    "id": "sensirion-ag",
+    "name": "Sensirion AG",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "stmicroelectronics",
     "name": "STMicroelectronics",
-    "name_zh": "意法半导体",
     "website": "https://www.st.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "意法半导体",
     "country": "Switzerland",
-    "aliases": ["ST", "STM"]
+    "aliases": [
+      "ST",
+      "STM"
+    ]
+  },
+  {
+    "id": "tdk",
+    "name": "TDK",
+    "website": "https://www.tdk.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "TDK",
+    "country": "Japan",
+    "aliases": [
+      "TDK"
+    ]
+  },
+  {
+    "id": "te-connectivity",
+    "name": "TE Connectivity",
+    "name_zh": "泰科电子",
+    "website": "https://www.te.com",
+    "country": "Switzerland",
+    "aliases": [
+      "TE",
+      "Tyco"
+    ]
   },
   {
     "id": "texas-instruments",
     "name": "Texas Instruments",
-    "name_zh": "德州仪器",
     "website": "https://www.ti.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "德州仪器",
     "country": "USA",
-    "aliases": ["TI"]
+    "aliases": [
+      "TI"
+    ]
+  },
+  {
+    "id": "torex-semiconductor-ltd",
+    "name": "Torex Semiconductor Ltd",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "traco-power",
+    "name": "Traco Power",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "vishay-dale",
+    "name": "Vishay Dale",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "vishay",
+    "name": "Vishay Intertechnology",
+    "name_zh": "威世",
+    "website": "https://www.vishay.com",
+    "country": "USA",
+    "aliases": [
+      "Vishay"
+    ]
+  },
+  {
+    "id": "wurth-elektronik",
+    "name": "Würth Elektronik",
+    "name_zh": "伍尔特电子",
+    "website": "https://www.we-online.com",
+    "country": "Germany",
+    "aliases": [
+      "Wurth",
+      "WE"
+    ]
+  },
+  {
+    "id": "xp-power",
+    "name": "XP Power",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "yageo",
-    "name": "Yageo",
-    "name_zh": "国巨",
+    "name": "YAGEO",
     "website": "https://www.yageo.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "国巨",
     "country": "Taiwan",
-    "aliases": ["Yageo Corporation"]
+    "aliases": [
+      "Yageo Corporation"
+    ]
   }
 ]
