@@ -1,0 +1,13 @@
+[
+  {
+    "part_number": "STM32F103C8T6",
+    "category": "Semiconductors",
+    "sub_category": "Microcontrollers",
+    "manufacturer": "STMicroelectronics",
+    "datasheet_url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+    "attributes": {
+      "core": "ARM Cortex-M3",
+      "flash": "64KB"
+    }
+  }
+]
