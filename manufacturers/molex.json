@@ -1,8 +1,11 @@
 {
   "id": "molex",
   "name": "Molex",
-  "name_zh": "莫仕",
   "website": "https://www.molex.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "莫仕",
   "country": "USA",
-  "aliases": ["Molex"]
+  "aliases": [
+    "Molex"
+  ]
 }
