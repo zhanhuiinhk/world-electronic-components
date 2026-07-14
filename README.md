@@ -1,7 +1,7 @@
 # World Electronic Components Database
 
 全球开源电子元器件 / 部件 / 组件数据库。  
-分类参考并合并 DigiKey、Mouser、Arrow 同类项。
+
 
 ## 对外网站（访客）
 
@@ -9,7 +9,7 @@ https://zhanhuiinhk.github.io/world-electronic-components/
 （推荐打开 https://zhanhuiinhk.github.io/world-electronic-components/docs/ ）
 
 | 访客可见 | 仅 GitHub 仓库内（协作者） |
-|----------|---------------------------|
+|---------|---------------------------|
 | 产品检索 | `scripts/` 校验/导入/构建 |
 | 关于/分类/参数说明 | 目录结构、CI、CSV 模板 |
 | 公开产品数据摘要 | `CONTRIBUTING.md` 等协作细则 |
