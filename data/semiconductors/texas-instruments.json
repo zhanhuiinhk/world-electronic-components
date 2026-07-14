@@ -14,7 +14,7 @@
     "description": "Precision timer IC",
     "status": "active",
     "attributes": {
-      "type": "Timer",
+      "function": "timer",
       "supply_voltage_min_v": 4.5,
       "supply_voltage_max_v": 16
     },

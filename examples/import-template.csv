@@ -1,0 +1,2 @@
+part_number,manufacturer,manufacturer_id,product_class,category,category_slug,sub_category,sub_category_slug,package,origin,datasheet_url,description,status,tags,attr.resistance_ohm,attr.tolerance_percent,attr.power_w,attr.composition
+EXAMPLE-10K,Example Corp,example-corp,component,Passive Components,passive-components,Resistors,resistors,0402,China,https://example.com/ds/example-10k.pdf,Example 10k resistor,active,resistor|smd,10000,1,0.063,thick film

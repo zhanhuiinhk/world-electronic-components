@@ -1,0 +1,9 @@
+{
+  "id": "example-corp",
+  "name": "Example Corp",
+  "name_zh": "示例公司",
+  "website": "https://example.com",
+  "country": "N/A",
+  "aliases": [],
+  "notes": "仅用于 CSV 模板与文档示例，可删除。"
+}

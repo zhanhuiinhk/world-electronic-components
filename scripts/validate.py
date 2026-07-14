@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate manufacturers, taxonomy, and component JSON files."""
+"""Validate manufacturers, taxonomy, components, and category attribute profiles."""
 
 from __future__ import annotations
 
@@ -37,6 +37,13 @@ def build_taxonomy_index(taxonomy: dict):
     return by_slug
 
 
+def load_profiles() -> dict:
+    path = ROOT / "schema" / "attribute-profiles.json"
+    if not path.exists():
+        return {}
+    return load_json(path)
+
+
 def validate_manufacturer(path: Path, errors: list):
     if path.name.startswith("_"):
         return
@@ -55,7 +62,29 @@ def validate_manufacturer(path: Path, errors: list):
         errors.append(f"{path}: filename stem '{path.stem}' must equal id '{mid}'")
 
 
-def validate_component_file(path: Path, tax: dict, mfr_ids: set, errors: list):
+def validate_attributes(loc: str, item: dict, profiles: dict, errors: list):
+    sub = item.get("sub_category_slug") or ""
+    profile = profiles.get(sub) or profiles.get("_default") or {}
+    required = profile.get("required") or []
+    if not required:
+        return
+    attrs = item.get("attributes")
+    if not isinstance(attrs, dict):
+        errors.append(
+            f"{loc}: attributes object required for sub_category '{sub}' "
+            f"(need: {', '.join(required)})"
+        )
+        return
+    for key in required:
+        if key not in attrs or attrs[key] in (None, ""):
+            errors.append(
+                f"{loc}: attributes.{key} is required for sub_category '{sub}'"
+            )
+
+
+def validate_component_file(
+    path: Path, tax: dict, mfr_ids: set, profiles: dict, errors: list
+):
     try:
         data = load_json(path)
     except json.JSONDecodeError as e:
@@ -101,6 +130,7 @@ def validate_component_file(path: Path, tax: dict, mfr_ids: set, errors: list):
         url = item.get("datasheet_url", "")
         if url and not str(url).startswith(("http://", "https://")):
             errors.append(f"{loc}: datasheet_url must be http(s) URL")
+        validate_attributes(loc, item, profiles, errors)
 
 
 def main() -> int:
@@ -111,6 +141,7 @@ def main() -> int:
         return 1
     taxonomy = load_json(tax_path)
     tax = build_taxonomy_index(taxonomy)
+    profiles = load_profiles()
 
     mfr_dir = ROOT / "manufacturers"
     mfr_ids = set()
@@ -126,7 +157,7 @@ def main() -> int:
     data_dir = ROOT / "data"
     if data_dir.is_dir():
         for path in sorted(data_dir.rglob("*.json")):
-            validate_component_file(path, tax, mfr_ids, errors)
+            validate_component_file(path, tax, mfr_ids, profiles, errors)
 
     if errors:
         print(f"校验失败，共 {len(errors)} 个问题：\n")
@@ -134,7 +165,7 @@ def main() -> int:
             print(f" - {e}")
         return 1
 
-    print("校验通过：taxonomy / manufacturers / data 均符合规则。")
+    print("校验通过：taxonomy / manufacturers / data / attributes 均符合规则。")
     return 0
 
 

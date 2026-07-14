@@ -1,0 +1,253 @@
+{
+  "$schema_note": "品类专用 attributes 字段表。key = sub_category_slug。required 为校验必填；recommended 为推荐；fields 定义类型与单位。",
+  "version": "1.0.0",
+  "_default": {
+    "name_en": "Default",
+    "name_zh": "默认（无专用表）",
+    "required": [],
+    "recommended": [],
+    "fields": {}
+  },
+  "resistors": {
+    "name_en": "Resistors",
+    "name_zh": "电阻",
+    "required": ["resistance_ohm"],
+    "recommended": ["tolerance_percent", "power_w", "composition"],
+    "fields": {
+      "resistance_ohm": { "type": "number", "unit": "Ω", "description_en": "Resistance", "description_zh": "阻值" },
+      "tolerance_percent": { "type": "number", "unit": "%", "description_en": "Tolerance", "description_zh": "精度" },
+      "power_w": { "type": "number", "unit": "W", "description_en": "Power rating", "description_zh": "额定功率" },
+      "temperature_coefficient_ppm": { "type": "number", "unit": "ppm/°C", "description_en": "TCR", "description_zh": "温度系数" },
+      "composition": { "type": "string", "description_en": "e.g. thick film, metal film", "description_zh": "材质，如厚膜/金属膜" },
+      "max_voltage_v": { "type": "number", "unit": "V", "description_zh": "最大工作电压" }
+    }
+  },
+  "potentiometers-trimmers": {
+    "name_zh": "电位器与微调",
+    "required": ["resistance_ohm"],
+    "recommended": ["tolerance_percent", "power_w", "taper"],
+    "fields": {
+      "resistance_ohm": { "type": "number", "unit": "Ω" },
+      "tolerance_percent": { "type": "number", "unit": "%" },
+      "power_w": { "type": "number", "unit": "W" },
+      "taper": { "type": "string", "description_zh": "阻值变化特性 linear/log" }
+    }
+  },
+  "capacitors": {
+    "name_zh": "电容",
+    "required": ["capacitance_uf"],
+    "recommended": ["voltage_v", "dielectric", "tolerance_percent"],
+    "fields": {
+      "capacitance_uf": { "type": "number", "unit": "µF", "description_zh": "电容量（微法）" },
+      "voltage_v": { "type": "number", "unit": "V", "description_zh": "耐压" },
+      "dielectric": { "type": "string", "description_zh": "介质，如 X7R, C0G, electrolytic" },
+      "tolerance_percent": { "type": "number", "unit": "%" },
+      "esr_ohm": { "type": "number", "unit": "Ω" },
+      "temperature_range_c": { "type": "string", "description_zh": "如 -55 to +125" }
+    }
+  },
+  "inductors-coils-chokes": {
+    "name_zh": "电感",
+    "required": ["inductance_uh"],
+    "recommended": ["current_a", "dcr_ohm", "tolerance_percent"],
+    "fields": {
+      "inductance_uh": { "type": "number", "unit": "µH" },
+      "current_a": { "type": "number", "unit": "A" },
+      "dcr_ohm": { "type": "number", "unit": "Ω" },
+      "tolerance_percent": { "type": "number", "unit": "%" },
+      "shielded": { "type": "boolean" }
+    }
+  },
+  "crystals-oscillators": {
+    "name_zh": "晶振与振荡器",
+    "required": ["frequency_hz"],
+    "recommended": ["frequency_stability_ppm", "load_capacitance_pf"],
+    "fields": {
+      "frequency_hz": { "type": "number", "unit": "Hz" },
+      "frequency_stability_ppm": { "type": "number", "unit": "ppm" },
+      "load_capacitance_pf": { "type": "number", "unit": "pF" },
+      "output_type": { "type": "string", "description_zh": "如 CMOS, clipped sine" }
+    }
+  },
+  "microcontrollers": {
+    "name_zh": "微控制器",
+    "required": ["core"],
+    "recommended": ["flash_kb", "ram_kb", "clock_mhz", "gpio_count", "package_pins"],
+    "fields": {
+      "core": { "type": "string", "description_zh": "如 ARM Cortex-M3" },
+      "flash_kb": { "type": "number", "unit": "KB" },
+      "ram_kb": { "type": "number", "unit": "KB" },
+      "clock_mhz": { "type": "number", "unit": "MHz" },
+      "gpio_count": { "type": "number" },
+      "package_pins": { "type": "number" },
+      "adc_bits": { "type": "number" },
+      "operating_voltage_v": { "type": "string" }
+    }
+  },
+  "memory": {
+    "name_zh": "存储器",
+    "required": ["density_bits", "memory_type"],
+    "recommended": ["interface", "voltage_v"],
+    "fields": {
+      "density_bits": { "type": "number", "description_zh": "容量（bit）" },
+      "memory_type": { "type": "string", "description_zh": "如 NOR Flash, DDR4, EEPROM" },
+      "interface": { "type": "string" },
+      "voltage_v": { "type": "number", "unit": "V" },
+      "speed_mhz": { "type": "number", "unit": "MHz" }
+    }
+  },
+  "analog-ics": {
+    "name_zh": "模拟 IC",
+    "required": [],
+    "recommended": ["function", "supply_voltage_min_v", "supply_voltage_max_v"],
+    "fields": {
+      "function": { "type": "string", "description_zh": "功能，如 op-amp, timer, comparator" },
+      "supply_voltage_min_v": { "type": "number", "unit": "V" },
+      "supply_voltage_max_v": { "type": "number", "unit": "V" },
+      "channels": { "type": "number" }
+    }
+  },
+  "power-management-ics": {
+    "name_zh": "电源管理 IC",
+    "required": ["topology"],
+    "recommended": ["vin_min_v", "vin_max_v", "vout_v", "iout_a"],
+    "fields": {
+      "topology": { "type": "string", "description_zh": "如 buck, boost, LDO" },
+      "vin_min_v": { "type": "number", "unit": "V" },
+      "vin_max_v": { "type": "number", "unit": "V" },
+      "vout_v": { "type": "number", "unit": "V" },
+      "iout_a": { "type": "number", "unit": "A" }
+    }
+  },
+  "discrete-transistors": {
+    "name_zh": "晶体管",
+    "required": ["transistor_type"],
+    "recommended": ["vds_v", "id_a", "rds_on_ohm"],
+    "fields": {
+      "transistor_type": { "type": "string", "description_zh": "MOSFET/BJT/IGBT 等" },
+      "vds_v": { "type": "number", "unit": "V" },
+      "id_a": { "type": "number", "unit": "A" },
+      "rds_on_ohm": { "type": "number", "unit": "Ω" },
+      "polarity": { "type": "string" }
+    }
+  },
+  "discrete-diodes-rectifiers": {
+    "name_zh": "二极管与整流器",
+    "required": ["diode_type"],
+    "recommended": ["vr_v", "if_a", "vf_v"],
+    "fields": {
+      "diode_type": { "type": "string" },
+      "vr_v": { "type": "number", "unit": "V" },
+      "if_a": { "type": "number", "unit": "A" },
+      "vf_v": { "type": "number", "unit": "V" }
+    }
+  },
+  "temperature-sensors": {
+    "name_zh": "温度传感器",
+    "required": ["sensor_type"],
+    "recommended": ["range_min_c", "range_max_c", "accuracy_c", "interface"],
+    "fields": {
+      "sensor_type": { "type": "string" },
+      "range_min_c": { "type": "number", "unit": "°C" },
+      "range_max_c": { "type": "number", "unit": "°C" },
+      "accuracy_c": { "type": "number", "unit": "°C" },
+      "interface": { "type": "string" }
+    }
+  },
+  "wireless-modules": {
+    "name_zh": "无线模组",
+    "required": ["protocols"],
+    "recommended": ["frequency_mhz", "max_data_rate_kbps", "tx_power_dbm"],
+    "fields": {
+      "protocols": { "type": "string", "description_zh": "如 Wi-Fi, BLE, LoRa, LTE" },
+      "frequency_mhz": { "type": "number", "unit": "MHz" },
+      "max_data_rate_kbps": { "type": "number", "unit": "kbps" },
+      "tx_power_dbm": { "type": "number", "unit": "dBm" },
+      "antenna": { "type": "string" }
+    }
+  },
+  "rf-amplifiers": {
+    "name_zh": "射频放大器",
+    "required": ["frequency_min_mhz", "frequency_max_mhz"],
+    "recommended": ["gain_db", "p1db_dbm", "noise_figure_db"],
+    "fields": {
+      "frequency_min_mhz": { "type": "number", "unit": "MHz" },
+      "frequency_max_mhz": { "type": "number", "unit": "MHz" },
+      "gain_db": { "type": "number", "unit": "dB" },
+      "p1db_dbm": { "type": "number", "unit": "dBm" },
+      "noise_figure_db": { "type": "number", "unit": "dB" },
+      "supply_voltage_v": { "type": "number", "unit": "V" }
+    }
+  },
+  "leds-indicators": {
+    "name_zh": "LED",
+    "required": ["color"],
+    "recommended": ["forward_voltage_v", "forward_current_ma", "wavelength_nm"],
+    "fields": {
+      "color": { "type": "string" },
+      "forward_voltage_v": { "type": "number", "unit": "V" },
+      "forward_current_ma": { "type": "number", "unit": "mA" },
+      "wavelength_nm": { "type": "number", "unit": "nm" },
+      "luminous_intensity_mcd": { "type": "number", "unit": "mcd" }
+    }
+  },
+  "board-to-board": {
+    "name_zh": "板对板连接器",
+    "required": ["pitch_mm", "positions"],
+    "recommended": ["rows", "mating_height_mm", "current_a"],
+    "fields": {
+      "pitch_mm": { "type": "number", "unit": "mm" },
+      "positions": { "type": "number" },
+      "rows": { "type": "number" },
+      "mating_height_mm": { "type": "number", "unit": "mm" },
+      "current_a": { "type": "number", "unit": "A" }
+    }
+  },
+  "fuses": {
+    "name_zh": "保险丝",
+    "required": ["current_rating_a"],
+    "recommended": ["voltage_rating_v", "breaking_capacity_a", "fuse_type"],
+    "fields": {
+      "current_rating_a": { "type": "number", "unit": "A" },
+      "voltage_rating_v": { "type": "number", "unit": "V" },
+      "breaking_capacity_a": { "type": "number", "unit": "A" },
+      "fuse_type": { "type": "string" },
+      "response": { "type": "string", "description_zh": "fast/slow blow" }
+    }
+  },
+  "dcdc-converters-modules": {
+    "name_zh": "DC-DC 模块",
+    "required": ["vin_min_v", "vin_max_v", "vout_v"],
+    "recommended": ["iout_a", "efficiency_percent", "isolation_v"],
+    "fields": {
+      "vin_min_v": { "type": "number", "unit": "V" },
+      "vin_max_v": { "type": "number", "unit": "V" },
+      "vout_v": { "type": "number", "unit": "V" },
+      "iout_a": { "type": "number", "unit": "A" },
+      "efficiency_percent": { "type": "number", "unit": "%" },
+      "isolation_v": { "type": "number", "unit": "V" }
+    }
+  },
+  "development-boards-kits": {
+    "name_zh": "开发板",
+    "required": [],
+    "recommended": ["mcu_or_soc", "form_factor", "interfaces"],
+    "fields": {
+      "mcu_or_soc": { "type": "string" },
+      "form_factor": { "type": "string" },
+      "interfaces": { "type": "string" },
+      "onboard_memory": { "type": "string" }
+    }
+  },
+  "heatsinks": {
+    "name_zh": "散热器",
+    "required": [],
+    "recommended": ["thermal_resistance_c_per_w", "material", "mounting"],
+    "fields": {
+      "thermal_resistance_c_per_w": { "type": "number", "unit": "°C/W" },
+      "material": { "type": "string" },
+      "mounting": { "type": "string" },
+      "dimensions_mm": { "type": "string" }
+    }
+  }
+}

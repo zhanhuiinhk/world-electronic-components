@@ -15,10 +15,10 @@
     "status": "active",
     "attributes": {
       "core": "ARM Cortex-M3",
-      "flash": "64KB",
-      "ram": "20KB",
-      "clock": "72MHz",
-      "gpio": 37
+      "flash_kb": 64,
+      "ram_kb": 20,
+      "clock_mhz": 72,
+      "gpio_count": 37
     },
     "tags": ["mcu", "arm", "stm32"],
     "updated_at": "2026-07-14"
