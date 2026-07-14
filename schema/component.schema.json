@@ -1,16 +1,18 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "ElectronicComponent",
+  "description": "元器件数据格式规范",
   "type": "object",
   "properties": {
     "part_number": { "type": "string", "description": "核心型号" },
     "category": { "type": "string", "description": "一级分类" },
     "sub_category": { "type": "string", "description": "二级分类" },
     "manufacturer": { "type": "string", "description": "制造厂商" },
-    "datasheet_url": { "type": "string", "description": "技术文档链接" },
+    "origin": { "type": "string", "description": "产地" },
+    "datasheet_url": { "type": "string", "format": "uri", "description": "技术文档下载链接" },
     "attributes": {
       "type": "object",
-      "description": "弹性属性区，用于存放电压、封装等个性化参数",
+      "description": "弹性属性区",
       "additionalProperties": true
     }
   },
