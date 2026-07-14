@@ -1,0 +1,26 @@
+[
+  {
+    "part_number": "PTH08080WAH",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "Module",
+    "origin": "USA",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/pth08080w.pdf",
+    "description": "2.25A non-isolated buck power module",
+    "status": "active",
+    "attributes": {
+      "vin_min_v": 4.5,
+      "vin_max_v": 18,
+      "vout_v": 5,
+      "iout_a": 2.25,
+      "efficiency_percent": 95
+    },
+    "tags": ["dcdc", "module", "buck"],
+    "updated_at": "2026-07-14"
+  }
+]

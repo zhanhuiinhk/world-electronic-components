@@ -1,0 +1,24 @@
+[
+  {
+    "part_number": "NUCLEO-F103RB",
+    "manufacturer": "STMicroelectronics",
+    "manufacturer_id": "stmicroelectronics",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "Nucleo-64",
+    "origin": "France",
+    "datasheet_url": "https://www.st.com/resource/en/data_brief/nucleo-f103rb.pdf",
+    "description": "STM32 Nucleo-64 board with STM32F103RBT6",
+    "status": "active",
+    "attributes": {
+      "mcu_or_soc": "STM32F103RB",
+      "form_factor": "Nucleo-64",
+      "interfaces": "Arduino Uno headers, ST-LINK, USB"
+    },
+    "tags": ["nucleo", "stm32", "devboard"],
+    "updated_at": "2026-07-14"
+  }
+]

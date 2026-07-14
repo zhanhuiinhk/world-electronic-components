@@ -1,0 +1,46 @@
+[
+  {
+    "part_number": "BME280",
+    "manufacturer": "Bosch Sensortec",
+    "manufacturer_id": "bosch-sensortec",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Humidity & Environmental Sensors",
+    "sub_category_slug": "humidity-environmental",
+    "package": "LGA-8",
+    "origin": "Germany",
+    "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf",
+    "description": "Combined humidity, pressure and temperature sensor",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "humidity+pressure+temperature",
+      "interface": "I2C/SPI",
+      "range_min_c": -40,
+      "range_max_c": 85
+    },
+    "tags": ["bme280", "environmental", "i2c"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "BMI160",
+    "manufacturer": "Bosch Sensortec",
+    "manufacturer_id": "bosch-sensortec",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Motion / IMU / Accelerometers / Gyros",
+    "sub_category_slug": "motion-imu",
+    "package": "LGA-14",
+    "origin": "Germany",
+    "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf",
+    "description": "Small low power inertial measurement unit",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "6-axis IMU",
+      "interface": "I2C/SPI"
+    },
+    "tags": ["imu", "gyro", "accel"],
+    "updated_at": "2026-07-14"
+  }
+]

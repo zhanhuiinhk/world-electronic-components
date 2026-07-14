@@ -1,0 +1,68 @@
+[
+  {
+    "part_number": "ESP32-WROOM-32E",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "Module",
+    "origin": "China",
+    "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf",
+    "description": "Wi-Fi + Bluetooth/BLE module based on ESP32",
+    "status": "active",
+    "attributes": {
+      "protocols": "Wi-Fi 802.11 b/g/n, Bluetooth Classic & BLE",
+      "frequency_mhz": 2400,
+      "tx_power_dbm": 20,
+      "antenna": "onboard PCB antenna (E) / U.FL (UE)"
+    },
+    "tags": ["esp32", "wifi", "ble", "module"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "ESP32-C3-WROOM-02",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "Module",
+    "origin": "China",
+    "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf",
+    "description": "Wi-Fi + BLE 5 module, RISC-V single core",
+    "status": "active",
+    "attributes": {
+      "protocols": "Wi-Fi 802.11 b/g/n, BLE 5",
+      "frequency_mhz": 2400,
+      "antenna": "PCB antenna"
+    },
+    "tags": ["esp32-c3", "wifi", "ble"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "ESP8266EX",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif",
+    "product_class": "component",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "RF Transceivers & SoCs",
+    "sub_category_slug": "rf-transceivers-socs",
+    "package": "QFN-32",
+    "origin": "China",
+    "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf",
+    "description": "Wi-Fi SoC widely used in IoT",
+    "status": "active",
+    "attributes": {
+      "protocols": "Wi-Fi 802.11 b/g/n",
+      "frequency_mhz": 2400
+    },
+    "tags": ["esp8266", "wifi", "soc"],
+    "updated_at": "2026-07-14"
+  }
+]

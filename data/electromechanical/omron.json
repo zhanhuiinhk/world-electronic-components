@@ -1,0 +1,46 @@
+[
+  {
+    "part_number": "G5V-1-DC5",
+    "manufacturer": "Omron",
+    "manufacturer_id": "omron",
+    "product_class": "component",
+    "category": "Electromechanical",
+    "category_slug": "electromechanical",
+    "sub_category": "Relays",
+    "sub_category_slug": "relays",
+    "package": "Through Hole",
+    "origin": "Japan",
+    "datasheet_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf",
+    "description": "Low signal relay, 5VDC coil, SPDT",
+    "status": "active",
+    "attributes": {
+      "coil_voltage_v": 5,
+      "contact_form": "SPDT",
+      "switching_current_a": 1
+    },
+    "tags": ["relay", "signal"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "B3F-1000",
+    "manufacturer": "Omron",
+    "manufacturer_id": "omron",
+    "product_class": "component",
+    "category": "Electromechanical",
+    "category_slug": "electromechanical",
+    "sub_category": "Switches",
+    "sub_category_slug": "switches",
+    "package": "Through Hole",
+    "origin": "Japan",
+    "datasheet_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+    "description": "Tactile switch 6×6 mm",
+    "status": "active",
+    "attributes": {
+      "switch_type": "tactile",
+      "actuator": "flat",
+      "operating_force_gf": 100
+    },
+    "tags": ["tactile", "switch"],
+    "updated_at": "2026-07-14"
+  }
+]

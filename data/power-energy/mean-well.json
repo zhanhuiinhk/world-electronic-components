@@ -1,0 +1,50 @@
+[
+  {
+    "part_number": "RS-25-5",
+    "manufacturer": "MEAN WELL",
+    "manufacturer_id": "mean-well",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "AC-DC Power Supplies",
+    "sub_category_slug": "external-internal-acdc",
+    "package": "Enclosed",
+    "origin": "Taiwan",
+    "datasheet_url": "https://www.meanwell.com/Upload/PDF/RS-25/RS-25-SPEC.PDF",
+    "description": "25W single output enclosed AC-DC, 5V 5A",
+    "status": "active",
+    "attributes": {
+      "vin_min_v": 88,
+      "vin_max_v": 264,
+      "vout_v": 5,
+      "iout_a": 5,
+      "efficiency_percent": 79
+    },
+    "tags": ["acdc", "psu", "5v"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LRS-150-12",
+    "manufacturer": "MEAN WELL",
+    "manufacturer_id": "mean-well",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "AC-DC Power Supplies",
+    "sub_category_slug": "external-internal-acdc",
+    "package": "Enclosed",
+    "origin": "Taiwan",
+    "datasheet_url": "https://www.meanwell.com/Upload/PDF/LRS-150/LRS-150-SPEC.PDF",
+    "description": "150W single output enclosed switching power supply 12V",
+    "status": "active",
+    "attributes": {
+      "vin_min_v": 85,
+      "vin_max_v": 264,
+      "vout_v": 12,
+      "iout_a": 12.5,
+      "efficiency_percent": 87.5
+    },
+    "tags": ["acdc", "12v", "lrs"],
+    "updated_at": "2026-07-14"
+  }
+]

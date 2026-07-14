@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "Raspberry Pi 5 8GB",
+    "manufacturer": "Raspberry Pi Ltd",
+    "manufacturer_id": "raspberry-pi",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "SOM / SBC / Computer-on-Module",
+    "sub_category_slug": "som-sbc",
+    "package": "SBC",
+    "origin": "United Kingdom",
+    "datasheet_url": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-product-brief.pdf",
+    "description": "Single-board computer, Broadcom BCM2712, 8GB RAM variant",
+    "status": "active",
+    "attributes": {
+      "mcu_or_soc": "Broadcom BCM2712",
+      "form_factor": "SBC",
+      "interfaces": "GPIO, CSI, DSI, USB3, HDMI, PCIe",
+      "onboard_memory": "8GB LPDDR4X"
+    },
+    "tags": ["raspberry-pi", "sbc", "linux"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "Raspberry Pi Pico",
+    "manufacturer": "Raspberry Pi Ltd",
+    "manufacturer_id": "raspberry-pi",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "Module board",
+    "origin": "United Kingdom",
+    "datasheet_url": "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf",
+    "description": "RP2040-based microcontroller board",
+    "status": "active",
+    "attributes": {
+      "mcu_or_soc": "RP2040 dual Cortex-M0+",
+      "form_factor": "dev board",
+      "interfaces": "USB, GPIO, ADC, PIO",
+      "onboard_memory": "2MB Flash onboard"
+    },
+    "tags": ["pico", "rp2040", "devboard"],
+    "updated_at": "2026-07-14"
+  }
+]

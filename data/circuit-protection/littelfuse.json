@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "0451005.MRL",
+    "manufacturer": "Littelfuse",
+    "manufacturer_id": "littelfuse",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "1206",
+    "origin": "USA",
+    "datasheet_url": "https://www.littelfuse.com/products/fuses/surface-mount-fuses",
+    "description": "5A surface-mount fuse, Nano² style family",
+    "status": "active",
+    "attributes": {
+      "current_rating_a": 5,
+      "voltage_rating_v": 125,
+      "fuse_type": "SMD chip fuse",
+      "response": "fast"
+    },
+    "tags": ["fuse", "smd"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "0ZCJ0050FF2E",
+    "manufacturer": "Littelfuse",
+    "manufacturer_id": "littelfuse",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Resettable Fuses (PTC)",
+    "sub_category_slug": "resettable-fuses-ptc",
+    "package": "1206",
+    "origin": "USA",
+    "datasheet_url": "https://www.littelfuse.com/products/resettable-ptcs",
+    "description": "Polymeric PTC resettable fuse 0.50A hold",
+    "status": "active",
+    "attributes": {
+      "current_rating_a": 0.5,
+      "voltage_rating_v": 16,
+      "fuse_type": "PPTC",
+      "response": "resettable"
+    },
+    "tags": ["ptc", "resettable", "fuse"],
+    "updated_at": "2026-07-14"
+  }
+]

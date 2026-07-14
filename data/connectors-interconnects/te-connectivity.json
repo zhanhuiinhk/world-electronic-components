@@ -1,0 +1,25 @@
+[
+  {
+    "part_number": "1-215464-0",
+    "manufacturer": "TE Connectivity",
+    "manufacturer_id": "te-connectivity",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Wire-to-Board Connectors",
+    "sub_category_slug": "wire-to-board",
+    "package": "Through Hole",
+    "origin": "Switzerland",
+    "datasheet_url": "https://www.te.com/en/product-1-215464-0.html",
+    "description": "Micro-MaTch connector series example",
+    "status": "active",
+    "attributes": {
+      "pitch_mm": 1.27,
+      "positions": 10,
+      "rows": 2,
+      "current_a": 1.5
+    },
+    "tags": ["te", "connector"],
+    "updated_at": "2026-07-14"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "105314-1202",
+    "manufacturer": "Molex",
+    "manufacturer_id": "molex",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Wire-to-Board Connectors",
+    "sub_category_slug": "wire-to-board",
+    "package": "Through Hole",
+    "origin": "USA",
+    "datasheet_url": "https://www.molex.com/en-us/products/part-detail/1053141202",
+    "description": "Micro-Fit 3.0 dual-row receptacle family example",
+    "status": "active",
+    "attributes": {
+      "pitch_mm": 3.0,
+      "positions": 2,
+      "rows": 1,
+      "current_a": 8.5
+    },
+    "tags": ["micro-fit", "connector"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "502570-0893",
+    "manufacturer": "Molex",
+    "manufacturer_id": "molex",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "SMD",
+    "origin": "USA",
+    "datasheet_url": "https://www.molex.com/en-us/products/connectors/board-to-board-connectors",
+    "description": "SlimStack board-to-board connector series example",
+    "status": "active",
+    "attributes": {
+      "pitch_mm": 0.4,
+      "positions": 8,
+      "rows": 2,
+      "mating_height_mm": 1.5
+    },
+    "tags": ["btb", "connector"],
+    "updated_at": "2026-07-14"
+  }
+]

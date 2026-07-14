@@ -1,0 +1,24 @@
+[
+  {
+    "part_number": "ESP32-DevKitC",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "Dev board",
+    "origin": "China",
+    "datasheet_url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html",
+    "description": "Official ESP32 development board with USB-UART",
+    "status": "active",
+    "attributes": {
+      "mcu_or_soc": "ESP32",
+      "form_factor": "dev board",
+      "interfaces": "USB, Wi-Fi, BLE, GPIO"
+    },
+    "tags": ["esp32", "devkit", "iot"],
+    "updated_at": "2026-07-14"
+  }
+]

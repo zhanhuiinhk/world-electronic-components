@@ -1,0 +1,26 @@
+[
+  {
+    "part_number": "LM35DZ",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "TO-92",
+    "origin": "USA",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm35.pdf",
+    "description": "Precision centigrade temperature sensor, 10 mV/°C",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "analog temperature",
+      "range_min_c": 0,
+      "range_max_c": 100,
+      "accuracy_c": 0.5,
+      "interface": "analog"
+    },
+    "tags": ["temperature", "analog"],
+    "updated_at": "2026-07-14"
+  }
+]
