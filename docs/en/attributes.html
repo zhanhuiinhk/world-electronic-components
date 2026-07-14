@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attribute profiles · Docs</title>
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand"><div class="logo">Attr</div><div><h1>Attribute profiles</h1><p>Per sub-category</p></div></div>
+      <nav class="links"><a href="./">Docs home</a><a href="../zh/attributes.html">中文</a></nav>
+    </header>
+    <article class="doc">
+      <h1>Category-specific attributes</h1>
+      <p>Defined in <code>schema/attribute-profiles.json</code>, keyed by <code>sub_category_slug</code>.</p>
+      <ul>
+        <li><code>required</code> — enforced by <code>validate.py</code> (e.g. resistors need <code>resistance_ohm</code>)</li>
+        <li><code>recommended</code> — suggested fields</li>
+        <li><code>fields</code> — type, unit, descriptions</li>
+      </ul>
+      <h2>Resistor example</h2>
+      <pre>{
+  "sub_category_slug": "resistors",
+  "attributes": {
+    "resistance_ohm": 10000,
+    "tolerance_percent": 1,
+    "power_w": 0.063
+  }
+}</pre>
+      <div id="profiles">Loading…</div>
+    </article>
+  </div>
+  <script>
+    fetch("../assets/attribute-profiles.json").then(r => r.json()).then(p => {
+      const keys = Object.keys(p).filter(k => !k.startsWith("$") && k !== "version" && k !== "_default");
+      document.getElementById("profiles").innerHTML = "<h2>Configured profiles</h2><table><tr><th>slug</th><th>required</th><th>recommended</th></tr>" +
+        keys.map(k => {
+          const pr = p[k];
+          return `<tr><td><code>${k}</code></td><td>${(pr.required||[]).join(", ")||"—"}</td><td>${(pr.recommended||[]).join(", ")||"—"}</td></tr>`;
+        }).join("") + "</table>";
+    }).catch(() => { document.getElementById("profiles").textContent = "Run build_catalog.py first"; });
+  </script>
+</body>
+</html>

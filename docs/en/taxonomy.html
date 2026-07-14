@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taxonomy · Docs</title>
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand"><div class="logo">Tax</div><div><h1>Taxonomy</h1><p>v2</p></div></div>
+      <nav class="links"><a href="./">Docs home</a><a href="../zh/taxonomy.html">中文</a></nav>
+    </header>
+    <article class="doc">
+      <h1>Category taxonomy</h1>
+      <p>Source of truth: <code>taxonomy/categories.json</code>. Merged from DigiKey / Mouser / Arrow style top-level trees.</p>
+      <h2>Extension policy</h2>
+      <ul>
+        <li><strong>Level-2</strong>: PR into <code>children</code>.</li>
+        <li><strong>Level-1</strong>: open a Category extension Issue first.</li>
+        <li><strong>Unknown</strong>: use <code>other/uncategorized</code> temporarily.</li>
+      </ul>
+      <pre>data/{category_slug}/{manufacturer_id}.json</pre>
+      <p id="live">Loading…</p>
+      <div id="tree"></div>
+    </article>
+  </div>
+  <script>
+    fetch("../assets/taxonomy.json").then(r => r.json()).then(tax => {
+      document.getElementById("live").textContent = "version " + (tax.version || "") + " · " + (tax.categories||[]).length + " top-level categories";
+      document.getElementById("tree").innerHTML = (tax.categories||[]).map(c =>
+        `<h3>${c.slug} — ${c.name_en}</h3><ul>` +
+        (c.children||[]).map(ch => `<li><code>${ch.slug}</code> ${ch.name_en}</li>`).join("") +
+        `</ul>`
+      ).join("");
+    }).catch(() => { document.getElementById("live").textContent = "Run build_catalog.py first"; });
+  </script>
+</body>
+</html>

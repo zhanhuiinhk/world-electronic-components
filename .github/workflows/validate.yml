@@ -15,3 +15,5 @@ jobs:
           python-version: "3.12"
       - name: Run schema validation
         run: python scripts/validate.py
+      - name: Build catalog (smoke)
+        run: python scripts/build_catalog.py

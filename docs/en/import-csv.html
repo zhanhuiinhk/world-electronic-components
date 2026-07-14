@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSV import · Docs</title>
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="appbar">
+      <div class="brand"><div class="logo">CSV</div><div><h1>Batch import</h1><p>CSV → JSON</p></div></div>
+      <nav class="links"><a href="./">Docs home</a><a href="../zh/import-csv.html">中文</a></nav>
+    </header>
+    <article class="doc">
+      <h1>CSV → JSON import</h1>
+      <p>Tool: <code>scripts/csv_to_json.py</code></p>
+      <pre>python scripts/csv_to_json.py examples/import-resistors-sample.csv \
+  -o data/passive-components/yageo.json
+python scripts/validate.py</pre>
+      <h2>Column rules</h2>
+      <ul>
+        <li>Top-level: <code>part_number</code>, <code>manufacturer_id</code>, <code>category_slug</code>, <code>sub_category_slug</code>, <code>datasheet_url</code>, …</li>
+        <li>Attributes: <code>attr.resistance_ohm</code> → <code>attributes.resistance_ohm</code></li>
+        <li>Tags: pipe-separated <code>resistor|smd</code></li>
+      </ul>
+      <p>Templates: <code>examples/import-template.csv</code>, <code>examples/import-resistors-sample.csv</code></p>
+    </article>
+  </div>
+</body>
+</html>
