@@ -1,0 +1,50 @@
+[
+  {
+    "part_number": "DF12NC-30DS-0.5V(51)",
+    "manufacturer": "Hirose Electric Co Ltd",
+    "manufacturer_id": "hirose-electric-co-ltd",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF12NC-30DS-0-5V-51/13536433",
+    "description": "BTOB CONNECTOR, 0.5MM PITCH, 30",
+    "status": "active",
+    "attributes": {
+      "positions": 30,
+      "pitch_mm": "0.020\" (0.50mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "DF12NC-50DS-0.5V(51)",
+    "manufacturer": "Hirose Electric Co Ltd",
+    "manufacturer_id": "hirose-electric-co-ltd",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF12NC-50DS-0-5V-51/13536441",
+    "description": "BTOB CONNECTOR, 0.5MM PITCH, 50",
+    "status": "active",
+    "attributes": {
+      "positions": 50,
+      "pitch_mm": "0.020\" (0.50mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

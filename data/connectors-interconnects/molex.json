@@ -19,7 +19,60 @@
       "rows": 1,
       "current_a": 8.5
     },
-    "tags": ["micro-fit", "connector"],
+    "tags": [
+      "micro-fit",
+      "connector"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "5017865091",
+    "manufacturer": "Molex",
+    "manufacturer_id": "molex",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://www.molex.com/en-us/products/part-detail/5017865091?display=pdf",
+    "description": "CONN FFC VERT 50POS 0.5MM SMD",
+    "status": "active",
+    "attributes": {
+      "positions": 50,
+      "pitch_mm": "0.020\" (0.50mm)",
+      "voltage_rating_v": 50,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "5018643091",
+    "manufacturer": "Molex",
+    "manufacturer_id": "molex",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://www.molex.com/en-us/products/part-detail/5018643091?display=pdf",
+    "description": "CONN FFC BOTTOM 30POS 0.5MM R/A",
+    "status": "active",
+    "attributes": {
+      "positions": 30,
+      "pitch_mm": "0.020\" (0.50mm)",
+      "voltage_rating_v": 50,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-14"
   },
   {
@@ -42,7 +95,10 @@
       "rows": 2,
       "mating_height_mm": 1.5
     },
-    "tags": ["btb", "connector"],
+    "tags": [
+      "btb",
+      "connector"
+    ],
     "updated_at": "2026-07-14"
   }
 ]
