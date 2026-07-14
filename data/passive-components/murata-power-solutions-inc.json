@@ -1,0 +1,139 @@
+[
+  {
+    "part_number": "22R336MC",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_2200RM_PDF_INDUCTOR?lastModifiedDatetime=20250708075928",
+    "description": "FIXED IND 33MH 37MA 110 OHM SMD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Wirewound",
+      "inductance_uh": 33,
+      "tolerance_percent": 10,
+      "current_a": 37,
+      "dcr_ohm": "110Ohm Max",
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "22R686MC",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_2200RM_PDF_INDUCTOR?lastModifiedDatetime=20250708075928",
+    "description": "FIXED IND 68MH 26MA 242 OHM SMD",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Wirewound",
+      "inductance_uh": 68,
+      "tolerance_percent": 10,
+      "current_a": 26,
+      "dcr_ohm": "242Ohm Max",
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "46683C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_4600_PDF_INDUCTOR?lastModifiedDatetime=20250708075931",
+    "description": "FIXED IND 68UH 1.05A 360 MOHM",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Wirewound",
+      "inductance_uh": "68 µH",
+      "tolerance_percent": 20,
+      "current_a": 1.05,
+      "dcr_ohm": "360mOhm Max",
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "82223C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_8200C_PDF_INDUCTOR?lastModifiedDatetime=20250708075932",
+    "description": "FIXED IND 22UH 320MA 920 MOHM",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Wirewound",
+      "inductance_uh": "22 µH",
+      "tolerance_percent": 10,
+      "current_a": 320,
+      "dcr_ohm": "920mOhm Max",
+      "frequency_hz": 25,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "82473C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_8200C_PDF_INDUCTOR?lastModifiedDatetime=20250708075932",
+    "description": "FIXED IND 47UH 250MA 1.69 OHM",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Wirewound",
+      "inductance_uh": "47 µH",
+      "tolerance_percent": 10,
+      "current_a": 250,
+      "dcr_ohm": "1.69Ohm Max",
+      "frequency_hz": 17,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

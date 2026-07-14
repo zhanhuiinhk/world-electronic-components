@@ -1,0 +1,56 @@
+[
+  {
+    "part_number": "RLS-126-R",
+    "manufacturer": "Recom Power",
+    "manufacturer_id": "recom-power",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://g.recomcdn.com/media/Datasheet/pdf/.fqsNZcqW/.t3db906da674ca331292c/Datasheet-293/RLS-126.pdf",
+    "description": "FIXED IND 12UH 800MA 420 MOHM",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Wirewound",
+      "inductance_uh": "12 µH",
+      "tolerance_percent": 20,
+      "current_a": 800,
+      "dcr_ohm": "420mOhm Max",
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "RLS-226-R",
+    "manufacturer": "Recom Power",
+    "manufacturer_id": "recom-power",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://g.recomcdn.com/media/Datasheet/pdf/.f5kSZcqW/.tc1e0fa8775747658a9fa/Datasheet-295/RLS-226.pdf",
+    "description": "FIXED IND 22UH 630MA 700 MOHM",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Wirewound",
+      "inductance_uh": "22 µH",
+      "tolerance_percent": 10,
+      "current_a": 630,
+      "dcr_ohm": "700mOhm Max",
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
