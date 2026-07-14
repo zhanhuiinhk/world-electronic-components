@@ -1,0 +1,33 @@
+{
+  "source": "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/",
+  "files": [
+    "data/circuit-protection/littelfuse.json",
+    "data/connectors-interconnects/molex.json",
+    "data/connectors-interconnects/te-connectivity.json",
+    "data/electromechanical/omron.json",
+    "data/embedded-modules-boards/espressif.json",
+    "data/embedded-modules-boards/raspberry-pi.json",
+    "data/embedded-modules-boards/stmicroelectronics.json",
+    "data/optoelectronics-displays/kingbright.json",
+    "data/passive-components/murata.json",
+    "data/passive-components/samsung-electro-mechanics.json",
+    "data/passive-components/tdk.json",
+    "data/passive-components/vishay.json",
+    "data/passive-components/wurth-elektronik.json",
+    "data/passive-components/yageo.json",
+    "data/power-energy/mean-well.json",
+    "data/power-energy/texas-instruments.json",
+    "data/rf-wireless/espressif.json",
+    "data/semiconductors/analog-devices.json",
+    "data/semiconductors/infineon.json",
+    "data/semiconductors/microchip.json",
+    "data/semiconductors/nexperia.json",
+    "data/semiconductors/nxp.json",
+    "data/semiconductors/onsemi.json",
+    "data/semiconductors/stmicroelectronics.json",
+    "data/semiconductors/texas-instruments.json",
+    "data/sensors-transducers/bosch-sensortec.json",
+    "data/sensors-transducers/texas-instruments.json"
+  ],
+  "count_files": 27
+}

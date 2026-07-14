@@ -131,6 +131,15 @@
       function: zh ? "功能" : "Function",
       supply_voltage_min_v: zh ? "供电下限(V)" : "Vmin (V)",
       supply_voltage_max_v: zh ? "供电上限(V)" : "Vmax (V)",
+      inductance_uh: zh ? "电感(µH)" : "Inductance (µH)",
+      current_a: zh ? "电流(A)" : "Current (A)",
+      transistor_type: zh ? "类型" : "Type",
+      diode_type: zh ? "二极管类型" : "Diode type",
+      protocols: zh ? "协议" : "Protocols",
+      color: zh ? "颜色" : "Color",
+      sensor_type: zh ? "传感器类型" : "Sensor type",
+      topology: zh ? "拓扑" : "Topology",
+      mcu_or_soc: "MCU/SoC",
     };
     return map[key] || key.replace(/_/g, " ");
   }
@@ -163,7 +172,7 @@
       return;
     }
     root.innerHTML = list
-      .slice(0, 200)
+      .slice(0, 300)
       .map((it) => {
         const ds = it.datasheet_url
           ? `<a href="${escapeHtml(it.datasheet_url)}" target="_blank" rel="noopener noreferrer">${t("datasheet")}</a>`
@@ -219,13 +228,42 @@
       <option value="module">${t("module")}</option>`;
   }
 
+  /** Prefer live data/*.json via manifest; fall back to bundled catalog.json */
+  async function loadItems() {
+    try {
+      const manRes = await fetch("./assets/data-manifest.json", { cache: "no-store" });
+      if (manRes.ok) {
+        const man = await manRes.json();
+        const base = man.source || "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/";
+        const files = man.files || [];
+        const results = await Promise.all(
+          files.map(async (f) => {
+            try {
+              const r = await fetch(base + f, { cache: "no-store" });
+              if (!r.ok) return [];
+              const data = await r.json();
+              return Array.isArray(data) ? data : [];
+            } catch (e) {
+              return [];
+            }
+          })
+        );
+        const items = results.flat().filter((x) => x && x.part_number);
+        if (items.length) return items;
+      }
+    } catch (e) {
+      console.warn("manifest load failed", e);
+    }
+    const res = await fetch("./assets/catalog.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(String(res.status));
+    const data = await res.json();
+    return data.items || [];
+  }
+
   async function load() {
     $("#meta").textContent = t("loading");
     try {
-      const res = await fetch("./assets/catalog.json", { cache: "no-store" });
-      if (!res.ok) throw new Error(String(res.status));
-      const data = await res.json();
-      state.items = data.items || [];
+      state.items = await loadItems();
       fillFilters();
       render();
     } catch (e) {

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build docs/assets/catalog.json (+ taxonomy/profiles copy) for GitHub Pages search."""
+"""Build docs/assets/catalog.json, data-manifest.json for GitHub Pages search."""
 
 from __future__ import annotations
 
@@ -44,8 +44,11 @@ def public_item(obj: dict) -> dict:
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     items = []
+    data_files = []
     if DATA.is_dir():
         for path in sorted(DATA.rglob("*.json")):
+            rel = str(path.relative_to(ROOT)).replace("\\", "/")
+            data_files.append(rel)
             try:
                 data = load_json(path)
             except json.JSONDecodeError:
@@ -63,6 +66,16 @@ def main():
     }
     (OUT_DIR / "catalog.json").write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    manifest = {
+        "source": "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/",
+        "files": data_files,
+        "count_files": len(data_files),
+    }
+    (OUT_DIR / "data-manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 
@@ -89,7 +102,7 @@ def main():
         encoding="utf-8",
     )
 
-    print(f"Built catalog: {len(items)} items → {OUT_DIR / 'catalog.json'}")
+    print(f"Built catalog: {len(items)} items, {len(data_files)} files → {OUT_DIR}")
 
 
 if __name__ == "__main__":
