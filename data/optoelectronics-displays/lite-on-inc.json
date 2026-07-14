@@ -1,0 +1,184 @@
+[
+  {
+    "part_number": "LTST-C190GKT",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_id": "lite-on-inc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230",
+    "description": "LED GREEN CLEAR CHIP SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Green",
+      "luminous_intensity_mcd": 6,
+      "forward_voltage_v": 2.1,
+      "forward_current_ma": 10,
+      "wavelength_nm": 565
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LTST-C190KFKT",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_id": "lite-on-inc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://optoelectronics.liteon.com/upload/download/DS-22-99-0186/LTST-C190KFKT.PDF",
+    "description": "LED ORANGE CLEAR CHIP SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Orange",
+      "luminous_intensity_mcd": 90,
+      "forward_voltage_v": 2,
+      "forward_current_ma": 20,
+      "wavelength_nm": 611
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LTST-C190KGKT",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_id": "lite-on-inc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF",
+    "description": "LED GREEN CLEAR CHIP SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Green",
+      "luminous_intensity_mcd": 44.5,
+      "forward_voltage_v": 2.15,
+      "forward_current_ma": 20,
+      "wavelength_nm": 574
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LTST-C190KRKT",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_id": "lite-on-inc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf",
+    "description": "LED RED CLEAR CHIP SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Red",
+      "luminous_intensity_mcd": 99,
+      "forward_voltage_v": 2,
+      "forward_current_ma": 20,
+      "wavelength_nm": 639
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LTST-C190KSKT",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_id": "lite-on-inc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://optoelectronics.liteon.com/upload/download/DS-22-99-0189/LTST-C190KSKT.pdf",
+    "description": "LED YELLOW CLEAR CHIP SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Yellow",
+      "luminous_intensity_mcd": 104,
+      "forward_voltage_v": 2.1,
+      "forward_current_ma": 20,
+      "wavelength_nm": 588
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LTST-C191KFKT",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_id": "lite-on-inc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf",
+    "description": "LED ORANGE CLEAR SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Orange",
+      "luminous_intensity_mcd": 90,
+      "forward_voltage_v": 2,
+      "forward_current_ma": 20,
+      "wavelength_nm": 611
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "LTST-C191KRKT",
+    "manufacturer": "Lite-On Inc.",
+    "manufacturer_id": "lite-on-inc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF",
+    "description": "LED RED CLEAR SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Red",
+      "luminous_intensity_mcd": 54,
+      "forward_voltage_v": 2,
+      "forward_current_ma": 20,
+      "wavelength_nm": 639
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]

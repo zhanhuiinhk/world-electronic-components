@@ -1,0 +1,27 @@
+[
+  {
+    "part_number": "SML-D12U1WT86",
+    "manufacturer": "Rohm Semiconductor",
+    "manufacturer_id": "rohm-semiconductor",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://www.rohm.com/datasheet?p=SML-D12U1W&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key",
+    "description": "LED RED DIFFUSED 1608 SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Red",
+      "luminous_intensity_mcd": 63,
+      "forward_voltage_v": 2.2,
+      "forward_current_ma": 20
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
