@@ -1,0 +1,170 @@
+[
+  {
+    "part_number": "AP61102Z6-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP61100-AP61102.pdf",
+    "description": "IC REG BUCK ADJ 1A SOT563",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 2.3,
+      "vin_max_v": 5.5,
+      "iout_a": 1,
+      "frequency_hz": 2.2,
+      "temperature_range_c": "-40°C ~ 85°C (TA)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "AP62150WU-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP62150.pdf",
+    "description": "IC REG BUCK ADJ 1.5A TSOT26",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 4.2,
+      "vin_max_v": 18,
+      "iout_a": 1.5,
+      "frequency_hz": 1.3,
+      "temperature_range_c": "-40°C ~ 85°C (TA)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "AP62150Z6-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP62150.pdf",
+    "description": "IC REG BUCK ADJ 1.5A SOT563",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 4.2,
+      "vin_max_v": 18,
+      "iout_a": 1.5,
+      "frequency_hz": 1.3,
+      "temperature_range_c": "-40°C ~ 85°C (TA)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "AP62300TWU-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf",
+    "description": "IC REG BUCK ADJ 3A TSOT26",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 4.2,
+      "vin_max_v": 18,
+      "iout_a": 3,
+      "frequency_hz": 750,
+      "temperature_range_c": "-40°C ~ 85°C (TA)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "AP62301Z6-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf",
+    "description": "IC REG BUCK ADJ 3A SOT563",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck",
+      "interface": "Adjustable",
+      "vin_min_v": 4.2,
+      "vin_max_v": 18,
+      "iout_a": 3,
+      "frequency_hz": 750,
+      "temperature_range_c": "-40°C ~ 85°C (TA)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "AZ34063UMTR-G1",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Power Management ICs (PMIC)",
+    "sub_category_slug": "power-management-ics",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/AZ34063U.pdf",
+    "description": "IC REG BUCK BOOST ADJ 1.5A 8SOIC",
+    "status": "active",
+    "attributes": {
+      "topology": "Buck, Boost",
+      "interface": "Adjustable",
+      "vin_min_v": 3,
+      "vin_max_v": 36,
+      "iout_a": "1.5A (Switch)",
+      "frequency_hz": "Up to 180kHz",
+      "temperature_range_c": "-40°C ~ 85°C (TA)"
+    },
+    "tags": [
+      "power-management-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
