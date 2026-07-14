@@ -1,90 +1,335 @@
 {
-  "version": "1.0.0",
-  "description": "官方分类树。新增二级分类请 PR 修改本文件；新增一级分类需在 Issue 讨论后合并。",
+  "version": "2.0.0",
+  "description": "合并 DigiKey / Mouser / Arrow 同类顶级类目后的官方分类树。二级分类可社区 PR 扩项；一级分类需 Issue 讨论。",
+  "sources": [
+    "https://www.digikey.com/",
+    "https://www.mouser.com/",
+    "https://www.arrow.com/"
+  ],
+  "product_classes": {
+    "component": {
+      "name_zh": "元器件",
+      "description": "最小可采购的基本电子元件，如电阻、电容、IC、晶体管、连接器单体等"
+    },
+    "part": {
+      "name_zh": "部件",
+      "description": "带简单结构或组合的部件，如线束、接插件组件、散热器、端子排、风扇等"
+    },
+    "module": {
+      "name_zh": "组件/模组",
+      "description": "功能级模块或板级组件，如电源模块、无线模组、SOM、开发板、传感器模组等"
+    }
+  },
+  "extension_policy": {
+    "level2": "在对应一级 children 中 PR 新增 slug；需 name_en / name_zh，避免与现有项语义重复",
+    "level1": "先开 Issue（category-extension 模板）讨论边界，维护者同意后再改本文件并创建 data/{slug}/",
+    "slug_pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  },
   "categories": [
     {
       "slug": "semiconductors",
       "name_en": "Semiconductors",
       "name_zh": "半导体",
-      "description": "集成电路、分立器件、存储器、MCU 等",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Semiconductors / Integrated Circuits / Discrete", "Mouser: Semiconductors", "Arrow: Semiconductors"],
+      "description": "IC、分立半导体、存储器、可编程逻辑、电源管理 IC、接口与驱动等",
       "children": [
-        { "slug": "microcontrollers", "name_en": "Microcontrollers", "name_zh": "微控制器" },
-        { "slug": "integrated-circuits", "name_en": "Integrated Circuits", "name_zh": "集成电路" },
-        { "slug": "discrete-semiconductors", "name_en": "Discrete Semiconductors", "name_zh": "分立半导体" },
+        { "slug": "microcontrollers", "name_en": "Microcontrollers (MCU)", "name_zh": "微控制器" },
+        { "slug": "microprocessors", "name_en": "Microprocessors (MPU)", "name_zh": "微处理器" },
+        { "slug": "fpga-pld", "name_en": "FPGA / PLD / CPLD", "name_zh": "可编程逻辑器件" },
         { "slug": "memory", "name_en": "Memory", "name_zh": "存储器" },
-        { "slug": "processors", "name_en": "Processors", "name_zh": "处理器" }
+        { "slug": "analog-ics", "name_en": "Analog ICs", "name_zh": "模拟 IC" },
+        { "slug": "power-management-ics", "name_en": "Power Management ICs (PMIC)", "name_zh": "电源管理 IC" },
+        { "slug": "interface-ics", "name_en": "Interface ICs", "name_zh": "接口 IC" },
+        { "slug": "logic-ics", "name_en": "Logic ICs", "name_zh": "逻辑 IC" },
+        { "slug": "clock-timing-ics", "name_en": "Clock & Timing ICs", "name_zh": "时钟与定时 IC" },
+        { "slug": "data-converters", "name_en": "Data Converters (ADC/DAC)", "name_zh": "数据转换器" },
+        { "slug": "drivers-ics", "name_en": "Driver ICs", "name_zh": "驱动 IC" },
+        { "slug": "discrete-transistors", "name_en": "Transistors",
+          "name_zh": "晶体管" },
+        { "slug": "discrete-diodes-rectifiers", "name_en": "Diodes & Rectifiers", "name_zh": "二极管与整流器" },
+        { "slug": "thyristors-triacs", "name_en": "Thyristors / TRIACs", "name_zh": "晶闸管 / 双向可控硅" },
+        { "slug": "integrated-circuits-general", "name_en": "Integrated Circuits (General)", "name_zh": "通用集成电路" },
+        { "slug": "discrete-semiconductors-other", "name_en": "Discrete Semiconductors (Other)", "name_zh": "其他分立半导体" }
       ]
     },
     {
       "slug": "passive-components",
       "name_en": "Passive Components",
       "name_zh": "无源器件",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Passives", "Mouser: Passive Components", "Arrow: Passives"],
       "children": [
         { "slug": "resistors", "name_en": "Resistors", "name_zh": "电阻" },
+        { "slug": "potentiometers-trimmers", "name_en": "Potentiometers & Trimmers", "name_zh": "电位器与微调" },
         { "slug": "capacitors", "name_en": "Capacitors", "name_zh": "电容" },
-        { "slug": "inductors", "name_en": "Inductors", "name_zh": "电感" },
-        { "slug": "crystals-oscillators", "name_en": "Crystals & Oscillators", "name_zh": "晶振与振荡器" }
+        { "slug": "inductors-coils-chokes", "name_en": "Inductors, Coils & Chokes", "name_zh": "电感 / 线圈 / 磁珠" },
+        { "slug": "transformers", "name_en": "Transformers", "name_zh": "变压器" },
+        { "slug": "filters-emi", "name_en": "Filters & EMI Suppression", "name_zh": "滤波器与 EMI 抑制" },
+        { "slug": "crystals-oscillators", "name_en": "Crystals, Oscillators & Resonators", "name_zh": "晶振 / 振荡器 / 谐振器" },
+        { "slug": "varistors-ntc-ptc-thermistors", "name_en": "Varistors & Thermistors", "name_zh": "压敏电阻与热敏电阻" }
       ]
     },
     {
-      "slug": "connectors-switches",
-      "name_en": "Connectors & Switches",
-      "name_zh": "连接与机电",
+      "slug": "circuit-protection",
+      "name_en": "Circuit Protection",
+      "name_zh": "电路保护",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Circuit Protection", "Mouser: Circuit Protection", "Arrow: Circuit Protection"],
+      "description": "三大分销商常独立成类，与普通无源器件分开",
       "children": [
-        { "slug": "connectors", "name_en": "Connectors", "name_zh": "连接器" },
-        { "slug": "switches", "name_en": "Switches", "name_zh": "开关" },
-        { "slug": "relays", "name_en": "Relays", "name_zh": "继电器" }
+        { "slug": "fuses", "name_en": "Fuses", "name_zh": "保险丝" },
+        { "slug": "fuseholders", "name_en": "Fuseholders", "name_zh": "保险丝座" },
+        { "slug": "tvs-esd-protection", "name_en": "TVS / ESD Protection", "name_zh": "TVS / ESD 防护" },
+        { "slug": "gas-discharge-tubes", "name_en": "Gas Discharge Tubes", "name_zh": "气体放电管" },
+        { "slug": "circuit-breakers", "name_en": "Circuit Breakers", "name_zh": "断路器" },
+        { "slug": "surge-protection", "name_en": "Surge Protection Devices", "name_zh": "浪涌保护器件" },
+        { "slug": "resettable-fuses-ptc", "name_en": "Resettable Fuses (PTC)", "name_zh": "自恢复保险丝" }
       ]
     },
     {
-      "slug": "sensors",
-      "name_en": "Sensors",
-      "name_zh": "传感器",
+      "slug": "connectors-interconnects",
+      "name_en": "Connectors & Interconnects",
+      "name_zh": "连接器与互连",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Connectors, Interconnects", "Mouser: Connectors", "Arrow: Connectors"],
+      "children": [
+        { "slug": "board-to-board", "name_en": "Board-to-Board Connectors", "name_zh": "板对板连接器" },
+        { "slug": "wire-to-board", "name_en": "Wire-to-Board Connectors", "name_zh": "线对板连接器" },
+        { "slug": "circular-connectors", "name_en": "Circular Connectors", "name_zh": "圆形连接器" },
+        { "slug": "rectangular-connectors", "name_en": "Rectangular Connectors", "name_zh": "矩形连接器" },
+        { "slug": "rf-coaxial-connectors", "name_en": "RF / Coaxial Connectors", "name_zh": "射频 / 同轴连接器" },
+        { "slug": "usb-hdmi-io-connectors", "name_en": "USB / HDMI / I/O Connectors", "name_zh": "USB / HDMI / I/O 连接器" },
+        { "slug": "terminal-blocks", "name_en": "Terminal Blocks", "name_zh": "端子台" },
+        { "slug": "ic-sockets-adapters", "name_en": "IC Sockets & Adapters", "name_zh": "IC 座与转接" },
+        { "slug": "headers-jumpers", "name_en": "Headers & Jumpers", "name_zh": "排针 / 跳线" },
+        { "slug": "connectors-other", "name_en": "Connectors (Other)", "name_zh": "其他连接器" }
+      ]
+    },
+    {
+      "slug": "electromechanical",
+      "name_en": "Electromechanical",
+      "name_zh": "机电元件",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Relays / Switches / Motors", "Mouser: Electromechanical", "Arrow: Electromechanical"],
+      "children": [
+        { "slug": "switches", "name_en": "Switches", "name_zh": "开关" },
+        { "slug": "relays", "name_en": "Relays", "name_zh": "继电器" },
+        { "slug": "solid-state-relays", "name_en": "Solid State Relays (SSR)", "name_zh": "固态继电器" },
+        { "slug": "motors-actuators", "name_en": "Motors & Actuators", "name_zh": "电机与执行器" },
+        { "slug": "solenoids-valves", "name_en": "Solenoids & Valves", "name_zh": "电磁阀 / 电磁铁" },
+        { "slug": "fans-blowers", "name_en": "Fans & Blowers", "name_zh": "风扇与鼓风机" },
+        { "slug": "encoders", "name_en": "Encoders", "name_zh": "编码器" }
+      ]
+    },
+    {
+      "slug": "sensors-transducers",
+      "name_en": "Sensors & Transducers",
+      "name_zh": "传感器与换能器",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Sensors, Transducers", "Mouser: Sensors", "Arrow: Sensors"],
       "children": [
         { "slug": "temperature-sensors", "name_en": "Temperature Sensors", "name_zh": "温度传感器" },
-        { "slug": "motion-sensors", "name_en": "Motion Sensors", "name_zh": "运动传感器" },
-        { "slug": "environmental-sensors", "name_en": "Environmental Sensors", "name_zh": "环境传感器" }
+        { "slug": "pressure-sensors", "name_en": "Pressure Sensors", "name_zh": "压力传感器" },
+        { "slug": "humidity-environmental", "name_en": "Humidity & Environmental Sensors", "name_zh": "湿度与环境传感器" },
+        { "slug": "motion-imu", "name_en": "Motion / IMU / Accelerometers / Gyros", "name_zh": "运动 / IMU / 加速度 / 陀螺" },
+        { "slug": "magnetic-sensors", "name_en": "Magnetic / Hall Sensors", "name_zh": "磁传感器 / 霍尔" },
+        { "slug": "optical-image-sensors", "name_en": "Optical & Image Sensors", "name_zh": "光学与图像传感器" },
+        { "slug": "proximity-distance", "name_en": "Proximity & Distance Sensors", "name_zh": "接近与测距传感器" },
+        { "slug": "current-sensors", "name_en": "Current Sensors", "name_zh": "电流传感器" },
+        { "slug": "flow-level-sensors", "name_en": "Flow & Level Sensors", "name_zh": "流量与液位传感器" },
+        { "slug": "force-load-sensors", "name_en": "Force / Load / Strain Sensors", "name_zh": "力 / 称重 / 应变传感器" },
+        { "slug": "gas-chemical-sensors", "name_en": "Gas & Chemical Sensors", "name_zh": "气体与化学传感器" },
+        { "slug": "sensor-modules", "name_en": "Sensor Modules", "name_zh": "传感器模组", "typical_class": "module" }
       ]
     },
     {
       "slug": "rf-wireless",
-      "name_en": "RF & Wireless",
-      "name_zh": "射频与无线",
+      "name_en": "RF, Microwave & Wireless",
+      "name_zh": "射频 / 微波 / 无线",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: RF/IF and RFID", "Mouser: RF Semiconductors / Wireless", "Arrow: RF & Microwave"],
       "children": [
         { "slug": "rf-amplifiers", "name_en": "RF Amplifiers", "name_zh": "射频放大器" },
-        { "slug": "rf-switches", "name_en": "RF Switches", "name_zh": "射频开关" },
-        { "slug": "wireless-modules", "name_en": "Wireless Modules", "name_zh": "无线模组" }
+        { "slug": "rf-switches-attenuators", "name_en": "RF Switches & Attenuators", "name_zh": "射频开关与衰减器" },
+        { "slug": "rf-mixers-modulators", "name_en": "RF Mixers / Modulators / Demodulators", "name_zh": "混频 / 调制解调" },
+        { "slug": "rf-filters-duplexers", "name_en": "RF Filters & Duplexers", "name_zh": "射频滤波器与双工器" },
+        { "slug": "rf-transceivers-socs", "name_en": "RF Transceivers & SoCs", "name_zh": "射频收发器与 SoC" },
+        { "slug": "antennas", "name_en": "Antennas", "name_zh": "天线" },
+        { "slug": "rfid-nfc", "name_en": "RFID / NFC", "name_zh": "RFID / NFC" },
+        { "slug": "wireless-modules", "name_en": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)", "name_zh": "无线模组", "typical_class": "module" },
+        { "slug": "rf-passives-other", "name_en": "RF Passives & Other", "name_zh": "射频无源及其他" }
       ]
     },
     {
       "slug": "optoelectronics-displays",
       "name_en": "Optoelectronics & Displays",
       "name_zh": "光电与显示",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Optoelectronics", "Mouser: Optoelectronics / LED Lighting", "Arrow: Optoelectronics"],
       "children": [
-        { "slug": "leds", "name_en": "LEDs", "name_zh": "LED" },
-        { "slug": "displays", "name_en": "Displays", "name_zh": "显示屏" },
-        { "slug": "optoisolators", "name_en": "Optoisolators", "name_zh": "光耦" }
+        { "slug": "leds-indicators", "name_en": "LEDs & Indicators", "name_zh": "LED 与指示灯" },
+        { "slug": "led-lighting", "name_en": "LED Lighting", "name_zh": "LED 照明" },
+        { "slug": "laser-diodes", "name_en": "Laser Diodes", "name_zh": "激光二极管" },
+        { "slug": "photodetectors", "name_en": "Photodetectors / Photodiodes", "name_zh": "光电探测器" },
+        { "slug": "optoisolators", "name_en": "Optoisolators / Optocouplers", "name_zh": "光耦 / 光电隔离" },
+        { "slug": "fiber-optics", "name_en": "Fiber Optics", "name_zh": "光纤器件" },
+        { "slug": "displays-lcd-oled", "name_en": "Displays (LCD / OLED / TFT)", "name_zh": "显示屏" },
+        { "slug": "display-modules", "name_en": "Display Modules", "name_zh": "显示模组", "typical_class": "module" }
       ]
     },
     {
-      "slug": "power-thermal",
-      "name_en": "Power & Thermal",
-      "name_zh": "电源与散热",
+      "slug": "power-energy",
+      "name_en": "Power & Energy",
+      "name_zh": "电源与能源",
+      "typical_class": "module",
+      "maps_from": ["DigiKey: Power Supplies", "Mouser: Power", "Arrow: Power"],
+      "description": "板载/外置电源、电源模块、电池与相关储能（PMIC 仍归 semiconductors）",
       "children": [
-        { "slug": "power-modules", "name_en": "Power Modules", "name_zh": "电源模块" },
-        { "slug": "voltage-regulators", "name_en": "Voltage Regulators", "name_zh": "稳压器" },
-        { "slug": "thermal-management", "name_en": "Thermal Management", "name_zh": "热管理" }
+        { "slug": "board-mount-power-supplies", "name_en": "Board Mount Power Supplies", "name_zh": "板载电源" },
+        { "slug": "external-internal-acdc", "name_en": "AC-DC Power Supplies", "name_zh": "AC-DC 电源" },
+        { "slug": "dcdc-converters-modules", "name_en": "DC-DC Converter Modules", "name_zh": "DC-DC 模块" },
+        { "slug": "voltage-regulators-modules", "name_en": "Voltage Regulator Modules", "name_zh": "稳压模块" },
+        { "slug": "batteries", "name_en": "Batteries", "name_zh": "电池" },
+        { "slug": "battery-holders-accessories", "name_en": "Battery Holders & Accessories", "name_zh": "电池座与附件" },
+        { "slug": "chargers-power-banks", "name_en": "Chargers & Power Banks", "name_zh": "充电器与移动电源相关" },
+        { "slug": "power-distribution", "name_en": "Power Distribution", "name_zh": "配电相关" }
       ]
     },
     {
-      "slug": "dev-boards-tools",
-      "name_en": "Dev Boards & Tools",
-      "name_zh": "开发工具",
+      "slug": "thermal-management",
+      "name_en": "Thermal Management",
+      "name_zh": "热管理",
+      "typical_class": "part",
+      "maps_from": ["DigiKey: Thermal Management / Fans", "Mouser: Thermal Management", "Arrow: Thermal"],
       "children": [
-        { "slug": "development-boards", "name_en": "Development Boards", "name_zh": "开发板" },
-        { "slug": "programmers-debuggers", "name_en": "Programmers & Debuggers", "name_zh": "烧录与调试" },
-        { "slug": "test-equipment", "name_en": "Test Equipment", "name_zh": "测试设备相关" }
+        { "slug": "heatsinks", "name_en": "Heatsinks", "name_zh": "散热器" },
+        { "slug": "thermal-pads-grease", "name_en": "Thermal Pads / Grease / Interface Materials", "name_zh": "导热垫 / 硅脂 / 界面材料" },
+        { "slug": "heat-pipes-vapor-chambers", "name_en": "Heat Pipes & Vapor Chambers", "name_zh": "热管与均热板" },
+        { "slug": "liquid-cooling", "name_en": "Liquid Cooling Components", "name_zh": "液冷部件" },
+        { "slug": "thermal-other", "name_en": "Thermal (Other)", "name_zh": "其他热管理" }
+      ]
+    },
+    {
+      "slug": "wire-cable",
+      "name_en": "Wire, Cable & Cable Assemblies",
+      "name_zh": "线材 / 电缆 / 线束",
+      "typical_class": "part",
+      "maps_from": ["DigiKey: Cable Assemblies / Wire", "Mouser: Wire & Cable", "Arrow: Wire & Cable"],
+      "children": [
+        { "slug": "hookup-wire", "name_en": "Hook-up Wire", "name_zh": "电子线" },
+        { "slug": "multi-conductor-cable", "name_en": "Multi-Conductor Cable", "name_zh": "多芯电缆" },
+        { "slug": "coaxial-cable", "name_en": "Coaxial Cable", "name_zh": "同轴电缆" },
+        { "slug": "flat-ribbon-cable", "name_en": "Flat / Ribbon Cable", "name_zh": "排线 / 扁平线" },
+        { "slug": "cable-assemblies", "name_en": "Cable Assemblies", "name_zh": "线束组件" },
+        { "slug": "fiber-optic-cable", "name_en": "Fiber Optic Cable", "name_zh": "光缆" },
+        { "slug": "cable-management", "name_en": "Cable Management", "name_zh": "线缆整理" }
+      ]
+    },
+    {
+      "slug": "enclosures-mechanical",
+      "name_en": "Enclosures, Hardware & Mechanical",
+      "name_zh": "机箱 / 结构件 / 紧固件",
+      "typical_class": "part",
+      "maps_from": ["DigiKey: Boxes, Enclosures, Racks / Hardware", "Mouser: Enclosures", "Arrow: Enclosures"],
+      "children": [
+        { "slug": "enclosures-boxes", "name_en": "Enclosures & Boxes", "name_zh": "机箱与外壳" },
+        { "slug": "racks-chassis", "name_en": "Racks & Chassis", "name_zh": "机架与机框" },
+        { "slug": "hardware-fasteners", "name_en": "Hardware & Fasteners", "name_zh": "五金与紧固件" },
+        { "slug": "pcb-accessories", "name_en": "PCB Accessories (Standoffs, Supports)", "name_zh": "PCB 附件" },
+        { "slug": "knobs-handles-feet", "name_en": "Knobs, Handles & Feet", "name_zh": "旋钮 / 把手 / 机脚" }
+      ]
+    },
+    {
+      "slug": "embedded-modules-boards",
+      "name_en": "Embedded Modules & Development Boards",
+      "name_zh": "嵌入式模组与开发板",
+      "typical_class": "module",
+      "maps_from": ["DigiKey: Development Boards, Kits, Programmers", "Mouser: Embedded Solutions", "Arrow: Embedded"],
+      "children": [
+        { "slug": "development-boards-kits", "name_en": "Development Boards & Kits", "name_zh": "开发板与套件" },
+        { "slug": "evaluation-boards", "name_en": "Evaluation Boards", "name_zh": "评估板" },
+        { "slug": "som-sbc", "name_en": "SOM / SBC / Computer-on-Module", "name_zh": "核心板 / 单板计算机" },
+        { "slug": "sip-modules", "name_en": "SIP / System-in-Package Modules", "name_zh": "SIP 系统级封装模组" },
+        { "slug": "programmers-debuggers", "name_en": "Programmers & Debuggers", "name_zh": "烧录器与调试器" },
+        { "slug": "embedded-accessories", "name_en": "Embedded Accessories", "name_zh": "嵌入式附件" }
+      ]
+    },
+    {
+      "slug": "industrial-automation",
+      "name_en": "Industrial Automation & Control",
+      "name_zh": "工业自动化与控制",
+      "typical_class": "module",
+      "maps_from": ["DigiKey: Industrial Automation", "Mouser: Industrial Automation", "Arrow: Industrial"],
+      "children": [
+        { "slug": "plc-controllers", "name_en": "PLCs & Controllers", "name_zh": "PLC 与控制器" },
+        { "slug": "hmi-operator-panels", "name_en": "HMI / Operator Panels", "name_zh": "人机界面" },
+        { "slug": "industrial-sensors-safety", "name_en": "Industrial Sensors & Safety", "name_zh": "工业传感器与安全" },
+        { "slug": "industrial-communication", "name_en": "Industrial Communication", "name_zh": "工业通信" },
+        { "slug": "pneumatics-hydraulics", "name_en": "Pneumatics / Hydraulics (Related)", "name_zh": "气动 / 液压相关" },
+        { "slug": "industrial-other", "name_en": "Industrial (Other)", "name_zh": "其他工业自动化" }
+      ]
+    },
+    {
+      "slug": "audio",
+      "name_en": "Audio Products",
+      "name_zh": "音频产品",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Audio Products", "Mouser: Audio", "Arrow: Audio"],
+      "children": [
+        { "slug": "speakers-buzzers", "name_en": "Speakers & Buzzers", "name_zh": "扬声器与蜂鸣器" },
+        { "slug": "microphones", "name_en": "Microphones", "name_zh": "麦克风" },
+        { "slug": "audio-amplifiers-ics", "name_en": "Audio Amplifiers (also see Semiconductors)", "name_zh": "音频放大（亦可归半导体）" },
+        { "slug": "audio-accessories", "name_en": "Audio Accessories", "name_zh": "音频附件" }
+      ]
+    },
+    {
+      "slug": "test-measurement-tools",
+      "name_en": "Test, Measurement & Tools",
+      "name_zh": "测试测量与工具",
+      "typical_class": "part",
+      "maps_from": ["DigiKey: Test and Measurement / Tools", "Mouser: Test & Measurement / Tools", "Arrow: Test & Tools"],
+      "children": [
+        { "slug": "test-equipment", "name_en": "Test Equipment", "name_zh": "测试仪器" },
+        { "slug": "probes-leads", "name_en": "Probes & Test Leads", "name_zh": "探头与测试线" },
+        { "slug": "multimeters-meters", "name_en": "Multimeters & Meters", "name_zh": "万用表与仪表" },
+        { "slug": "soldering-rework", "name_en": "Soldering & Rework Tools", "name_zh": "焊接与返修工具" },
+        { "slug": "hand-tools", "name_en": "Hand Tools", "name_zh": "手工工具" },
+        { "slug": "static-control-esd", "name_en": "Static Control / ESD", "name_zh": "防静电" }
+      ]
+    },
+    {
+      "slug": "materials-prototyping",
+      "name_en": "Materials, Chemicals & Prototyping",
+      "name_zh": "材料 / 化学用品 / 打样",
+      "typical_class": "part",
+      "maps_from": ["DigiKey: Tapes, Adhesives, Materials / Prototyping", "Mouser: Tools & Supplies", "Arrow: Materials"],
+      "children": [
+        { "slug": "solder-flux", "name_en": "Solder & Flux", "name_zh": "焊料与助焊剂" },
+        { "slug": "adhesives-tapes", "name_en": "Adhesives & Tapes", "name_zh": "胶粘剂与胶带" },
+        { "slug": "conformal-coatings", "name_en": "Conformal Coatings", "name_zh": "三防漆" },
+        { "slug": "prototyping-boards", "name_en": "Prototyping Boards & Breadboards", "name_zh": "洞洞板 / 面包板" },
+        { "slug": "3d-printing-fab", "name_en": "3D Printing & Fab Materials", "name_zh": "3D 打印与加工材料" },
+        { "slug": "labels-markers", "name_en": "Labels & Markers", "name_zh": "标签与标识" }
+      ]
+    },
+    {
+      "slug": "other",
+      "name_en": "Other / Uncategorized",
+      "name_zh": "其他 / 待归类",
+      "typical_class": "component",
+      "maps_from": ["DigiKey: Uncategorized", "Community extensions"],
+      "description": "暂无明确归属的产品；稳定后应迁入正式分类，并可提案升级为新一级/二级类",
+      "children": [
+        { "slug": "uncategorized", "name_en": "Uncategorized", "name_zh": "未分类" },
+        { "slug": "legacy-discontinued-lines", "name_en": "Legacy / Special Lines", "name_zh": "特殊或历史产品线" }
       ]
     }
-  ]
+  ],
+  "deprecated_slugs": {
+    "connectors-switches": "split into connectors-interconnects + electromechanical",
+    "sensors": "renamed to sensors-transducers",
+    "power-thermal": "split into power-energy + thermal-management",
+    "dev-boards-tools": "renamed to embedded-modules-boards"
+  }
 }
