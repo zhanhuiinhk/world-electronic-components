@@ -1,0 +1,8 @@
+{
+  "id": "bosch-sensortec",
+  "name": "Bosch Sensortec",
+  "name_zh": "博世传感器",
+  "website": "https://www.bosch-sensortec.com",
+  "country": "Germany",
+  "aliases": ["Bosch Sensortec", "BST"]
+}

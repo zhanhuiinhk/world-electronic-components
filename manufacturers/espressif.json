@@ -1,0 +1,8 @@
+{
+  "id": "espressif",
+  "name": "Espressif Systems",
+  "name_zh": "乐鑫科技",
+  "website": "https://www.espressif.com",
+  "country": "China",
+  "aliases": ["Espressif", "ESP"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "raspberry-pi",
+  "name": "Raspberry Pi Ltd",
+  "name_zh": "树莓派",
+  "website": "https://www.raspberrypi.com",
+  "country": "United Kingdom",
+  "aliases": ["Raspberry Pi", "RPi"]
+}
