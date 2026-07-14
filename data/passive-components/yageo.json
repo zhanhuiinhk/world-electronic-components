@@ -1,5 +1,109 @@
 [
   {
+    "part_number": "CC0603KRX7R8BB104",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+    "description": "CAP CER 0.1UF 25V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "tolerance_percent": 10,
+      "voltage_v": 25,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "CC0603KRX7R9BB103",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+    "description": "CAP CER 10000PF 50V X7R 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.01,
+      "tolerance_percent": 10,
+      "voltage_v": 50,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "RC0201FR-0710KL",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "description": "RES 10K OHM 1% 1/20W 0201",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 1,
+      "power_w": "0.05W, 1/20W",
+      "composition": "Thick Film",
+      "temperature_coefficient_ppm": 200,
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "RC0201JR-070RL",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "description": "RES 0 OHM JUMPER 1/20W 0201",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0,
+      "tolerance_percent": "Jumper",
+      "composition": "Thick Film",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
     "part_number": "RC0402FR-0710KL",
     "manufacturer": "Yageo",
     "manufacturer_id": "yageo",
@@ -19,30 +123,91 @@
       "power_w": 0.063,
       "composition": "thick film"
     },
-    "tags": ["resistor", "0402", "smd"],
+    "tags": [
+      "resistor",
+      "0402",
+      "smd"
+    ],
     "updated_at": "2026-07-14"
   },
   {
     "part_number": "RC0603FR-07100KL",
-    "manufacturer": "Yageo",
+    "manufacturer": "YAGEO",
     "manufacturer_id": "yageo",
     "product_class": "component",
     "category": "Passive Components",
     "category_slug": "passive-components",
     "sub_category": "Resistors",
     "sub_category_slug": "resistors",
-    "package": "0603",
-    "origin": "China",
-    "datasheet_url": "https://www.yageo.com/en/ProductSearch/DownloadSpec?docId=5022",
-    "description": "100 kΩ ±1% thick film chip resistor",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "description": "RES 100K OHM 1% 1/10W 0603",
     "status": "active",
     "attributes": {
-      "resistance_ohm": 100000,
+      "resistance_ohm": 100000.0,
       "tolerance_percent": 1,
-      "power_w": 0.1,
-      "composition": "thick film"
+      "power_w": "0.1W, 1/10W",
+      "composition": "Thick Film",
+      "temperature_coefficient_ppm": 100,
+      "temperature_range_c": "-55°C ~ 155°C"
     },
-    "tags": ["resistor", "0603", "smd"],
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "RC0603FR-0710KL",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "description": "RES 10K OHM 1% 1/10W 0603",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 1,
+      "power_w": "0.1W, 1/10W",
+      "composition": "Thick Film",
+      "temperature_coefficient_ppm": 100,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "RC0603JR-070RL",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "description": "RES 0 OHM JUMPER 1/10W 0603",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0,
+      "tolerance_percent": "Jumper",
+      "power_w": "0.1W, 1/10W",
+      "composition": "Thick Film",
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-14"
   },
   {
@@ -65,7 +230,10 @@
       "power_w": 0.125,
       "composition": "thick film"
     },
-    "tags": ["resistor", "0805"],
+    "tags": [
+      "resistor",
+      "0805"
+    ],
     "updated_at": "2026-07-14"
   }
 ]
