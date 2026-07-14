@@ -1,0 +1,114 @@
+[
+  {
+    "part_number": "M80-8280442",
+    "manufacturer": "Harwin Inc.",
+    "manufacturer_id": "harwin-inc",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://content.harwin.com/m/840c8787ebc80e9c/original/PD004-Product-Datasheet-Datamate-range-signal-connectors-HRi.pdf",
+    "description": "CONN HEADER SMD 4POS 2MM",
+    "status": "active",
+    "attributes": {
+      "pitch_mm": "0.079\" (2.00mm)",
+      "positions": 4,
+      "rows": 2,
+      "temperature_range_c": "-55°C ~ 125°C",
+      "color": "Black",
+      "current_a": 2.2,
+      "voltage_rating_v": 800
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "M80-8280642",
+    "manufacturer": "Harwin Inc.",
+    "manufacturer_id": "harwin-inc",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://content.harwin.com/m/840c8787ebc80e9c/original/PD004-Product-Datasheet-Datamate-range-signal-connectors-HRi.pdf",
+    "description": "CONN HEADER SMD 6POS 2MM",
+    "status": "active",
+    "attributes": {
+      "pitch_mm": "0.079\" (2.00mm)",
+      "positions": 6,
+      "rows": 2,
+      "temperature_range_c": "-55°C ~ 125°C",
+      "color": "Black",
+      "current_a": 2.2,
+      "voltage_rating_v": 800
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "M80-8281042",
+    "manufacturer": "Harwin Inc.",
+    "manufacturer_id": "harwin-inc",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://content.harwin.com/m/840c8787ebc80e9c/original/PD004-Product-Datasheet-Datamate-range-signal-connectors-HRi.pdf",
+    "description": "CONN HEADER SMD 10POS 2MM",
+    "status": "active",
+    "attributes": {
+      "pitch_mm": "0.079\" (2.00mm)",
+      "positions": 10,
+      "rows": 2,
+      "temperature_range_c": "-55°C ~ 125°C",
+      "color": "Black",
+      "current_a": 2.2,
+      "voltage_rating_v": 800
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "M80-8282042",
+    "manufacturer": "Harwin Inc.",
+    "manufacturer_id": "harwin-inc",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://content.harwin.com/m/840c8787ebc80e9c/original/PD004-Product-Datasheet-Datamate-range-signal-connectors-HRi.pdf",
+    "description": "CONN HEADER SMD 20POS 2MM",
+    "status": "active",
+    "attributes": {
+      "pitch_mm": "0.079\" (2.00mm)",
+      "positions": 20,
+      "rows": 2,
+      "temperature_range_c": "-55°C ~ 125°C",
+      "color": "Black",
+      "current_a": 2.2,
+      "voltage_rating_v": 800
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-14"
+  }
+]
