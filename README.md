@@ -1,28 +1,34 @@
 # World Electronic Components Database
 
 全球开源电子元器件 / 部件 / 组件数据库。  
-
+分类参考并合并 DigiKey、Mouser、Arrow 同类项。
 
 ## 对外网站（访客）
 
 https://zhanhuiinhk.github.io/world-electronic-components/  
-（推荐打开 https://zhanhuiinhk.github.io/world-electronic-components/docs/ ）
+（推荐：https://zhanhuiinhk.github.io/world-electronic-components/docs/ ）
 
 | 访客可见 | 仅 GitHub 仓库内（协作者） |
-|---------|---------------------------|
-| 产品检索 | `scripts/` 校验/导入/构建 |
-| 关于/分类/参数说明 | 目录结构、CI、CSV 模板 |
-| 公开产品数据摘要 | `CONTRIBUTING.md` 等协作细则 |
+|----------|---------------------------|
+| 产品检索 | `scripts/` 校验/导入/采集 |
+| 关于/分类/参数说明 | DigiKey 自动采集脚手架 |
 
 ### 若首页仍显示本 README
 
-仓库 **Settings → Pages**：
+**Settings → Pages**：Source 用 **GitHub Actions**，或 Deploy from branch → `main` → **`/docs`**。
 
-1. **推荐**：Source = **GitHub Actions**（`.github/workflows/pages.yml` 发布 `docs/`）  
-2. 或：Deploy from branch → `main` → Folder = **`/docs`**  
-3. **不要**用根目录发布（否则 README 会变成网站首页）
+## DigiKey 自动采集（推荐）
 
-根目录已放置 `index.html`，在「根目录发布」模式下会跳转到 `docs/` 检索页。
+申请 API 与用法见：**[docs/DIGIKEY_SETUP.md](docs/DIGIKEY_SETUP.md)**
+
+```bash
+# 无 Key 也可先验证流水线
+python scripts/collectors/run_collect.py --dry-run --sub resistors --limit 5
+
+# 申请到 Key 之后
+# set DIGIKEY_CLIENT_ID / DIGIKEY_CLIENT_SECRET / DIGIKEY_ENV=sandbox
+python scripts/collectors/run_collect.py --env sandbox --sub resistors --limit 10
+```
 
 ## 协作者命令
 

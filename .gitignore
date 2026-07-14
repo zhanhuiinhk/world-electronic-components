@@ -1,0 +1,20 @@
+# DigiKey / local secrets
+scripts/collectors/.env
+.env
+.env.*
+
+# Collector scratch output
+_collect_out/
+collect-out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

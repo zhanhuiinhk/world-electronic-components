@@ -1,0 +1,63 @@
+name: Collect DigiKey (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      sub:
+        description: "sub_category_slug (e.g. resistors)"
+        required: true
+        default: "resistors"
+      limit:
+        description: "Max products to keep"
+        required: true
+        default: "10"
+      dry_run:
+        description: "Use fixture only (true/false)"
+        required: true
+        default: "true"
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run collector
+        env:
+          DIGIKEY_CLIENT_ID: ${{ secrets.DIGIKEY_CLIENT_ID }}
+          DIGIKEY_CLIENT_SECRET: ${{ secrets.DIGIKEY_CLIENT_SECRET }}
+          DIGIKEY_ENV: ${{ secrets.DIGIKEY_ENV }}
+        run: |
+          set -e
+          OUT=_collect_out
+          mkdir -p "$OUT"
+          EXTRA=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            EXTRA="--dry-run"
+            echo "Running dry-run (no DigiKey API call)"
+          else
+            if [ -z "$DIGIKEY_CLIENT_ID" ] || [ -z "$DIGIKEY_CLIENT_SECRET" ]; then
+              echo "Secrets DIGIKEY_CLIENT_ID / DIGIKEY_CLIENT_SECRET not set."
+              echo "Add them under Settings → Secrets, or run with dry_run=true."
+              exit 0
+            fi
+            export DIGIKEY_ENV="${DIGIKEY_ENV:-sandbox}"
+          fi
+          python scripts/collectors/run_collect.py \
+            --sub "${{ github.event.inputs.sub }}" \
+            --limit "${{ github.event.inputs.limit }}" \
+            --out-dir "$OUT" \
+            $EXTRA
+          echo "Output tree:"
+          find "$OUT" -type f | head -100
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: digikey-collect-${{ github.event.inputs.sub }}
+          path: _collect_out
+          if-no-files-found: warn

@@ -1,0 +1,45 @@
+{
+  "ProductsCount": 3,
+  "Products": [
+    {
+      "ManufacturerProductNumber": "RC0603FR-0710KL",
+      "Manufacturer": { "Name": "Yageo" },
+      "Description": {
+        "ProductDescription": "RES SMD 10K OHM 1% 1/10W 0603"
+      },
+      "DatasheetUrl": "https://www.yageo.com/en/ProductSearch/DownloadSpec?docId=5022",
+      "ProductUrl": "https://www.digikey.com/en/products",
+      "PackageType": "0603",
+      "ProductStatus": { "Status": "Active" },
+      "Parameters": [
+        { "ParameterText": "Resistance", "ValueText": "10 kOhms" },
+        { "ParameterText": "Tolerance", "ValueText": "±1%" },
+        { "ParameterText": "Power (Watts)", "ValueText": "0.1W" },
+        { "ParameterText": "Composition", "ValueText": "Thick Film" }
+      ]
+    },
+    {
+      "ManufacturerProductNumber": "CRCW060310K0FKEA",
+      "Manufacturer": { "Name": "Vishay Dale" },
+      "Description": {
+        "ProductDescription": "RES 10K OHM 1% 1/10W 0603"
+      },
+      "DatasheetUrl": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "PackageType": "0603",
+      "Parameters": [
+        { "ParameterText": "Resistance", "ValueText": "10 kOhms" },
+        { "ParameterText": "Tolerance", "ValueText": "±1%" },
+        { "ParameterText": "Power (Watts)", "ValueText": "0.1W" },
+        { "ParameterText": "Composition", "ValueText": "Thick Film" }
+      ]
+    },
+    {
+      "ManufacturerProductNumber": "SKIP-NO-RESISTANCE",
+      "Manufacturer": { "Name": "Example Corp" },
+      "DatasheetUrl": "https://example.com/ds.pdf",
+      "Parameters": [
+        { "ParameterText": "Color", "ValueText": "Black" }
+      ]
+    }
+  ]
+}
