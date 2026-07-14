@@ -1,8 +1,11 @@
 {
   "id": "yageo",
-  "name": "Yageo",
-  "name_zh": "国巨",
+  "name": "YAGEO",
   "website": "https://www.yageo.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "国巨",
   "country": "Taiwan",
-  "aliases": ["Yageo Corporation"]
+  "aliases": [
+    "Yageo Corporation"
+  ]
 }
