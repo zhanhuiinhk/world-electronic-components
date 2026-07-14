@@ -1,0 +1,52 @@
+[
+  {
+    "part_number": "ATMEGA328P-PU",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_id": "microchip",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Microcontrollers (MCU)",
+    "sub_category_slug": "microcontrollers",
+    "package": "PDIP-28",
+    "origin": "USA",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328P-Datasheet.pdf",
+    "description": "8-bit AVR MCU, 32KB Flash, popular in Arduino Uno",
+    "status": "active",
+    "attributes": {
+      "core": "AVR 8-bit",
+      "flash_kb": 32,
+      "ram_kb": 2,
+      "clock_mhz": 20,
+      "gpio_count": 23,
+      "package_pins": 28,
+      "operating_voltage_v": "1.8-5.5"
+    },
+    "tags": ["avr", "arduino", "mcu"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "PIC16F877A-I/P",
+    "manufacturer": "Microchip Technology",
+    "manufacturer_id": "microchip",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Microcontrollers (MCU)",
+    "sub_category_slug": "microcontrollers",
+    "package": "PDIP-40",
+    "origin": "USA",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/39582C.pdf",
+    "description": "8-bit PIC MCU with 14KB Flash",
+    "status": "active",
+    "attributes": {
+      "core": "PIC mid-range",
+      "flash_kb": 14,
+      "ram_kb": 0.368,
+      "clock_mhz": 20,
+      "package_pins": 40
+    },
+    "tags": ["pic", "mcu"],
+    "updated_at": "2026-07-14"
+  }
+]

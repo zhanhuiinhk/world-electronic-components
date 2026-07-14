@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "C1608X7R1H104K080AA",
+    "manufacturer": "TDK Corporation",
+    "manufacturer_id": "tdk",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "0603",
+    "origin": "Japan",
+    "datasheet_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+    "description": "100 nF X7R MLCC 50V",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "voltage_v": 50,
+      "dielectric": "X7R",
+      "tolerance_percent": 10
+    },
+    "tags": ["mlcc", "tdk"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "MLZ2012N100LT000",
+    "manufacturer": "TDK Corporation",
+    "manufacturer_id": "tdk",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "0805",
+    "origin": "Japan",
+    "datasheet_url": "https://product.tdk.com/en/search/inductor/inductor/smd/info?part_no=MLZ2012N100LT000",
+    "description": "10 µH multilayer inductor",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": 10,
+      "current_a": 0.5,
+      "tolerance_percent": 20,
+      "shielded": false
+    },
+    "tags": ["inductor", "smd"],
+    "updated_at": "2026-07-14"
+  }
+]

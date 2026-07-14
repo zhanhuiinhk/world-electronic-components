@@ -1,0 +1,47 @@
+[
+  {
+    "part_number": "BAT54S,215",
+    "manufacturer": "Nexperia",
+    "manufacturer_id": "nexperia",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "SOT-23",
+    "origin": "Netherlands",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf",
+    "description": "Schottky barrier dual diode common cathode",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Schottky",
+      "vr_v": 30,
+      "if_a": 0.2,
+      "vf_v": 0.8
+    },
+    "tags": ["schottky", "diode"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "74HC595D,118",
+    "manufacturer": "Nexperia",
+    "manufacturer_id": "nexperia",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Logic ICs",
+    "sub_category_slug": "logic-ics",
+    "package": "SO-16",
+    "origin": "Netherlands",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf",
+    "description": "8-bit serial-in parallel-out shift register",
+    "status": "active",
+    "attributes": {
+      "function": "shift register",
+      "supply_voltage_min_v": 2.0,
+      "supply_voltage_max_v": 6.0
+    },
+    "tags": ["logic", "74hc", "shift-register"],
+    "updated_at": "2026-07-14"
+  }
+]

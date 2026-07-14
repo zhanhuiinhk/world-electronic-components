@@ -1,0 +1,26 @@
+[
+  {
+    "part_number": "LPC1768FBD100",
+    "manufacturer": "NXP Semiconductors",
+    "manufacturer_id": "nxp",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Microcontrollers (MCU)",
+    "sub_category_slug": "microcontrollers",
+    "package": "LQFP-100",
+    "origin": "Netherlands",
+    "datasheet_url": "https://www.nxp.com/docs/en/data-sheet/LPC1769_68_67_66_65_64_63.pdf",
+    "description": "ARM Cortex-M3 MCU, up to 512KB Flash, Ethernet/USB",
+    "status": "active",
+    "attributes": {
+      "core": "ARM Cortex-M3",
+      "flash_kb": 512,
+      "ram_kb": 64,
+      "clock_mhz": 100,
+      "package_pins": 100
+    },
+    "tags": ["cortex-m3", "mcu", "ethernet"],
+    "updated_at": "2026-07-14"
+  }
+]

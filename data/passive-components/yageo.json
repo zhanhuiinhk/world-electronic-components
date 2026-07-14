@@ -44,5 +44,28 @@
     },
     "tags": ["resistor", "0603", "smd"],
     "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "RC0805FR-071K0L",
+    "manufacturer": "Yageo",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "0805",
+    "origin": "China",
+    "datasheet_url": "https://www.yageo.com/en/ProductSearch/DownloadSpec?docId=5022",
+    "description": "1 kΩ ±1% thick film chip resistor",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 1000,
+      "tolerance_percent": 1,
+      "power_w": 0.125,
+      "composition": "thick film"
+    },
+    "tags": ["resistor", "0805"],
+    "updated_at": "2026-07-14"
   }
 ]

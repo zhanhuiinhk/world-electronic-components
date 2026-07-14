@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "CRCW060310K0FKEA",
+    "manufacturer": "Vishay Intertechnology",
+    "manufacturer_id": "vishay",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "0603",
+    "origin": "USA",
+    "datasheet_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "description": "10 kΩ ±1% thick film chip resistor",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 10000,
+      "tolerance_percent": 1,
+      "power_w": 0.1,
+      "composition": "thick film"
+    },
+    "tags": ["resistor", "0603"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "CRCW04021K00FKED",
+    "manufacturer": "Vishay Intertechnology",
+    "manufacturer_id": "vishay",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "0402",
+    "origin": "USA",
+    "datasheet_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "description": "1 kΩ ±1% thick film chip resistor",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 1000,
+      "tolerance_percent": 1,
+      "power_w": 0.063,
+      "composition": "thick film"
+    },
+    "tags": ["resistor", "0402"],
+    "updated_at": "2026-07-14"
+  }
+]

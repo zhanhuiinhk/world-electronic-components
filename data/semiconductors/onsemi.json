@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "1N4148",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "DO-35",
+    "origin": "USA",
+    "datasheet_url": "https://www.onsemi.com/pdf/datasheet/1n914-d.pdf",
+    "description": "High-speed switching diode",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Switching",
+      "vr_v": 100,
+      "if_a": 0.2,
+      "vf_v": 1.0
+    },
+    "tags": ["diode", "switching"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "MJE3055T",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "TO-220",
+    "origin": "USA",
+    "datasheet_url": "https://www.onsemi.com/pdf/datasheet/mje3055t-d.pdf",
+    "description": "NPN silicon power transistor 60V 10A",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "BJT",
+      "polarity": "NPN",
+      "vds_v": 60,
+      "id_a": 10
+    },
+    "tags": ["bjt", "power"],
+    "updated_at": "2026-07-14"
+  }
+]

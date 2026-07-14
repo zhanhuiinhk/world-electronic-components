@@ -1,0 +1,25 @@
+[
+  {
+    "part_number": "74404024022",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_id": "wurth-elektronik",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "SMD",
+    "origin": "Germany",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/74404024022.pdf",
+    "description": "WE-LQS SMD power inductor 2.2 µH",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": 2.2,
+      "current_a": 2.45,
+      "tolerance_percent": 20,
+      "shielded": true
+    },
+    "tags": ["inductor", "power"],
+    "updated_at": "2026-07-14"
+  }
+]

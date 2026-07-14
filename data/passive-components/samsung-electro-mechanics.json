@@ -1,0 +1,25 @@
+[
+  {
+    "part_number": "CL10B104KB8NNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "manufacturer_id": "samsung-electro-mechanics",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "0603",
+    "origin": "South Korea",
+    "datasheet_url": "https://www.samsungsem.com/global/product/passive-component/mlcc.do",
+    "description": "100 nF X7R MLCC 50V 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "voltage_v": 50,
+      "dielectric": "X7R",
+      "tolerance_percent": 10
+    },
+    "tags": ["mlcc", "samsung"],
+    "updated_at": "2026-07-14"
+  }
+]

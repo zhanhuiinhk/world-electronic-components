@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "GRM188R71H104KA93D",
+    "manufacturer": "Murata Manufacturing",
+    "manufacturer_id": "murata",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "0603",
+    "origin": "Japan",
+    "datasheet_url": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71H104KA93%23",
+    "description": "100 nF X7R MLCC 50V 0603",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "voltage_v": 50,
+      "dielectric": "X7R",
+      "tolerance_percent": 10
+    },
+    "tags": ["mlcc", "capacitor", "0603"],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "GRM155R71C104KA88D",
+    "manufacturer": "Murata Manufacturing",
+    "manufacturer_id": "murata",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "0402",
+    "origin": "Japan",
+    "datasheet_url": "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71C104KA88%23",
+    "description": "100 nF X7R MLCC 16V 0402",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 0.1,
+      "voltage_v": 16,
+      "dielectric": "X7R",
+      "tolerance_percent": 10
+    },
+    "tags": ["mlcc", "capacitor", "0402"],
+    "updated_at": "2026-07-14"
+  }
+]
