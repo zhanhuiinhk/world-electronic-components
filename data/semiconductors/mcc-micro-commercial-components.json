@@ -1,0 +1,23 @@
+[
+  {
+    "part_number": "2N7002-TP",
+    "manufacturer": "MCC (Micro Commercial Components)",
+    "manufacturer_id": "mcc-micro-commercial-components",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.mccsemi.com/pdf/Products/2N7002(SOT-23).pdf",
+    "description": "MOSFET N-CH 60V 115MA SOT23",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "N-Channel",
+      "vds_v": 60,
+      "polarity": "N-Channel"
+    },
+    "tags": ["discrete-transistors", "digikey-import"],
+    "updated_at": "2026-07-15"
+  }
+]
