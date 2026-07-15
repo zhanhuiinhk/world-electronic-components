@@ -41,14 +41,14 @@
     "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
     "status": "active",
     "attributes": {
-      "iout_a": 40,
+      "iout_a": 0.04,
       "temperature_range_c": "-40°C ~ 125°C (TA)"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "LM358ADR",
@@ -64,14 +64,14 @@
     "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
     "status": "active",
     "attributes": {
-      "iout_a": 40,
+      "iout_a": 0.04,
       "temperature_range_c": "0°C ~ 70°C (TA)"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "LM358DR",
@@ -87,14 +87,14 @@
     "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
     "status": "active",
     "attributes": {
-      "iout_a": 40,
+      "iout_a": 0.04,
       "temperature_range_c": "0°C ~ 70°C (TA)"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "LMV358AIDR",
@@ -159,7 +159,7 @@
     "description": "IC REG BUCK ADJ 1A SOT23",
     "status": "active",
     "attributes": {
-      "topology": "Buck",
+      "topology": "Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 2.5,
       "vin_max_v": 5.5,
@@ -171,7 +171,7 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "TLV62569DBVR",
@@ -187,7 +187,7 @@
     "description": "IC REG BUCK ADJ 2A SOT23-5",
     "status": "active",
     "attributes": {
-      "topology": "Buck",
+      "topology": "Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 2.5,
       "vin_max_v": 5.5,
@@ -199,7 +199,7 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "TMP117AIDRVR",
@@ -269,7 +269,7 @@
     "description": "IC REG BUCK ADJ 1A SOT563",
     "status": "active",
     "attributes": {
-      "topology": "Buck",
+      "topology": "Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 2.5,
       "vin_max_v": 5.5,
@@ -281,6 +281,6 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   }
 ]

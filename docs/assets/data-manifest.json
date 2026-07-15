@@ -1,6 +1,8 @@
 {
   "source": "https://raw.githubusercontent.com/zhanhuiinhk/world-electronic-components/main/",
   "files": [
+    "data/circuit-protection/eaton-electronics-division.json",
+    "data/circuit-protection/littelfuse-inc.json",
     "data/circuit-protection/littelfuse.json",
     "data/connectors-interconnects/harwin-inc.json",
     "data/connectors-interconnects/hirose-electric-co-ltd.json",
@@ -40,15 +42,19 @@
     "data/rf-wireless/raspberry-pi.json",
     "data/semiconductors/analog-devices.json",
     "data/semiconductors/diodes-incorporated.json",
+    "data/semiconductors/diotec-semiconductor.json",
     "data/semiconductors/infineon.json",
+    "data/semiconductors/mcc-micro-commercial-components.json",
     "data/semiconductors/microchip-technology.json",
     "data/semiconductors/microchip.json",
+    "data/semiconductors/nexperia-usa-inc.json",
     "data/semiconductors/nexperia.json",
     "data/semiconductors/nxp.json",
     "data/semiconductors/onsemi.json",
     "data/semiconductors/raspberry-pi.json",
     "data/semiconductors/stmicroelectronics.json",
     "data/semiconductors/texas-instruments.json",
+    "data/semiconductors/toshiba-semiconductor-and-storage.json",
     "data/sensors-transducers/bosch-sensortec.json",
     "data/sensors-transducers/microchip-technology.json",
     "data/sensors-transducers/nxp-usa-inc.json",
@@ -56,5 +62,5 @@
     "data/sensors-transducers/sensirion-ag.json",
     "data/sensors-transducers/texas-instruments.json"
   ],
-  "count_files": 54
+  "count_files": 60
 }

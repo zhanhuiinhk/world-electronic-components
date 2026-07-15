@@ -15,14 +15,14 @@
     "attributes": {
       "inductance_uh": "10 µH",
       "tolerance_percent": 20,
-      "current_a": 1.44,
-      "dcr_ohm": 100000000.0,
+      "current_rating_a": 1.44,
+      "dcr_ohm": 0.1,
       "temperature_range_c": "-40°C ~ 125°C"
     },
     "tags": [
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   }
 ]

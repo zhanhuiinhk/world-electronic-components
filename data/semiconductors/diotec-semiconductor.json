@@ -14,10 +14,45 @@
     "status": "active",
     "attributes": {
       "transistor_type": "N-Channel",
+      "diode_type": "MOSFET (Metal Oxide)",
       "vds_v": 60,
+      "id_a": "280mA (Ta)",
+      "rds_on_ohm": "5Ohm @ 500mA, 10V",
+      "capacitance_uf": "50 pF @ 25 V",
+      "temperature_range_c": "150°C (TJ)",
       "polarity": "N-Channel"
     },
-    "tags": ["discrete-transistors", "digikey-import"],
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BAT54S",
+    "manufacturer": "Diotec Semiconductor",
+    "manufacturer_id": "diotec-semiconductor",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://diotec.com/request/datasheet/bat54.pdf",
+    "description": "DIODE ARR SCHOTT 30V 200MA SOT23",
+    "status": "active",
+    "attributes": {
+      "diode_type": "1 Pair Series Connection",
+      "vr_v": 30,
+      "if_a": 200,
+      "vf_v": "1 V @ 100 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "temperature_range_c": "-55°C ~ 150°C"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-15"
   }
 ]

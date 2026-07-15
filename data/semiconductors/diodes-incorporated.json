@@ -13,7 +13,7 @@
     "description": "IC REG BUCK ADJ 1A SOT563",
     "status": "active",
     "attributes": {
-      "topology": "Buck",
+      "topology": "Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 2.3,
       "vin_max_v": 5.5,
@@ -25,7 +25,7 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "AP62150WU-7",
@@ -69,7 +69,7 @@
     "description": "IC REG BUCK ADJ 1.5A SOT563",
     "status": "active",
     "attributes": {
-      "topology": "Buck",
+      "topology": "Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 4.2,
       "vin_max_v": 18,
@@ -81,7 +81,7 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "AP62300TWU-7",
@@ -97,7 +97,7 @@
     "description": "IC REG BUCK ADJ 3A TSOT26",
     "status": "active",
     "attributes": {
-      "topology": "Buck",
+      "topology": "Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 4.2,
       "vin_max_v": 18,
@@ -109,7 +109,7 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "AP62301Z6-7",
@@ -125,7 +125,7 @@
     "description": "IC REG BUCK ADJ 3A SOT563",
     "status": "active",
     "attributes": {
-      "topology": "Buck",
+      "topology": "Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 4.2,
       "vin_max_v": 18,
@@ -137,7 +137,7 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "AZ34063UMTR-G1",
@@ -153,7 +153,7 @@
     "description": "IC REG BUCK BOOST ADJ 1.5A 8SOIC",
     "status": "active",
     "attributes": {
-      "topology": "Buck, Boost",
+      "topology": "Step-Up, Step-Down",
       "interface": "Adjustable",
       "vin_min_v": 3,
       "vin_max_v": 36,
@@ -165,6 +165,35 @@
       "power-management-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "DMN62D0LFD-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/diodes-incorporated/DMN62D0LFD-7/4402527",
+    "description": "MOSFET N-CH 60V 310MA 3DFN",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "N-Channel",
+      "diode_type": "MOSFET (Metal Oxide)",
+      "vds_v": 60,
+      "id_a": "310mA (Ta)",
+      "rds_on_ohm": "2Ohm @ 100mA, 4V",
+      "capacitance_uf": "31 pF @ 25 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "N-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   }
 ]

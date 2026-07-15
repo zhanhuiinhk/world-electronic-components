@@ -28,6 +28,18 @@
     "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
+    "id": "diotec-semiconductor",
+    "name": "Diotec Semiconductor",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "eaton-electronics-division",
+    "name": "Eaton - Electronics Division",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "espressif-systems",
     "name": "Espressif Systems",
     "website": "https://www.digikey.com/en/supplier-centers",
@@ -111,6 +123,12 @@
     "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
+    "id": "littelfuse-inc",
+    "name": "Littelfuse Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "littelfuse",
     "name": "Littelfuse",
     "name_zh": "力特",
@@ -119,6 +137,12 @@
     "aliases": [
       "Littelfuse"
     ]
+  },
+  {
+    "id": "mcc-micro-commercial-components",
+    "name": "MCC (Micro Commercial Components)",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "mean-well",
@@ -186,6 +210,12 @@
     "aliases": [
       "Murata"
     ]
+  },
+  {
+    "id": "nexperia-usa-inc",
+    "name": "Nexperia USA Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "nexperia",
@@ -331,6 +361,12 @@
   {
     "id": "torex-semiconductor-ltd",
     "name": "Torex Semiconductor Ltd",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "toshiba-semiconductor-and-storage",
+    "name": "Toshiba Semiconductor and Storage",
     "website": "https://www.digikey.com/en/supplier-centers",
     "notes": "Auto-registered from DigiKey collect; please set official website."
   },

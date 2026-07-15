@@ -13,7 +13,7 @@
     "description": "RES SMD 0 OHM JUMPER 1/20W 0201",
     "status": "active",
     "attributes": {
-      "resistance_ohm": 0,
+      "resistance_ohm": 0.0,
       "tolerance_percent": "Jumper",
       "composition": "Thick Film",
       "temperature_range_c": "-55°C ~ 125°C"
@@ -22,7 +22,7 @@
       "resistors",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "ERJ-3EKF1002V",

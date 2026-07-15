@@ -13,10 +13,9 @@
     "description": "FIXED IND 33MH 37MA 110 OHM SMD",
     "status": "active",
     "attributes": {
-      "sensor_type": "Wirewound",
       "inductance_uh": 33,
       "tolerance_percent": 10,
-      "current_a": 37,
+      "current_rating_a": 0.037,
       "dcr_ohm": "110Ohm Max",
       "temperature_range_c": "-40°C ~ 85°C"
     },
@@ -24,7 +23,7 @@
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "22R686MC",
@@ -40,10 +39,9 @@
     "description": "FIXED IND 68MH 26MA 242 OHM SMD",
     "status": "active",
     "attributes": {
-      "sensor_type": "Wirewound",
       "inductance_uh": 68,
       "tolerance_percent": 10,
-      "current_a": 26,
+      "current_rating_a": 0.026,
       "dcr_ohm": "242Ohm Max",
       "temperature_range_c": "-40°C ~ 85°C"
     },
@@ -51,7 +49,7 @@
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "46683C",
@@ -67,10 +65,9 @@
     "description": "FIXED IND 68UH 1.05A 360 MOHM",
     "status": "active",
     "attributes": {
-      "sensor_type": "Wirewound",
       "inductance_uh": "68 µH",
       "tolerance_percent": 20,
-      "current_a": 1.05,
+      "current_rating_a": 1.05,
       "dcr_ohm": "360mOhm Max",
       "temperature_range_c": "-40°C ~ 125°C"
     },
@@ -78,7 +75,7 @@
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "82223C",
@@ -94,10 +91,9 @@
     "description": "FIXED IND 22UH 320MA 920 MOHM",
     "status": "active",
     "attributes": {
-      "sensor_type": "Wirewound",
       "inductance_uh": "22 µH",
       "tolerance_percent": 10,
-      "current_a": 320,
+      "current_rating_a": 0.32,
       "dcr_ohm": "920mOhm Max",
       "frequency_hz": 25,
       "temperature_range_c": "-40°C ~ 85°C"
@@ -106,7 +102,7 @@
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "82473C",
@@ -122,10 +118,9 @@
     "description": "FIXED IND 47UH 250MA 1.69 OHM",
     "status": "active",
     "attributes": {
-      "sensor_type": "Wirewound",
       "inductance_uh": "47 µH",
       "tolerance_percent": 10,
-      "current_a": 250,
+      "current_rating_a": 0.25,
       "dcr_ohm": "1.69Ohm Max",
       "frequency_hz": 17,
       "temperature_range_c": "-40°C ~ 85°C"
@@ -134,6 +129,6 @@
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   }
 ]

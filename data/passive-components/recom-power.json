@@ -13,10 +13,10 @@
     "description": "FIXED IND 12UH 800MA 420 MOHM",
     "status": "active",
     "attributes": {
-      "sensor_type": "Wirewound",
       "inductance_uh": "12 µH",
       "tolerance_percent": 20,
-      "current_a": 800,
+      "current_rating_a": 0.8,
+      "current_a": 1.4,
       "dcr_ohm": "420mOhm Max",
       "temperature_range_c": "-40°C ~ 125°C"
     },
@@ -24,7 +24,7 @@
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "RLS-226-R",
@@ -40,10 +40,10 @@
     "description": "FIXED IND 22UH 630MA 700 MOHM",
     "status": "active",
     "attributes": {
-      "sensor_type": "Wirewound",
       "inductance_uh": "22 µH",
       "tolerance_percent": 10,
-      "current_a": 630,
+      "current_rating_a": 0.63,
+      "current_a": 1,
       "dcr_ohm": "700mOhm Max",
       "temperature_range_c": "-40°C ~ 125°C"
     },
@@ -51,6 +51,6 @@
       "inductors-coils-chokes",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   }
 ]

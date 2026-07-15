@@ -20,7 +20,10 @@
       "breaking_capacity_a": 50,
       "temperature_range_c": "-55°C ~ 125°C"
     },
-    "tags": ["fuses", "digikey-import"],
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-15"
   },
   {
@@ -44,7 +47,10 @@
       "breaking_capacity_a": 50,
       "temperature_range_c": "-55°C ~ 125°C"
     },
-    "tags": ["fuses", "digikey-import"],
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-15"
   },
   {
@@ -68,7 +74,10 @@
       "breaking_capacity_a": 50,
       "temperature_range_c": "-65°C ~ 125°C"
     },
-    "tags": ["fuses", "digikey-import"],
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-15"
   }
 ]

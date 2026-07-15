@@ -14,10 +14,18 @@
     "status": "active",
     "attributes": {
       "transistor_type": "N-Channel",
+      "diode_type": "MOSFET (Metal Oxide)",
       "vds_v": 60,
+      "id_a": "200mA (Ta)",
+      "rds_on_ohm": "3.9Ohm @ 100mA, 10V",
+      "capacitance_uf": "17 pF @ 10 V",
+      "temperature_range_c": "150°C (TJ)",
       "polarity": "N-Channel"
     },
-    "tags": ["discrete-transistors", "digikey-import"],
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-15"
   },
   {
@@ -35,10 +43,18 @@
     "status": "active",
     "attributes": {
       "transistor_type": "N-Channel",
+      "diode_type": "MOSFET (Metal Oxide)",
       "vds_v": 60,
+      "id_a": "400mA (Ta)",
+      "rds_on_ohm": "1.5Ohm @ 100mA, 10V",
+      "capacitance_uf": "40 pF @ 10 V",
+      "temperature_range_c": "150°C (TJ)",
       "polarity": "N-Channel"
     },
-    "tags": ["discrete-transistors", "digikey-import"],
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
     "updated_at": "2026-07-15"
   }
 ]

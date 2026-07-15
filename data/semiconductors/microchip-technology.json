@@ -68,14 +68,14 @@
     "status": "active",
     "attributes": {
       "interface": "Rail-to-Rail",
-      "iout_a": 30,
+      "iout_a": 0.03,
       "temperature_range_c": "-40°C ~ 125°C (TA)"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "MCP6006UT-E/LT",
@@ -92,14 +92,14 @@
     "status": "active",
     "attributes": {
       "interface": "Rail-to-Rail",
-      "iout_a": 30,
+      "iout_a": 0.03,
       "temperature_range_c": "-40°C ~ 125°C (TA)"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "MCP6006UT-E/OT",
@@ -116,14 +116,14 @@
     "status": "active",
     "attributes": {
       "interface": "Rail-to-Rail",
-      "iout_a": 30,
+      "iout_a": 0.03,
       "temperature_range_c": "-40°C ~ 125°C (TA)"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "MCP6007T-E/MS",

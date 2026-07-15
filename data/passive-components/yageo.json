@@ -76,7 +76,7 @@
       "resistors",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "RC0201JR-070RL",
@@ -92,7 +92,7 @@
     "description": "RES 0 OHM JUMPER 1/20W 0201",
     "status": "active",
     "attributes": {
-      "resistance_ohm": 0,
+      "resistance_ohm": 0.0,
       "tolerance_percent": "Jumper",
       "composition": "Thick Film",
       "temperature_range_c": "-55°C ~ 125°C"
@@ -101,7 +101,7 @@
       "resistors",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "RC0402FR-0710KL",
@@ -182,7 +182,7 @@
       "resistors",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "RC0603JR-070RL",
@@ -198,7 +198,7 @@
     "description": "RES 0 OHM JUMPER 1/10W 0603",
     "status": "active",
     "attributes": {
-      "resistance_ohm": 0,
+      "resistance_ohm": 0.0,
       "tolerance_percent": "Jumper",
       "power_w": "0.1W, 1/10W",
       "composition": "Thick Film",
@@ -208,7 +208,7 @@
       "resistors",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "RC0805FR-071K0L",

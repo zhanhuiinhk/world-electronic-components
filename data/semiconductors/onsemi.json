@@ -26,6 +26,143 @@
     "updated_at": "2026-07-14"
   },
   {
+    "part_number": "BAT54ALT1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BAT54ALT1-D.PDF",
+    "description": "DIODE ARR SCHOTT 30V 200MA SOT23",
+    "status": "active",
+    "attributes": {
+      "diode_type": "1 Pair Common Anode",
+      "vr_v": 30,
+      "if_a": "200mA (DC)",
+      "vf_v": "800 mV @ 100 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "temperature_range_c": "-55°C ~ 150°C"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BAT54CLT3G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF",
+    "description": "DIODE ARR SCHOTT 30V 200MA SOT23",
+    "status": "active",
+    "attributes": {
+      "diode_type": "1 Pair Common Cathode",
+      "vr_v": 30,
+      "if_a": "200mA (DC)",
+      "vf_v": "800 mV @ 100 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BAT54HT1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BAT54HT1-D.PDF",
+    "description": "DIODE SCHOTTKY 30V 200MA SOD323",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Schottky",
+      "vr_v": 30,
+      "if_a": 200,
+      "vf_v": "800 mV @ 100 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "capacitance_uf": "10pF @ 1V, 1MHz",
+      "temperature_range_c": "-55°C ~ 150°C"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BAT54LT1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BAT54LT1-D.PDF",
+    "description": "DIODE SCHOTTKY 30V 200MA SOT23-3",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Schottky",
+      "vr_v": 30,
+      "if_a": 200,
+      "vf_v": "800 mV @ 100 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "capacitance_uf": "10pF @ 1V, 1MHz",
+      "temperature_range_c": "-55°C ~ 150°C"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BAT54SLT1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BAT54SLT1-D.PDF",
+    "description": "DIODE ARR SCHOTT 30V 200MA SOT23",
+    "status": "active",
+    "attributes": {
+      "diode_type": "1 Pair Series Connection",
+      "vr_v": 30,
+      "if_a": "200mA (DC)",
+      "vf_v": "800 mV @ 100 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "temperature_range_c": "125°C (Max)"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "LM321SN3T1G",
     "manufacturer": "onsemi",
     "manufacturer_id": "onsemi",
@@ -39,14 +176,14 @@
     "description": "IC OPAMP GP 1 CIRCUIT 5TSOP",
     "status": "active",
     "attributes": {
-      "iout_a": 40,
+      "iout_a": 0.04,
       "temperature_range_c": "-40°C ~ 85°C"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "LM358DR2G",
@@ -62,14 +199,14 @@
     "description": "IC OPAMP GP 2 CIRCUIT 8SOIC",
     "status": "active",
     "attributes": {
-      "iout_a": 40,
+      "iout_a": 0.04,
       "temperature_range_c": "0°C ~ 70°C"
     },
     "tags": [
       "analog-ics",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "MJE3055T",
@@ -119,6 +256,61 @@
       "discrete-diodes-rectifiers",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "NSVBAT54HT1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pdf/datasheet/bat54ht1-d.pdf",
+    "description": "DIODE SCHOTTKY 30V 200MA SOD323",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Schottky",
+      "vr_v": 30,
+      "if_a": 200,
+      "vf_v": "800 mV @ 100 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "capacitance_uf": "10pF @ 1V, 1MHz",
+      "temperature_range_c": "-55°C ~ 150°C"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "RB520S30T1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pdf/datasheet/rb520s30t1-d.pdf",
+    "description": "DIODE SCHOTTKY 30V 200MA SOD523",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Schottky",
+      "vr_v": 30,
+      "if_a": 200,
+      "vf_v": "600 mV @ 200 mA",
+      "clock_mhz": "Small Signal =< 200mA (Io), Any Speed",
+      "temperature_range_c": "-55°C ~ 150°C"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   }
 ]
