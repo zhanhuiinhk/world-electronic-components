@@ -1,0 +1,107 @@
+[
+  {
+    "part_number": "2N7002BK,215",
+    "manufacturer": "Nexperia USA Inc.",
+    "manufacturer_id": "nexperia-usa-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf",
+    "description": "MOSFET N-CH 60V 350MA TO236AB",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "N-Channel",
+      "vds_v": 60,
+      "polarity": "N-Channel"
+    },
+    "tags": ["discrete-transistors", "digikey-import"],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "2N7002NXAKR",
+    "manufacturer": "Nexperia USA Inc.",
+    "manufacturer_id": "nexperia-usa-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf",
+    "description": "MOSFET N-CH 60V 190MA TO236AB",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "N-Channel",
+      "vds_v": 60,
+      "polarity": "N-Channel"
+    },
+    "tags": ["discrete-transistors", "digikey-import"],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "2N7002P,215",
+    "manufacturer": "Nexperia USA Inc.",
+    "manufacturer_id": "nexperia-usa-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/2N7002P.pdf",
+    "description": "MOSFET N-CH 60V 360MA TO236AB",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "N-Channel",
+      "vds_v": 60,
+      "polarity": "N-Channel"
+    },
+    "tags": ["discrete-transistors", "digikey-import"],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BSS138P,215",
+    "manufacturer": "Nexperia USA Inc.",
+    "manufacturer_id": "nexperia-usa-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/BSS138P.pdf",
+    "description": "MOSFET N-CH 60V 360MA TO236AB",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "N-Channel",
+      "vds_v": 60,
+      "polarity": "N-Channel"
+    },
+    "tags": ["discrete-transistors", "digikey-import"],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "NX7002AK,215",
+    "manufacturer": "Nexperia USA Inc.",
+    "manufacturer_id": "nexperia-usa-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/NX7002AK.pdf",
+    "description": "MOSFET N-CH 60V 190MA TO236AB",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "N-Channel",
+      "vds_v": 60,
+      "polarity": "N-Channel"
+    },
+    "tags": ["discrete-transistors", "digikey-import"],
+    "updated_at": "2026-07-15"
+  }
+]
