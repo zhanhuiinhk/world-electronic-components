@@ -24,5 +24,83 @@
       "digikey-import"
     ],
     "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "GRM21BC81C106KA73L",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_id": "murata-electronics",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C106KA73L/2334870",
+    "description": "CAP CER 10UF 16V X6S 0805",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 10.0,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X6S",
+      "temperature_range_c": "-55°C ~ 105°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "GRM21BC81C106KE15L",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_id": "murata-electronics",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BC81C106KE15L/5027583",
+    "description": "CAP CER 10UF 16V X6S 0805",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 10.0,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X6S",
+      "temperature_range_c": "-55°C ~ 105°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "GRM21BR61C106KE15K",
+    "manufacturer": "Murata Electronics",
+    "manufacturer_id": "murata-electronics",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903",
+    "description": "CAP CER 10UF 16V X5R 0805",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 10.0,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X5R",
+      "temperature_range_c": "-55°C ~ 85°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "part_number": "WP7113SRD-D",
+    "part_number": "AAAF5050-MC-K12",
     "manufacturer": "Kingbright",
     "manufacturer_id": "kingbright",
     "product_class": "component",
@@ -8,19 +8,19 @@
     "category_slug": "optoelectronics-displays",
     "sub_category": "LEDs & Indicators",
     "sub_category_slug": "leds-indicators",
-    "package": "5mm T-1 3/4",
-    "origin": "Taiwan",
-    "datasheet_url": "https://www.kingbright.com/attachments/file/psearch/09/WP7113SRD-D.pdf",
-    "description": "5mm red LED lamp",
+    "package": "—",
+    "datasheet_url": "https://www.kingbrightusa.com/images/catalog/SPEC/AAAF5050-MC-K12.pdf",
+    "description": "ADDRESS LED DISCRETE SERIAL RGB",
     "status": "active",
     "attributes": {
-      "color": "red",
-      "forward_voltage_v": 1.85,
-      "forward_current_ma": 20,
-      "wavelength_nm": 640
+      "diode_type": "Discrete",
+      "color": "Red, Green, Blue (RGB)"
     },
-    "tags": ["led", "red", "5mm"],
-    "updated_at": "2026-07-14"
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "APT1608SGC",
@@ -42,7 +42,38 @@
       "forward_current_ma": 20,
       "wavelength_nm": 568
     },
-    "tags": ["led", "smd", "0603"],
+    "tags": [
+      "led",
+      "smd",
+      "0603"
+    ],
+    "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "WP7113SRD-D",
+    "manufacturer": "Kingbright",
+    "manufacturer_id": "kingbright",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "5mm T-1 3/4",
+    "origin": "Taiwan",
+    "datasheet_url": "https://www.kingbright.com/attachments/file/psearch/09/WP7113SRD-D.pdf",
+    "description": "5mm red LED lamp",
+    "status": "active",
+    "attributes": {
+      "color": "red",
+      "forward_voltage_v": 1.85,
+      "forward_current_ma": 20,
+      "wavelength_nm": 640
+    },
+    "tags": [
+      "led",
+      "red",
+      "5mm"
+    ],
     "updated_at": "2026-07-14"
   }
 ]

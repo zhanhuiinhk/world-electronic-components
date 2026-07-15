@@ -146,6 +146,174 @@
     "updated_at": "2026-07-14"
   },
   {
+    "part_number": "OPA1655DBVR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa1655.pdf",
+    "description": "SOUNDPLUS ULTRA-LOW NOISE AND DI",
+    "status": "active",
+    "attributes": {
+      "interface": "Rail-to-Rail",
+      "iout_a": 0.1,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "OPA1655DR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa1655.pdf",
+    "description": "SOUNDPLUS ULTRA-LOW NOISE AND DI",
+    "status": "active",
+    "attributes": {
+      "interface": "Rail-to-Rail",
+      "iout_a": 0.1,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "OPA182IDR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa182.pdf",
+    "description": "36-V, 5-MHZ, SINGLE, LOW-NOISE,",
+    "status": "active",
+    "attributes": {
+      "interface": "Rail-to-Rail",
+      "iout_a": 0.065,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "OPA182IDT",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa182.pdf",
+    "description": "36-V, 5-MHZ, SINGLE, LOW-NOISE,",
+    "status": "active",
+    "attributes": {
+      "interface": "Rail-to-Rail",
+      "iout_a": 0.065,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "OPA2140AIDRGR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa2140.pdf",
+    "description": "DUAL-CHANNEL, 11-MHZ, LOW-NOISE",
+    "status": "active",
+    "attributes": {
+      "interface": "Push-Pull, Rail-to-Rail",
+      "iout_a": 0.036,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "OPA2206ADR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa2206.pdf",
+    "description": "OVP 40-V, LOW-POWER, LOW-NOISE,",
+    "status": "active",
+    "attributes": {
+      "interface": "Push-Pull, Rail-to-Rail",
+      "iout_a": 0.025,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "OPA4182IDR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Analog ICs",
+    "sub_category_slug": "analog-ics",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/opa4182.pdf",
+    "description": "36-V, 5-MHZ, QUAD, LOW-NOISE, ZE",
+    "status": "active",
+    "attributes": {
+      "interface": "Rail-to-Rail",
+      "iout_a": 0.065,
+      "temperature_range_c": "-40°C ~ 125°C (TA)"
+    },
+    "tags": [
+      "analog-ics",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "TLV62568PDDCR",
     "manufacturer": "Texas Instruments",
     "manufacturer_id": "texas-instruments",
@@ -226,6 +394,30 @@
       "sensor-ic"
     ],
     "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TPD1E10B06DYAR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+    "description": "TVS DIODE 5.5VWM 14VC SOT5X3",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": "12pF @ 1MHz",
+      "temperature_range_c": "-40°C ~ 125°C (TA)",
+      "diode_type": "Zener"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "TPS562201DDCR",

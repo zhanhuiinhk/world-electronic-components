@@ -19,7 +19,36 @@
       "dielectric": "X7R",
       "tolerance_percent": 10
     },
-    "tags": ["mlcc", "samsung"],
+    "tags": [
+      "mlcc",
+      "samsung"
+    ],
     "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "CL21B106KOQNNNG",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "manufacturer_id": "samsung-electro-mechanics",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B106KOQNNNG/3894472",
+    "description": "CAP CER 10UF 16V X7R 0805",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 10.0,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X7R",
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   }
 ]

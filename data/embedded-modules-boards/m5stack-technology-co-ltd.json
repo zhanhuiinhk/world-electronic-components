@@ -1,0 +1,46 @@
+[
+  {
+    "part_number": "C008",
+    "manufacturer": "M5Stack Technology Co., Ltd.",
+    "manufacturer_id": "m5stack-technology-co-ltd",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/C008/12088545",
+    "description": "ATOM LITE ESP32 EVAL BRD",
+    "status": "active",
+    "attributes": {
+      "core": "Xtensa®"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "C124",
+    "manufacturer": "M5Stack Technology Co., Ltd.",
+    "manufacturer_id": "m5stack-technology-co-ltd",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/C124/18070571",
+    "description": "ATOMS3 LITE ESP32S3 DEV KIT",
+    "status": "active",
+    "attributes": {
+      "core": "Xtensa®"
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

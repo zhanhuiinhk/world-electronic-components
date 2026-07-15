@@ -1,0 +1,30 @@
+[
+  {
+    "part_number": "PJA3441_R1_00001",
+    "manufacturer": "Panjit International Inc.",
+    "manufacturer_id": "panjit-international-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.panjit.com.tw/upload/datasheet/PJA3441.pdf",
+    "description": "SOT-23, MOSFET",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 40,
+      "id_a": "3.1A (Ta)",
+      "rds_on_ohm": "88mOhm @ 3.1A, 10V",
+      "capacitance_uf": "505 pF @ 20 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

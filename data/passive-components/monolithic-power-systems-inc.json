@@ -1,0 +1,80 @@
+[
+  {
+    "part_number": "MPL-AL4020-4R7",
+    "manufacturer": "Monolithic Power Systems Inc.",
+    "manufacturer_id": "monolithic-power-systems-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPL-AL4020-4R7/document_id/5796/",
+    "description": "FIXED IND 4.7UH 3.65A 52.2 MOHM",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "current_rating_a": 3.65,
+      "current_a": 4.2,
+      "dcr_ohm": 0.0522,
+      "temperature_range_c": "-40°C ~ 155°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "MPL-SE4030-4R7",
+    "manufacturer": "Monolithic Power Systems Inc.",
+    "manufacturer_id": "monolithic-power-systems-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPL-SE4030-4R7/document_id/5902/",
+    "description": "FIXED IND 4.7UH 2.6A 63 MOHM SMD",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "current_rating_a": 2.6,
+      "current_a": 3.7,
+      "dcr_ohm": 0.063,
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "MPL-SE5040-4R7",
+    "manufacturer": "Monolithic Power Systems Inc.",
+    "manufacturer_id": "monolithic-power-systems-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPL-SE5040-4R7/",
+    "description": "FIXED IND 4.7UH 4.3A 33 MOHM SMD",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "current_rating_a": 4.3,
+      "current_a": 5,
+      "dcr_ohm": 0.033,
+      "temperature_range_c": "-40°C ~ 125°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

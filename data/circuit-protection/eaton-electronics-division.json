@@ -1,5 +1,59 @@
 [
   {
+    "part_number": "PTS120630V016",
+    "manufacturer": "Eaton - Electronics Division",
+    "manufacturer_id": "eaton-electronics-division",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-pts1206-6-60-volt-dc-surface-mount-resettable-ptc-data-sheet.pdf",
+    "description": "PTC RESET FUSE 30V 160MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 30,
+      "current_rating_a": 0.16,
+      "current_a": 0.37,
+      "resistance_ohm": 1.1,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "PTS120660V010",
+    "manufacturer": "Eaton - Electronics Division",
+    "manufacturer_id": "eaton-electronics-division",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-pts1206-6-60-volt-dc-surface-mount-resettable-ptc-data-sheet.pdf",
+    "description": "PTC RESET FUSE 60V 100MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 60,
+      "current_rating_a": 0.1,
+      "current_a": 0.25,
+      "resistance_ohm": 1.6,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "TR/3216FF-1A",
     "manufacturer": "Eaton - Electronics Division",
     "manufacturer_id": "eaton-electronics-division",

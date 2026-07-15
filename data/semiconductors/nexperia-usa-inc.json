@@ -116,6 +116,34 @@
     "updated_at": "2026-07-15"
   },
   {
+    "part_number": "NX2301P,215",
+    "manufacturer": "Nexperia USA Inc.",
+    "manufacturer_id": "nexperia-usa-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/NX2301P.pdf",
+    "description": "MOSFET P-CH 20V 2A TO236AB",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 20,
+      "id_a": "2A (Ta)",
+      "rds_on_ohm": "120mOhm @ 1A, 4.5V",
+      "capacitance_uf": "380 pF @ 6 V",
+      "temperature_range_c": "150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "NX7002AK,215",
     "manufacturer": "Nexperia USA Inc.",
     "manufacturer_id": "nexperia-usa-inc",
@@ -140,6 +168,29 @@
     },
     "tags": [
       "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "PUSB3FR4Z",
+    "manufacturer": "Nexperia USA Inc.",
+    "manufacturer_id": "nexperia-usa-inc",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/PUSB3FR4.pdf",
+    "description": "TVS DIODE 3.3VWM 3VC DFN2510A-10",
+    "status": "active",
+    "attributes": {
+      "temperature_range_c": "-40°C ~ 85°C (TA)",
+      "diode_type": "Zener"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
       "digikey-import"
     ],
     "updated_at": "2026-07-15"

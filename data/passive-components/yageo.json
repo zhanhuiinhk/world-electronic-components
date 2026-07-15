@@ -52,6 +52,59 @@
     "updated_at": "2026-07-14"
   },
   {
+    "part_number": "CC0805KKX5R7BB106",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V",
+    "description": "CAP CER 10UF 16V X5R 0805",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 10.0,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X5R",
+      "temperature_range_c": "-55°C ~ 85°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "PE0805FRM470R006L",
+    "manufacturer": "YAGEO",
+    "manufacturer_id": "yageo",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-PE_521_ROHS_L.pdf",
+    "description": "RES 0.006 OHM 1% 1/2W 0805",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0.006,
+      "tolerance_percent": 1,
+      "power_w": "0.5W, 1/2W",
+      "composition": "Metal Film",
+      "temperature_coefficient_ppm": 75,
+      "temperature_range_c": "-55°C ~ 170°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "RC0201FR-0710KL",
     "manufacturer": "YAGEO",
     "manufacturer_id": "yageo",

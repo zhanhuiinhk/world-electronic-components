@@ -1,0 +1,218 @@
+[
+  {
+    "part_number": "0ZCJ0005FF2E",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 60V 50MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 60,
+      "current_rating_a": 0.05,
+      "current_a": 0.15,
+      "resistance_ohm": 3.6,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0ZCJ0010FF2E",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 60V 100MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 60,
+      "current_rating_a": 0.1,
+      "current_a": 0.25,
+      "resistance_ohm": 1.6,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0ZCJ0012FF2E",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 48V 120MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 48,
+      "current_rating_a": 0.12,
+      "current_a": 0.39,
+      "resistance_ohm": 1.4,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0ZCJ0016FF2E",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 48V 160MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 48,
+      "current_rating_a": 0.16,
+      "current_a": 0.45,
+      "resistance_ohm": 1.1,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0ZCJ0025AF2E",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 24V 250MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 24,
+      "current_rating_a": 0.25,
+      "current_a": 0.5,
+      "resistance_ohm": 0.55,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0ZCJ0025FF2E",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 16V 250MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 16,
+      "current_rating_a": 0.25,
+      "current_a": 0.5,
+      "resistance_ohm": 0.55,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0ZCJ0035FF2G",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 16V 350MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 16,
+      "current_rating_a": 0.35,
+      "current_a": 0.75,
+      "resistance_ohm": 0.3,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0ZCJ0075AF2E",
+    "manufacturer": "Bel Fuse Inc.",
+    "manufacturer_id": "bel-fuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf",
+    "description": "PTC RESET FUSE 16V 750MA 1206",
+    "status": "active",
+    "attributes": {
+      "voltage_rating_v": 16,
+      "current_rating_a": 0.75,
+      "current_a": 1.5,
+      "resistance_ohm": 0.09,
+      "temperature_range_c": "-40°C ~ 85°C",
+      "fuse_type": "Polymeric"
+    },
+    "tags": [
+      "fuses",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

@@ -52,6 +52,32 @@
     "updated_at": "2026-07-14"
   },
   {
+    "part_number": "C2012X5R1C106K085AC",
+    "manufacturer": "TDK",
+    "manufacturer_id": "tdk",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Capacitors",
+    "sub_category_slug": "capacitors",
+    "package": "—",
+    "datasheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf",
+    "description": "CAP CER 10UF 16V X5R 0805",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": 10.0,
+      "tolerance_percent": 10,
+      "voltage_v": 16,
+      "temperature_coefficient_ppm": "X5R",
+      "temperature_range_c": "-55°C ~ 85°C"
+    },
+    "tags": [
+      "capacitors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "MLZ2012N100LT000",
     "manufacturer": "TDK Corporation",
     "manufacturer_id": "tdk",

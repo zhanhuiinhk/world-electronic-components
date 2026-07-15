@@ -270,7 +270,43 @@ def enrich_required_attrs(
                     out["polarity"] = label
                     break
 
-    if sub_category_slug == "discrete-diodes-rectifiers":
+    
+    if sub_category_slug == "power-management-ics":
+        if "topology" not in out:
+            for pname, pval in pairs.items():
+                pl = pname.lower()
+                if "topology" in pl or pl in ("function", "type"):
+                    out["topology"] = str(pval).strip()
+                    break
+        if "topology" not in out:
+            if "ldo" in blob:
+                out["topology"] = "LDO"
+            elif "buck" in blob or "step-down" in blob or "step down" in blob:
+                out["topology"] = "Buck"
+            elif "boost" in blob or "step-up" in blob:
+                out["topology"] = "Boost"
+            elif "regulator" in blob:
+                out["topology"] = "Linear Regulator"
+
+
+    if sub_category_slug == "temperature-sensors":
+        if "sensor_type" not in out:
+            for pname, pval in pairs.items():
+                pl = pname.lower()
+                if "sensor type" in pl or pl == "output type" or "sensing" in pl:
+                    out["sensor_type"] = str(pval).strip()
+                    break
+        if "sensor_type" not in out:
+            if "digital" in blob or "i2c" in blob or "spi" in blob:
+                out["sensor_type"] = "Digital"
+            elif "thermistor" in blob or "ntc" in blob:
+                out["sensor_type"] = "Thermistor"
+            elif "thermocouple" in blob:
+                out["sensor_type"] = "Thermocouple"
+            elif "temperature" in blob:
+                out["sensor_type"] = "Temperature Sensor"
+
+if sub_category_slug == "discrete-diodes-rectifiers":
         if "diode_type" not in out:
             for pname, pval in pairs.items():
                 pl = pname.lower()

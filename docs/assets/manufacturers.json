@@ -1,5 +1,35 @@
 [
   {
+    "id": "adafruit-industries-llc",
+    "name": "Adafruit Industries LLC",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "american-bright-optoelectronics-corporation",
+    "name": "American Bright Optoelectronics Corporation",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "amphenol-icc-fci",
+    "name": "Amphenol ICC (FCI)",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "ams-osram-usa-inc",
+    "name": "ams-OSRAM USA INC.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "analog-devices-inc",
+    "name": "Analog Devices Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "analog-devices",
     "name": "Analog Devices",
     "name_zh": "亚德诺",
@@ -11,6 +41,12 @@
     ]
   },
   {
+    "id": "bel-fuse-inc",
+    "name": "Bel Fuse Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "bosch-sensortec",
     "name": "Bosch Sensortec",
     "name_zh": "博世传感器",
@@ -20,6 +56,18 @@
       "Bosch Sensortec",
       "BST"
     ]
+  },
+  {
+    "id": "dfrobot",
+    "name": "DFRobot",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "dialight",
+    "name": "Dialight",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "diodes-incorporated",
@@ -84,6 +132,12 @@
     "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
+    "id": "infineon-technologies",
+    "name": "Infineon Technologies",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "infineon",
     "name": "Infineon Technologies",
     "name_zh": "英飞凌",
@@ -103,12 +157,19 @@
   {
     "id": "kingbright",
     "name": "Kingbright",
-    "name_zh": "今台电子",
     "website": "https://www.kingbright.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "今台电子",
     "country": "Taiwan",
     "aliases": [
       "Kingbright"
     ]
+  },
+  {
+    "id": "koa-speer-electronics-inc",
+    "name": "KOA Speer Electronics, Inc.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "kyocera-avx",
@@ -139,8 +200,20 @@
     ]
   },
   {
+    "id": "m5stack-technology-co-ltd",
+    "name": "M5Stack Technology Co., Ltd.",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "mcc-micro-commercial-components",
     "name": "MCC (Micro Commercial Components)",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "mean-well-usa-inc",
+    "name": "MEAN WELL USA Inc.",
     "website": "https://www.digikey.com/en/supplier-centers",
     "notes": "Auto-registered from DigiKey collect; please set official website."
   },
@@ -245,6 +318,12 @@
     ]
   },
   {
+    "id": "ohmite",
+    "name": "Ohmite",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "omron",
     "name": "Omron",
     "name_zh": "欧姆龙",
@@ -269,6 +348,12 @@
   {
     "id": "panasonic-industry",
     "name": "Panasonic Industry",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "panjit-international-inc",
+    "name": "Panjit International Inc.",
     "website": "https://www.digikey.com/en/supplier-centers",
     "notes": "Auto-registered from DigiKey collect; please set official website."
   },
@@ -299,13 +384,26 @@
   {
     "id": "samsung-electro-mechanics",
     "name": "Samsung Electro-Mechanics",
-    "name_zh": "三星电机",
     "website": "https://www.samsungsem.com",
+    "notes": "Auto-registered from DigiKey collect; please set official website.",
+    "name_zh": "三星电机",
     "country": "South Korea",
     "aliases": [
       "SEMCO",
       "Samsung SEM"
     ]
+  },
+  {
+    "id": "seeed-technology-co-ltd",
+    "name": "Seeed Technology Co., Ltd",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
+    "id": "semtech-corporation",
+    "name": "Semtech Corporation",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "sensirion-ag",
@@ -326,6 +424,12 @@
     ]
   },
   {
+    "id": "taiyo-yuden",
+    "name": "Taiyo Yuden",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
+  },
+  {
     "id": "tdk",
     "name": "TDK",
     "website": "https://www.tdk.com",
@@ -335,6 +439,12 @@
     "aliases": [
       "TDK"
     ]
+  },
+  {
+    "id": "te-connectivity-amp-connectors",
+    "name": "TE Connectivity AMP Connectors",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "te-connectivity",
@@ -391,6 +501,12 @@
     "aliases": [
       "Vishay"
     ]
+  },
+  {
+    "id": "w-rth-elektronik",
+    "name": "Würth Elektronik",
+    "website": "https://www.digikey.com/en/supplier-centers",
+    "notes": "Auto-registered from DigiKey collect; please set official website."
   },
   {
     "id": "wurth-elektronik",

@@ -1,0 +1,170 @@
+[
+  {
+    "part_number": "10164227-0201A1RLF",
+    "manufacturer": "Amphenol ICC (FCI)",
+    "manufacturer_id": "amphenol-icc-fci",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_0_40mm_btb.pdf",
+    "description": "BERGSTAK 0.4MM, 20POSITION, RECE",
+    "status": "active",
+    "attributes": {
+      "positions": 20,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "10164227-1001A1RLF",
+    "manufacturer": "Amphenol ICC (FCI)",
+    "manufacturer_id": "amphenol-icc-fci",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_0_40mm_btb.pdf",
+    "description": "BERGSTAK 0.4MM, 100POSITION, REC",
+    "status": "active",
+    "attributes": {
+      "positions": 100,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "10164227-1004A1RLF",
+    "manufacturer": "Amphenol ICC (FCI)",
+    "manufacturer_id": "amphenol-icc-fci",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_0_40mm_btb.pdf",
+    "description": "BERGSTAK 0.4MM, 100POSITION, REC",
+    "status": "active",
+    "attributes": {
+      "positions": 100,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "10164228-0201A1RLF",
+    "manufacturer": "Amphenol ICC (FCI)",
+    "manufacturer_id": "amphenol-icc-fci",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_0_40mm_btb.pdf",
+    "description": "BERGSTAK 0.4MM, 20POSITION, HEAD",
+    "status": "active",
+    "attributes": {
+      "positions": 20,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "10164228-0301A1RLF",
+    "manufacturer": "Amphenol ICC (FCI)",
+    "manufacturer_id": "amphenol-icc-fci",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_0_40mm_btb.pdf",
+    "description": "BERGSTAK 0.4MM, 30POSITION, HEAD",
+    "status": "active",
+    "attributes": {
+      "positions": 30,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "10164228-0401A1RLF",
+    "manufacturer": "Amphenol ICC (FCI)",
+    "manufacturer_id": "amphenol-icc-fci",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_0_40mm_btb.pdf",
+    "description": "BERGSTAK 0.4MM, 40POSITION, HEAD",
+    "status": "active",
+    "attributes": {
+      "positions": 40,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "10164228-0501A1RLF",
+    "manufacturer": "Amphenol ICC (FCI)",
+    "manufacturer_id": "amphenol-icc-fci",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_0_40mm_btb.pdf",
+    "description": "BERGSTAK 0.4MM, 50POSITION, HEAD",
+    "status": "active",
+    "attributes": {
+      "positions": 50,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

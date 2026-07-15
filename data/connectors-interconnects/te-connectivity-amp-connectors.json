@@ -1,0 +1,26 @@
+[
+  {
+    "part_number": "4-2363961-0",
+    "manufacturer": "TE Connectivity AMP Connectors",
+    "manufacturer_id": "te-connectivity-amp-connectors",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=501-115182&DocType=Specification+Or+Standard&DocLang=English&DocFormat=pdf&PartCntxt=4-2363961-0",
+    "description": "0.4MM BTB CONN H0.8 REC ASSEMBLY",
+    "status": "active",
+    "attributes": {
+      "positions": 40,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

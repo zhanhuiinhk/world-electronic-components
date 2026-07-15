@@ -1,8 +1,12 @@
 {
   "id": "samsung-electro-mechanics",
   "name": "Samsung Electro-Mechanics",
-  "name_zh": "三星电机",
   "website": "https://www.samsungsem.com",
+  "notes": "Auto-registered from DigiKey collect; please set official website.",
+  "name_zh": "三星电机",
   "country": "South Korea",
-  "aliases": ["SEMCO", "Samsung SEM"]
+  "aliases": [
+    "SEMCO",
+    "Samsung SEM"
+  ]
 }

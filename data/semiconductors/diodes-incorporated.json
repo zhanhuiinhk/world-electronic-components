@@ -168,6 +168,34 @@
     "updated_at": "2026-07-15"
   },
   {
+    "part_number": "BSS84-7-F",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/BSS84.pdf",
+    "description": "MOSFET P-CH 50V 130MA SOT23-3",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 50,
+      "id_a": "130mA (Ta)",
+      "rds_on_ohm": "10Ohm @ 100mA, 5V",
+      "capacitance_uf": "45 pF @ 25 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "DMN62D0LFD-7",
     "manufacturer": "Diodes Incorporated",
     "manufacturer_id": "diodes-incorporated",
@@ -189,6 +217,62 @@
       "capacitance_uf": "31 pF @ 25 V",
       "temperature_range_c": "-55°C ~ 150°C (TJ)",
       "polarity": "N-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "DMP2004K-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/ds30933.pdf",
+    "description": "MOSFET P-CH 20V 600MA SOT23-3",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 20,
+      "id_a": "600mA (Ta)",
+      "rds_on_ohm": "900mOhm @ 430mA, 4.5V",
+      "capacitance_uf": "175 pF @ 16 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "DMP3099L-7",
+    "manufacturer": "Diodes Incorporated",
+    "manufacturer_id": "diodes-incorporated",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf",
+    "description": "MOSFET P-CH 30V 3.8A SOT23",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 30,
+      "id_a": "3.8A (Ta)",
+      "rds_on_ohm": "65mOhm @ 3.8A, 10V",
+      "capacitance_uf": "563 pF @ 25 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
     },
     "tags": [
       "discrete-transistors",

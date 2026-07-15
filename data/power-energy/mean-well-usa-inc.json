@@ -1,0 +1,29 @@
+[
+  {
+    "part_number": "SPU01M-12",
+    "manufacturer": "MEAN WELL USA Inc.",
+    "manufacturer_id": "mean-well-usa-inc",
+    "product_class": "module",
+    "category": "Power & Energy",
+    "category_slug": "power-energy",
+    "sub_category": "DC-DC Converter Modules",
+    "sub_category_slug": "dcdc-converters-modules",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/mean-well-usa-inc/SPU01M-12/7707040",
+    "description": "DC DC CONVERTER 12V 1W",
+    "status": "active",
+    "attributes": {
+      "vin_min_v": 10.8,
+      "vin_max_v": 13.2,
+      "vout_v": 12,
+      "iout_a": 0.084,
+      "power_w": 1,
+      "temperature_range_c": "-40°C ~ 90°C (With Derating)"
+    },
+    "tags": [
+      "dcdc-converters-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

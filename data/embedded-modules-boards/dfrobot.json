@@ -1,0 +1,46 @@
+[
+  {
+    "part_number": "DFR0654",
+    "manufacturer": "DFRobot",
+    "manufacturer_id": "dfrobot",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://wiki.dfrobot.com/dfr0654/",
+    "description": "FIREBEETLE 2 ESP32-E IOT",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "DFR1117",
+    "manufacturer": "DFRobot",
+    "manufacturer_id": "dfrobot",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://dfimg.dfrobot.com/5d57611a3416442fa39bffca/wiki/5eeffd974782b6cc442f7a2ee7f00577.pdf",
+    "description": "BEETLE ESP32 C6 MINI DEV BOARD",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

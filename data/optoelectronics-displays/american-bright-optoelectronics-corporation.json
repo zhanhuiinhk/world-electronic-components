@@ -1,0 +1,29 @@
+[
+  {
+    "part_number": "BL-HBXJXGX32L",
+    "manufacturer": "American Bright Optoelectronics Corporation",
+    "manufacturer_id": "american-bright-optoelectronics-corporation",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://www.americanbrightled.com/pdffiles/led-components/plcc/BL-HBXJXGX32L.pdf",
+    "description": "LED RGB CLEAR 5050 SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Red, Green, Blue (RGB)",
+      "diode_type": "Independent",
+      "luminous_intensity_mcd": "800mcd Red, 1900mcd Green, 400mcd Blue",
+      "forward_voltage_v": "2V Red, 3.2V Green, 3.3V Blue",
+      "forward_current_ma": "20mA Red, 20mA Green, 20mA Blue",
+      "wavelength_nm": "630nm Red, 525nm Green, 570nm Blue"
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

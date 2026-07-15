@@ -1,70 +1,100 @@
 {
   "_comment": "Map WEC sub_category_slug → DigiKey keyword + default product_class",
   "resistors": {
-    "keywords": ["thick film chip resistor 0603", "SMD resistor 1%"],
+    "keywords": [
+      "metal film resistor 1% 0805",
+      "thick film chip resistor 0603"
+    ],
     "product_class": "component",
     "category_slug": "passive-components",
     "category": "Passive Components",
     "sub_category": "Resistors"
   },
   "capacitors": {
-    "keywords": ["MLCC X7R 0603", "ceramic capacitor 0.1uF"],
+    "keywords": [
+      "MLCC 10uF 16V 0805",
+      "ceramic capacitor 0.1uF"
+    ],
     "product_class": "component",
     "category_slug": "passive-components",
     "category": "Passive Components",
     "sub_category": "Capacitors"
   },
   "inductors-coils-chokes": {
-    "keywords": ["SMD power inductor", "multilayer inductor"],
+    "keywords": [
+      "power inductor 4.7uH SMD",
+      "multilayer inductor"
+    ],
     "product_class": "component",
     "category_slug": "passive-components",
     "category": "Passive Components",
     "sub_category": "Inductors, Coils & Chokes"
   },
   "microcontrollers": {
-    "keywords": ["ARM Cortex-M microcontroller", "32-bit MCU"],
+    "keywords": [
+      "STM32 ARM Cortex-M0",
+      "32-bit MCU"
+    ],
     "product_class": "component",
     "category_slug": "semiconductors",
     "category": "Semiconductors",
     "sub_category": "Microcontrollers (MCU)"
   },
   "analog-ics": {
-    "keywords": ["operational amplifier", "precision op amp"],
+    "keywords": [
+      "low noise op amp",
+      "precision op amp"
+    ],
     "product_class": "component",
     "category_slug": "semiconductors",
     "category": "Semiconductors",
     "sub_category": "Analog ICs"
   },
   "power-management-ics": {
-    "keywords": ["buck regulator IC", "LDO voltage regulator"],
+    "keywords": [
+      "LDO 3.3V regulator",
+      "buck regulator IC"
+    ],
     "product_class": "component",
     "category_slug": "semiconductors",
     "category": "Semiconductors",
     "sub_category": "Power Management ICs (PMIC)"
   },
   "discrete-transistors": {
-    "keywords": ["N-Channel MOSFET", "power MOSFET"],
+    "keywords": [
+      "P-Channel MOSFET SOT-23",
+      "N-Channel MOSFET"
+    ],
     "product_class": "component",
     "category_slug": "semiconductors",
     "category": "Semiconductors",
     "sub_category": "Transistors"
   },
   "discrete-diodes-rectifiers": {
-    "keywords": ["Schottky diode", "switching diode"],
+    "keywords": [
+      "TVS diode ESD",
+      "Schottky diode"
+    ],
     "product_class": "component",
     "category_slug": "semiconductors",
     "category": "Semiconductors",
     "sub_category": "Diodes & Rectifiers"
   },
   "temperature-sensors": {
-    "keywords": ["digital temperature sensor I2C", "precision temperature sensor"],
+    "keywords": [
+      "TMP117 temperature sensor",
+      "digital temperature sensor I2C"
+    ],
     "product_class": "component",
     "category_slug": "sensors-transducers",
     "category": "Sensors & Transducers",
     "sub_category": "Temperature Sensors"
   },
   "wireless-modules": {
-    "keywords": ["WiFi Bluetooth module", "ESP32 module"],
+    "keywords": [
+      "ESP32-C3 module",
+      "WiFi Bluetooth module"
+    ],
     "product_class": "module",
     "category_slug": "rf-wireless",
     "category": "RF, Microwave & Wireless",
@@ -72,9 +102,8 @@
   },
   "fuses": {
     "keywords": [
-      "fast blow SMD chip fuse 1206 1A",
-      "cartridge fuse 5x20 250V",
-      "surface mount fuse 1206"
+      "resettable PTC fuse 1206",
+      "fast blow SMD chip fuse 1206 1A"
     ],
     "product_class": "component",
     "category_slug": "circuit-protection",
@@ -82,28 +111,40 @@
     "sub_category": "Fuses"
   },
   "leds-indicators": {
-    "keywords": ["SMD LED 0603", "indicator LED"],
+    "keywords": [
+      "RGB SMD LED 5050",
+      "SMD LED 0603"
+    ],
     "product_class": "component",
     "category_slug": "optoelectronics-displays",
     "category": "Optoelectronics & Displays",
     "sub_category": "LEDs & Indicators"
   },
   "development-boards-kits": {
-    "keywords": ["STM32 Nucleo development board", "MCU evaluation board"],
+    "keywords": [
+      "ESP32 development board",
+      "MCU evaluation board"
+    ],
     "product_class": "module",
     "category_slug": "embedded-modules-boards",
     "category": "Embedded Modules & Development Boards",
     "sub_category": "Development Boards & Kits"
   },
   "board-to-board": {
-    "keywords": ["board to board connector 0.5mm", "mezzanine connector"],
+    "keywords": [
+      "0.4mm board to board connector",
+      "mezzanine connector"
+    ],
     "product_class": "component",
     "category_slug": "connectors-interconnects",
     "category": "Connectors & Interconnects",
     "sub_category": "Board-to-Board Connectors"
   },
   "dcdc-converters-modules": {
-    "keywords": ["isolated DC-DC converter module", "non-isolated POL module"],
+    "keywords": [
+      "isolated 1W DC-DC module",
+      "non-isolated POL module"
+    ],
     "product_class": "module",
     "category_slug": "power-energy",
     "category": "Power & Energy",

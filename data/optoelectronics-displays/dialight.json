@@ -1,0 +1,25 @@
+[
+  {
+    "part_number": "587-2056-147F",
+    "manufacturer": "Dialight",
+    "manufacturer_id": "dialight",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_datasheet_587-2056-147F_Addressable_RGB.pdf",
+    "description": "SMD LED 5050 W/ 6 PINS, ADDRESSA",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Discrete",
+      "color": "Red, Green, Blue (RGB)"
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

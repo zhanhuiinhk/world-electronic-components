@@ -13,11 +13,10 @@
     "description": "ISOLATED MODULE DC DC CONVERTERS",
     "status": "active",
     "attributes": {
-      "sensor_type": "Isolated Module",
       "vin_min_v": 4.5,
       "vin_max_v": 5.5,
       "vout_v": 5,
-      "iout_a": 200,
+      "iout_a": 0.2,
       "power_w": 1,
       "temperature_range_c": "-40°C ~ 85°C"
     },
@@ -25,6 +24,6 @@
       "dcdc-converters-modules",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   }
 ]

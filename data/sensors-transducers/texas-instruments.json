@@ -49,5 +49,195 @@
       "digikey-import"
     ],
     "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "TMP117AIDRVR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tmp117.pdf",
+    "description": "TEMPERATURE SENSOR",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "-55°C ~ 150°C (TA)"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TMP117AIYBGR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp117",
+    "description": "TEMP SENSOR",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "-55°C ~ 150°C (TA)"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TMP117EVM",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ug/snou161/snou161.pdf",
+    "description": "DEVELOPMENT POWER MANAGEMENT",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Temperature"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TMP117MAIDRVR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tmp117.pdf",
+    "description": "TEMPERATURE SENSOR",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "0°C ~ 85°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TMP117MAIYBGR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp117",
+    "description": "TEMP SENSOR",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "0°C ~ 85°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TMP117MAIYBGT",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp117",
+    "description": "TEMP SENSOR",
+    "status": "obsolete",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "0°C ~ 85°C"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TMP117NAIYBGR",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp117",
+    "description": "TEMP SENSOR",
+    "status": "active",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "-55°C ~ 150°C (TA)"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TMP117NAIYBGT",
+    "manufacturer": "Texas Instruments",
+    "manufacturer_id": "texas-instruments",
+    "product_class": "component",
+    "category": "Sensors & Transducers",
+    "category_slug": "sensors-transducers",
+    "sub_category": "Temperature Sensors",
+    "sub_category_slug": "temperature-sensors",
+    "package": "—",
+    "datasheet_url": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp117",
+    "description": "TEMP SENSOR",
+    "status": "obsolete",
+    "attributes": {
+      "sensor_type": "Digital, Local",
+      "interface": "I2C/SMBus",
+      "temperature_range_c": "-55°C ~ 150°C (TA)"
+    },
+    "tags": [
+      "temperature-sensors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   }
 ]

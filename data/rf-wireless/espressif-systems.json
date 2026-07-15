@@ -1,5 +1,55 @@
 [
   {
+    "part_number": "ESP32-C3",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif-systems",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "—",
+    "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf",
+    "description": "RF TXRX MOD BLUETOOTH WIFISMD",
+    "status": "active",
+    "attributes": {
+      "protocols": "Bluetooth, WiFi",
+      "frequency_hz": "2.402GHz ~ 2.48GHz",
+      "flash_kb": "400kB SRAM, 384kB ROM",
+      "temperature_range_c": "-40°C ~ 105°C (TA)"
+    },
+    "tags": [
+      "wireless-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESP32-C3-MINI-1-N4-A",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif-systems",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "—",
+    "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf",
+    "description": "RF TXRX MOD BT WIFI PCB TH SMD",
+    "status": "active",
+    "attributes": {
+      "protocols": "Bluetooth, WiFi",
+      "frequency_hz": 2.4,
+      "flash_kb": "4MB Flash, 400kB SRAM, 384kB ROM",
+      "temperature_range_c": "-40°C ~ 105°C"
+    },
+    "tags": [
+      "wireless-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "ESP32-C3-MINI-1-N4X",
     "manufacturer": "Espressif Systems",
     "manufacturer_id": "espressif-systems",
@@ -13,7 +63,7 @@
     "description": "SMD MODULE, ESP32-C3FH4X,  CHIP",
     "status": "active",
     "attributes": {
-      "protocols": "802.11b/g/n, Bluetooth v5.0",
+      "protocols": "Bluetooth, WiFi",
       "frequency_hz": 2.4,
       "flash_kb": "4MB Flash, 384kB ROM, 408kB SRAM",
       "temperature_range_c": "-40°C ~ 85°C (TA)"
@@ -22,7 +72,32 @@
       "wireless-modules",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESP32-C3-MINI-1U-H4X",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif-systems",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "—",
+    "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf",
+    "description": "SMD MODULE, ESP32-C3FH4X,  CHIP",
+    "status": "active",
+    "attributes": {
+      "protocols": "Bluetooth, WiFi",
+      "frequency_hz": 2.4,
+      "flash_kb": "4MB Flash, 384kB ROM, 408kB SRAM",
+      "temperature_range_c": "-40°C ~ 105°C (TA)"
+    },
+    "tags": [
+      "wireless-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "ESP32-C3-MINI-1U-N4X",
@@ -38,7 +113,7 @@
     "description": "SMD MODULE, ESP32-C3FH4X,  CHIP",
     "status": "active",
     "attributes": {
-      "protocols": "802.11b/g/n, Bluetooth v5.0",
+      "protocols": "Bluetooth, WiFi",
       "frequency_hz": 2.4,
       "flash_kb": "4MB Flash, 384kB ROM, 408kB SRAM",
       "temperature_range_c": "-40°C ~ 85°C (TA)"
@@ -47,7 +122,7 @@
       "wireless-modules",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "ESP32-C3-WROOM-02-H4",
@@ -63,7 +138,7 @@
     "description": "RF TXRX MOD BT WIFI PCB TH SMD",
     "status": "active",
     "attributes": {
-      "protocols": "802.11b/g/n, Bluetooth v5.0",
+      "protocols": "Bluetooth, WiFi",
       "frequency_hz": 2.4,
       "flash_kb": "4MB Flash, 400kB SRAM, 384kB ROM",
       "temperature_range_c": "-40°C ~ 105°C (TA)"
@@ -72,7 +147,7 @@
       "wireless-modules",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "ESP32-C3-WROOM-02-N4",
@@ -88,7 +163,7 @@
     "description": "RF TXRX MOD BT WIFI PCB TH SMD",
     "status": "active",
     "attributes": {
-      "protocols": "802.11b/g/n, Bluetooth v5.0",
+      "protocols": "Bluetooth, WiFi",
       "frequency_hz": 2.4,
       "flash_kb": "4MB Flash, 400kB SRAM, 384kB ROM",
       "temperature_range_c": "-40°C ~ 85°C (TA)"
@@ -97,7 +172,32 @@
       "wireless-modules",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESP32-C3-WROOM-02U-N4",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif-systems",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "—",
+    "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf",
+    "description": "RF TXRX MOD BT WIFIU.FL SMD",
+    "status": "active",
+    "attributes": {
+      "protocols": "Bluetooth, WiFi",
+      "frequency_hz": 2.4,
+      "flash_kb": "4MB Flash, 384kB ROM, 408kB SRAM",
+      "temperature_range_c": "-40°C ~ 105°C (TA)"
+    },
+    "tags": [
+      "wireless-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "ESP32-C3FH4",
@@ -113,7 +213,7 @@
     "description": "RF TXRX MOD BLUETOOTH WIFISMD",
     "status": "active",
     "attributes": {
-      "protocols": "802.11b/g/n, Bluetooth v5.0",
+      "protocols": "Bluetooth, WiFi",
       "frequency_hz": "2.402GHz ~ 2.48GHz",
       "flash_kb": "4MB Flash, 400kB SRAM, 384kB ROM",
       "temperature_range_c": "-40°C ~ 105°C (TA)"
@@ -122,7 +222,7 @@
       "wireless-modules",
       "digikey-import"
     ],
-    "updated_at": "2026-07-14"
+    "updated_at": "2026-07-15"
   },
   {
     "part_number": "ESP32-C6-MINI-1-N4",

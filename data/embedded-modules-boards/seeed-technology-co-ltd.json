@@ -1,0 +1,68 @@
+[
+  {
+    "part_number": "113991054",
+    "manufacturer": "Seeed Technology Co., Ltd",
+    "manufacturer_id": "seeed-technology-co-ltd",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880",
+    "description": "XIAO ESP32C3",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "113991114",
+    "manufacturer": "Seeed Technology Co., Ltd",
+    "manufacturer_id": "seeed-technology-co-ltd",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991114/19285530",
+    "description": "XIAO ESP32S3",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "113991254",
+    "manufacturer": "Seeed Technology Co., Ltd",
+    "manufacturer_id": "seeed-technology-co-ltd",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://files.seeedstudio.com/wiki/XIAO/Seeed-Studio-XIAO-Series-SOM-Datasheet.pdf",
+    "description": "XIAO ESP32C6",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

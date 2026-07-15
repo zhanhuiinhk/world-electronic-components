@@ -163,6 +163,186 @@
     "updated_at": "2026-07-15"
   },
   {
+    "part_number": "BSS84",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF",
+    "description": "MOSFET P-CH 50V 130MA SOT23-3",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 50,
+      "id_a": "130mA (Ta)",
+      "rds_on_ohm": "8Ohm @ 150mA, 10V",
+      "capacitance_uf": "73 pF @ 25 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BSS84LT1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BSS84LT1-D.PDF",
+    "description": "MOSFET P-CH 50V 130MA SOT23-3",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 50,
+      "id_a": "130mA (Ta)",
+      "rds_on_ohm": "10Ohm @ 100mA, 5V",
+      "capacitance_uf": "30 pF @ 5 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "BVSS84LT1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/BSS84LT1-D.PDF",
+    "description": "MOSFET P-CH 50V 130MA SOT23-3",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 50,
+      "id_a": "130mA (Ta)",
+      "rds_on_ohm": "10Ohm @ 100mA, 5V",
+      "capacitance_uf": "36 pF @ 5 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESD5Z12T1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF",
+    "description": "TVS DIODE 12VWM 25VC SOD523",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": "55pF @ 1MHz",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "diode_type": "Zener"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESD5Z3.3T1G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF",
+    "description": "TVS DIODE 3.3VWM 14.1VC SOD523",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": "105pF @ 1MHz",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "diode_type": "Zener"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESD9B3.3ST5G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF",
+    "description": "TVS DIODE 3.3VWM 11.5VC SOD923",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": "15pF @ 1MHz",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "diode_type": "Zener"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESD9B5.0ST5G",
+    "manufacturer": "onsemi",
+    "manufacturer_id": "onsemi",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF",
+    "description": "TVS DIODE 5VWM SOD923",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": "15pF @ 1MHz",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "diode_type": "Zener"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "LM321SN3T1G",
     "manufacturer": "onsemi",
     "manufacturer_id": "onsemi",

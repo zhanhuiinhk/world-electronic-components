@@ -52,6 +52,57 @@
     "updated_at": "2026-07-15"
   },
   {
+    "part_number": "244R7C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_2400_PDF_INDUCTOR?lastModifiedDatetime=20250902181300",
+    "description": "FIXED IND 4.7UH 2.1A 50 MOHM SMD",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "current_rating_a": 2.1,
+      "dcr_ohm": "50mOhm Max",
+      "frequency_hz": 45,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "29472C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_2900_PDF_INDUCTOR?lastModifiedDatetime=20250708075929",
+    "description": "FIXED IND 4.7UH 2.3A 30 MOHM SMD",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "current_rating_a": 2.3,
+      "dcr_ohm": "30mOhm Max",
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "46683C",
     "manufacturer": "Murata Power Solutions Inc.",
     "manufacturer_id": "murata-power-solutions-inc",
@@ -105,6 +156,33 @@
     "updated_at": "2026-07-15"
   },
   {
+    "part_number": "82472C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_8200C_PDF_INDUCTOR?lastModifiedDatetime=20250708075932",
+    "description": "FIXED IND 4.7UH 800MA 190 MOHM",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "tolerance_percent": 20,
+      "current_rating_a": 0.8,
+      "dcr_ohm": "190mOhm Max",
+      "frequency_hz": 58,
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
     "part_number": "82473C",
     "manufacturer": "Murata Power Solutions Inc.",
     "manufacturer_id": "murata-power-solutions-inc",
@@ -124,6 +202,59 @@
       "dcr_ohm": "1.69Ohm Max",
       "frequency_hz": 17,
       "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "83472C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_8300_PDF_INDUCTOR?lastModifiedDatetime=20250708075933",
+    "description": "FIXED IND 4.7UH 1.1A 130 MOHM",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "tolerance_percent": 20,
+      "current_rating_a": 1.1,
+      "current_a": 1.66,
+      "dcr_ohm": "130mOhm Max",
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "inductors-coils-chokes",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "84472C",
+    "manufacturer": "Murata Power Solutions Inc.",
+    "manufacturer_id": "murata-power-solutions-inc",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Inductors, Coils & Chokes",
+    "sub_category_slug": "inductors-coils-chokes",
+    "package": "—",
+    "datasheet_url": "https://pim.murata.com/asset/pim4/inductor/KMP_8400_PDF_INDUCTOR?lastModifiedDatetime=20250708075933",
+    "description": "FIXED IND 4.7UH 1.3A 150 MOHM",
+    "status": "active",
+    "attributes": {
+      "inductance_uh": "4.7 µH",
+      "tolerance_percent": 20,
+      "current_rating_a": 1.3,
+      "dcr_ohm": "150mOhm Max",
+      "temperature_range_c": "-40°C ~ 125°C"
     },
     "tags": [
       "inductors-coils-chokes",

@@ -1,0 +1,25 @@
+[
+  {
+    "part_number": "2758",
+    "manufacturer": "Adafruit Industries LLC",
+    "manufacturer_id": "adafruit-industries-llc",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf",
+    "description": "ADDRESS LED DISC SER RGBW 1=10",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Discrete",
+      "color": "Red, Green, Blue, Neutral White (RGBW)"
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

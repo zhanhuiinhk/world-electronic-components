@@ -1,0 +1,164 @@
+[
+  {
+    "part_number": "KDV08FR050ET",
+    "manufacturer": "Ohmite",
+    "manufacturer_id": "ohmite",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.ohmite.com/assets/images/res-kdv.pdf",
+    "description": "RES 0.05 OHM 1% 1/4W 0805",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0.05,
+      "tolerance_percent": 1,
+      "power_w": "0.25W, 1/4W",
+      "composition": "Metal Film",
+      "temperature_coefficient_ppm": 100,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "KDV08FR068ET",
+    "manufacturer": "Ohmite",
+    "manufacturer_id": "ohmite",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.ohmite.com/assets/images/res-kdv.pdf",
+    "description": "RES 0.068 OHM 1% 1/4W 0805",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0.068,
+      "tolerance_percent": 1,
+      "power_w": "0.25W, 1/4W",
+      "composition": "Metal Film",
+      "temperature_coefficient_ppm": 100,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "KDV08FR100ET",
+    "manufacturer": "Ohmite",
+    "manufacturer_id": "ohmite",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.ohmite.com/assets/images/res-kdv.pdf",
+    "description": "RES 0.1 OHM 1% 1/4W 0805",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0.1,
+      "tolerance_percent": 1,
+      "power_w": "0.25W, 1/4W",
+      "composition": "Metal Film",
+      "temperature_coefficient_ppm": 100,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "KDV08FR150ET",
+    "manufacturer": "Ohmite",
+    "manufacturer_id": "ohmite",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.ohmite.com/assets/images/res-kdv.pdf",
+    "description": "RES 0.15 OHM 1% 1/4W 0805",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0.15,
+      "tolerance_percent": 1,
+      "power_w": "0.25W, 1/4W",
+      "composition": "Metal Film",
+      "temperature_coefficient_ppm": 50,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "KDV08FR200ET",
+    "manufacturer": "Ohmite",
+    "manufacturer_id": "ohmite",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.ohmite.com/assets/images/res-kdv.pdf",
+    "description": "RES 0.2 OHM 1% 1/4W 0805",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0.2,
+      "tolerance_percent": 1,
+      "power_w": "0.25W, 1/4W",
+      "composition": "Metal Film",
+      "temperature_coefficient_ppm": 50,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "KDV08FR470ET",
+    "manufacturer": "Ohmite",
+    "manufacturer_id": "ohmite",
+    "product_class": "component",
+    "category": "Passive Components",
+    "category_slug": "passive-components",
+    "sub_category": "Resistors",
+    "sub_category_slug": "resistors",
+    "package": "—",
+    "datasheet_url": "https://www.ohmite.com/assets/images/res-kdv.pdf",
+    "description": "RES 0.47 OHM 1% 1/4W 0805",
+    "status": "active",
+    "attributes": {
+      "resistance_ohm": 0.47000000000000003,
+      "tolerance_percent": 1,
+      "power_w": "0.25W, 1/4W",
+      "composition": "Metal Film",
+      "temperature_coefficient_ppm": 50,
+      "temperature_range_c": "-55°C ~ 155°C"
+    },
+    "tags": [
+      "resistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

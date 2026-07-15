@@ -1,0 +1,27 @@
+[
+  {
+    "part_number": "2617011022000",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_id": "w-rth-elektronik",
+    "product_class": "module",
+    "category": "RF, Microwave & Wireless",
+    "category_slug": "rf-wireless",
+    "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)",
+    "sub_category_slug": "wireless-modules",
+    "package": "—",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/2617011022000.pdf",
+    "description": "ORTHOSIE-I RADIO MODULE 2.4GHZ M",
+    "status": "active",
+    "attributes": {
+      "protocols": "Bluetooth, WiFi",
+      "frequency_hz": 2.4,
+      "flash_kb": "4MB Flash, 400kB RAM",
+      "temperature_range_c": "-40°C ~ 85°C"
+    },
+    "tags": [
+      "wireless-modules",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

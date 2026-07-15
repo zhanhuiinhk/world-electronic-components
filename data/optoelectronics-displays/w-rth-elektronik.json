@@ -1,0 +1,51 @@
+[
+  {
+    "part_number": "1315050930002",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_id": "w-rth-elektronik",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://www.we-online.com/components/products/datasheet/1315050930002.pdf",
+    "description": "ADDRESS LED WITH INTERGRATED CON",
+    "status": "active",
+    "attributes": {
+      "diode_type": "Discrete",
+      "color": "Red, Green, Blue (RGB)"
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "150505M173300",
+    "manufacturer": "Würth Elektronik",
+    "manufacturer_id": "w-rth-elektronik",
+    "product_class": "component",
+    "category": "Optoelectronics & Displays",
+    "category_slug": "optoelectronics-displays",
+    "sub_category": "LEDs & Indicators",
+    "sub_category_slug": "leds-indicators",
+    "package": "—",
+    "datasheet_url": "https://www.we-online.com/catalog/datasheet/150505M173300.pdf",
+    "description": "LED RGB CLEAR 6PLCC SMD",
+    "status": "active",
+    "attributes": {
+      "color": "Red, Green, Blue (RGB)",
+      "diode_type": "Independent",
+      "luminous_intensity_mcd": "800mcd Red, 1300mcd Green, 350mcd Blue",
+      "forward_voltage_v": "2V Red, 3.2V Green, 3.2V Blue",
+      "wavelength_nm": "635nm Red, 515nm Green, 465nm Blue"
+    },
+    "tags": [
+      "leds-indicators",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

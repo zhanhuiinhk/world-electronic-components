@@ -1,0 +1,68 @@
+[
+  {
+    "part_number": "ESP32-C3-DEVKITM-1-N4X",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif-systems",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-DEVKITM-1-N4X/25587617",
+    "description": "ENTRY-LEVEL DEVELOPMENT BOARD",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESP32-C6-DEVKITM-1-N4",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif-systems",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/index.html",
+    "description": "ESP32-C6 GENERAL-PURPOSE DEVELOP",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESP32-DEVKITC-32UE",
+    "manufacturer": "Espressif Systems",
+    "manufacturer_id": "espressif-systems",
+    "product_class": "module",
+    "category": "Embedded Modules & Development Boards",
+    "category_slug": "embedded-modules-boards",
+    "sub_category": "Development Boards & Kits",
+    "sub_category_slug": "development-boards-kits",
+    "package": "—",
+    "datasheet_url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html",
+    "description": "ESP32-WROOM-32UE 4MB FLASH",
+    "status": "active",
+    "attributes": {
+      "frequency_hz": 2.4
+    },
+    "tags": [
+      "development-boards-kits",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]

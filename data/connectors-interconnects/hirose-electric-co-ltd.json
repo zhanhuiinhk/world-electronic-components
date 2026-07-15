@@ -46,5 +46,53 @@
       "digikey-import"
     ],
     "updated_at": "2026-07-14"
+  },
+  {
+    "part_number": "DF40TB-10DS-0.4V(51)",
+    "manufacturer": "Hirose Electric Co Ltd",
+    "manufacturer_id": "hirose-electric-co-ltd",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT",
+    "description": "FPC TO BOARD CONNECTOR, 0.4MM PI",
+    "status": "active",
+    "attributes": {
+      "positions": 10,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "DF40TC-40DS-0.4V(51)",
+    "manufacturer": "Hirose Electric Co Ltd",
+    "manufacturer_id": "hirose-electric-co-ltd",
+    "product_class": "component",
+    "category": "Connectors & Interconnects",
+    "category_slug": "connectors-interconnects",
+    "sub_category": "Board-to-Board Connectors",
+    "sub_category_slug": "board-to-board",
+    "package": "—",
+    "datasheet_url": "https://www.hirose.com/en/product/document?clcode=CL0684-4269-0-51&productname=DF40TC-10DP-0.4V(51)&series=DF40T&documenttype=Catalog&lang=en&documentid=en_DF40T_CAT",
+    "description": "CONN 0.4MM RCPT SMD 40POS",
+    "status": "active",
+    "attributes": {
+      "positions": 40,
+      "pitch_mm": "0.016\" (0.40mm)",
+      "rows": 2
+    },
+    "tags": [
+      "board-to-board",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
   }
 ]

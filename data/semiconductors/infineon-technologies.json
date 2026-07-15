@@ -1,0 +1,54 @@
+[
+  {
+    "part_number": "BSS83PH6327XTSA1",
+    "manufacturer": "Infineon Technologies",
+    "manufacturer_id": "infineon-technologies",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Transistors",
+    "sub_category_slug": "discrete-transistors",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/infineon-technologies/BSS83PH6327XTSA1/2783473",
+    "description": "MOSFET P-CH 60V 330MA SOT23-3",
+    "status": "active",
+    "attributes": {
+      "transistor_type": "P-Channel",
+      "vds_v": 60,
+      "id_a": "330mA (Ta)",
+      "rds_on_ohm": "2Ohm @ 330mA, 10V",
+      "capacitance_uf": "78 pF @ 25 V",
+      "temperature_range_c": "-55°C ~ 150°C (TJ)",
+      "polarity": "P-Channel"
+    },
+    "tags": [
+      "discrete-transistors",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "ESD150B1W0201E6327XTSA1",
+    "manufacturer": "Infineon Technologies",
+    "manufacturer_id": "infineon-technologies",
+    "product_class": "component",
+    "category": "Semiconductors",
+    "category_slug": "semiconductors",
+    "sub_category": "Diodes & Rectifiers",
+    "sub_category_slug": "discrete-diodes-rectifiers",
+    "package": "—",
+    "datasheet_url": "https://www.infineon.com/dgdl/Infineon-ESD150-B1-W0201-DataSheet-v01_00-EN.pdf?fileId=5546d46278d64ffd01790dcd03eb4818",
+    "description": "TVS DIODE 3.3VWM 3.8V PGWLL23",
+    "status": "active",
+    "attributes": {
+      "capacitance_uf": "0.15pF @ 10GHz",
+      "temperature_range_c": "-55°C ~ 125°C (TA)",
+      "diode_type": "Zener"
+    },
+    "tags": [
+      "discrete-diodes-rectifiers",
+      "digikey-import"
+    ],
+    "updated_at": "2026-07-15"
+  }
+]
