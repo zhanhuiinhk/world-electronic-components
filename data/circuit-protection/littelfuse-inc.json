@@ -1,0 +1,48 @@
+[
+  {
+    "part_number": "0483001.DR",
+    "manufacturer": "Littelfuse Inc.",
+    "manufacturer_id": "littelfuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-483-datasheet?assetguid=5efd7580-3a45-4eb9-9869-f350543371fa",
+    "description": "FUSE CHIP 1A 75VDC 1206",
+    "status": "active",
+    "attributes": {
+      "current_rating_a": 1,
+      "voltage_rating_v": 75,
+      "response": "Fast Blow",
+      "fuse_type": "-"
+    },
+    "tags": ["fuses", "digikey-import"],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "0483001.DRA",
+    "manufacturer": "Littelfuse Inc.",
+    "manufacturer_id": "littelfuse-inc",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-array-aqw05c-01ftg-datasheet?assetguid=80ae0bbb-a157-46a1-97eb-84c82c82e9e5",
+    "description": "TFF CHIP WIA 75V AUTOC 1206 FA 1",
+    "status": "active",
+    "attributes": {
+      "fuse_type": "Board Mount (Cartridge Style Excluded)",
+      "current_rating_a": 1,
+      "voltage_rating_v": 75,
+      "response": "Fast Blow",
+      "breaking_capacity_a": 50,
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": ["fuses", "digikey-import"],
+    "updated_at": "2026-07-15"
+  }
+]

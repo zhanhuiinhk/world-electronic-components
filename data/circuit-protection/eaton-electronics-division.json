@@ -1,0 +1,74 @@
+[
+  {
+    "part_number": "TR/3216FF-1A",
+    "manufacturer": "Eaton - Electronics Division",
+    "manufacturer_id": "eaton-electronics-division",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://www.digikey.com/en/products/detail/eaton-electronics-division/TR-3216FF-1A/265141",
+    "description": "FUSE BRD MNT 1A 32VAC 63VDC 1206",
+    "status": "obsolete",
+    "attributes": {
+      "fuse_type": "Board Mount (Cartridge Style Excluded)",
+      "current_rating_a": 1,
+      "voltage_rating_v": 32,
+      "response": "Fast Blow",
+      "breaking_capacity_a": 50,
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": ["fuses", "digikey-import"],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TR/3216FF1-R",
+    "manufacturer": "Eaton - Electronics Division",
+    "manufacturer_id": "eaton-electronics-division",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-3216ff-surface-mount-fuse-data-sheet.pdf",
+    "description": "FUSE BRD MNT 1A 32VAC 63VDC 1206",
+    "status": "active",
+    "attributes": {
+      "fuse_type": "Board Mount (Cartridge Style Excluded)",
+      "current_rating_a": 1,
+      "voltage_rating_v": 32,
+      "response": "Fast Blow",
+      "breaking_capacity_a": 50,
+      "temperature_range_c": "-55°C ~ 125°C"
+    },
+    "tags": ["fuses", "digikey-import"],
+    "updated_at": "2026-07-15"
+  },
+  {
+    "part_number": "TR/3216LV1-R",
+    "manufacturer": "Eaton - Electronics Division",
+    "manufacturer_id": "eaton-electronics-division",
+    "product_class": "component",
+    "category": "Circuit Protection",
+    "category_slug": "circuit-protection",
+    "sub_category": "Fuses",
+    "sub_category_slug": "fuses",
+    "package": "—",
+    "datasheet_url": "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-3216lv-surface-mount-fuse-data-sheet.pdf",
+    "description": "FUSE BRD MNT 1A 125VAC/VDC 1206",
+    "status": "active",
+    "attributes": {
+      "fuse_type": "Board Mount (Cartridge Style Excluded)",
+      "current_rating_a": 1,
+      "voltage_rating_v": 125,
+      "response": "Fast Blow",
+      "breaking_capacity_a": 50,
+      "temperature_range_c": "-65°C ~ 125°C"
+    },
+    "tags": ["fuses", "digikey-import"],
+    "updated_at": "2026-07-15"
+  }
+]
