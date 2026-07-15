@@ -2,16 +2,17 @@
 
 面向仓库维护者。目标：**稳定扩库、可恢复、少踩坑**。
 
----当前进度快照（2026-07-14）---
+---当前进度快照（2026-07-15）---
 
 | 项 | 状态 |
 |----|------|
 | 仓库架构 / taxonomy / schema | 已完成 |
 | GitHub Pages 检索站 | 已完成 |
-| 种子数据 + DigiKey 批量导入 | 约 **156** 条产品已在 `main` |
+| 种子数据 + DigiKey 批量导入 | 约 **180** 条产品（本机已采；推送后以 `main` 为准） |
 | DigiKey API（TMT Org App） | Production 已调通 |
 | 每周自动采集 + 开 PR | 本文件 + `collect-digikey-weekly.yml` |
-| MOSFET / 保险丝映射 | 待补（`param_synonyms`） |
+| MOSFET / 保险丝映射 | **已修**：`FET Type`、PTC Hold 电流、mOhm/mA 解析；保险丝关键词改为真保险丝 |
+| 待办 | 配置 GitHub Actions Secrets；轮换曾泄露的 Client Secret |
 
 站点：https://zhanhuiinhk.github.io/world-electronic-components/docs/  
 仓库：https://github.com/zhanhuiinhk/world-electronic-components  

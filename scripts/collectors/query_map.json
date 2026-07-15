@@ -71,7 +71,11 @@
     "sub_category": "Wireless Modules (Wi-Fi / BT / Cellular / LoRa)"
   },
   "fuses": {
-    "keywords": ["surface mount fuse 1206", "chip fuse"],
+    "keywords": [
+      "fast blow SMD chip fuse 1206 1A",
+      "cartridge fuse 5x20 250V",
+      "surface mount fuse 1206"
+    ],
     "product_class": "component",
     "category_slug": "circuit-protection",
     "category": "Circuit Protection",
@@ -85,7 +89,8 @@
     "sub_category": "LEDs & Indicators"
   },
   "development-boards-kits": {
-    "keywords": ["STM32 Nucleo development board", "MCU evaluation board"],
+    "keywords": ["STM32 Nucleo development board",
+      "MCU evaluation board"],
     "product_class": "module",
     "category_slug": "embedded-modules-boards",
     "category": "Embedded Modules & Development Boards",
